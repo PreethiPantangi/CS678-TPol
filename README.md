@@ -20,13 +20,13 @@ cd ..
 ```
 2. The heart of TPol model uses either bert or mbart model as its architecture. The order of execution is translator and then reorderer. 
 
-Running TPol with bert model and english language.
-3. To run the TPol with bert based model for translator we run the command 
+3. Running TPol with bert model and english language.
+4. To run the TPol with bert based model for translator we run the command 
 ```
 python bert_translator.py --language en --dataset "path/to/data/GEO-Aligned/data/EN.csv" --test-ids "path/to/data/GEO-Aligned/splits/length/test.txt" --val-ids "path/to/data/GEO-Aligned/splits/length/dev1.txt" --out-file "path/to/bert-translator-output.txt" --results-file "path/to/bert-translator-results.txt"
 ```
 
-4. To run the TPol with bert based model for reorderer we run the command 
+5. To run the TPol with bert based model for reorderer we run the command 
 ```
 python bert_reorderer.py --language en --dataset "path/to/data/GEO-Aligned/data/EN.csv" --test-ids "path/to/data/GEO-Aligned/splits/length/test.txt" --val-ids "path/to/data/GEO-Aligned/splits/length/dev1.txt" --out-file "path/to/mbart-reorderer-output.txt" --results-file "path/to/mbart-reorderer-results.txt" --lexical-predictions "path/to/bert-translator-output.txt"
 ```
