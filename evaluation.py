@@ -58,7 +58,7 @@ def get_accuracies(preds: list, gold_preds: list, mn_labels: list, accuracy_type
         for i in range(min(len(pred), len(gold))):
             if accuracy_type == 'no_correct_tokens':
                 if pred[i] == gold[i]: tokens += 1
-            elif accuracy_type == '':
+            elif accuracy_type == 'max_correct_span':
                 if pred[i] != gold[i]: continue
                 correct = 1
                 rhs_len = min(len(pred)-i-1, len(gold)-i-1)
