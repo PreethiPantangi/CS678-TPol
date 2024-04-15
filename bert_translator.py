@@ -180,7 +180,7 @@ def preprocess_data(data, test_idx, val_idx, train_idx):
     labeltoid, idtolabel = create_label_vocabulary(data, train_idx+val_idx)
     insert_deterministic_epsilon(data, train_idx+val_idx)
     data["GOLD"] = data["ALIGNMENT"].apply(remove_epsilons)
-    convert_MR_to_id(data, labeltoid)
+    convert_MR_to_id(data, labeltoid, EPSILON_LABEL)
     return labeltoid, idtolabel
 
 def run(args):

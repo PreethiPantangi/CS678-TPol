@@ -152,7 +152,7 @@ def preprocess_data(data, test_idx, val_idx, train_idx):
 
     data["GOLD"] = data["MR"]
 
-    convert_MR_to_id(data, labeltoid)
+    convert_MR_to_id(data, labeltoid, EPSILON_LABEL)
 
     a = data.MR.tolist()
     b = data.NL.tolist()
