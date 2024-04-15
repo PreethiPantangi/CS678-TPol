@@ -141,7 +141,7 @@ def remove_epsilons(x):
 def preprocess_data(data, test_idx, val_idx, train_idx):
     data.MR = data["ALIGNMENT"].apply(preprocess_MR)
     data.NL = data["NL"].apply(preprocess_NL)
-    labeltoid, idtolabel = create_label_vocabulary(data, train_idx+val_idx, EPSILON_LABEL)
+    labeltoid, idtolabel = create_label_vocabulary(data, train_idx+val_idx)
     insert_deterministic_epsilon(data, train_idx+val_idx)
     data["GOLD"] = data["ALIGNMENT"].apply(remove_epsilons)
     convert_MR_to_id(data, labeltoid, EPSILON_LABEL)

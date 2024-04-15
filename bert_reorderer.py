@@ -111,7 +111,7 @@ def preprocess_data(data, test_idx, val_idx, train_idx):
     data.MR = data["MR"].apply(preprocess_MR)
     data.NL = data["ALIGNMENT"].apply(preprocess_MR_ALIGNMENT)
 
-    labeltoid, idtolabel = create_label_vocabulary(data, train_idx+val_idx, EPSILON_LABEL)
+    labeltoid, idtolabel = create_label_vocabulary(data, train_idx+val_idx)
 
     data["GOLD"] = data["MR"]
 
