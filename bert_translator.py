@@ -292,6 +292,7 @@ def run(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--language', type=str, help='input language (en, it, de)', required=True)
+    parser.add_argument('--partition', type=str, help='Partition (length, query, question)', required=True)
     parser.add_argument('--dataset', type=str, help='dataset path', required=True)
     parser.add_argument('--test-ids', type=str, help='test ids dataset path', required=True)
     parser.add_argument('--val-ids', type=str, help='val ids dataset path', required=True)
@@ -299,7 +300,4 @@ if __name__ == "__main__":
     parser.add_argument('--results-file', type=str, help='file path with results')
     parser.add_argument('--all-predictions-file', type=str, help='out file path of predictions for all sequences of the dataset')
     args = parser.parse_args()
-
     run(args)
-
-
