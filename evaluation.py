@@ -49,11 +49,11 @@ def evaluate(preds: list, gold_preds: list, mn_labels: list, verbose=False):
     return stats
 
 def get_accuracies(preds: list, gold_preds: list, mn_labels: list, accuracy_type: str):
-        acc = mn_acc = nmn_acc = 0
-        lens = mn_lens = nmn_lens = 0
-        for pred, gold, mn in zip(preds, gold_preds, mn_labels):
-            pred = pred.split()
-            gold = gold.split()
+    acc = mn_acc = nmn_acc = 0
+    lens = mn_lens = nmn_lens = 0
+    for pred, gold, mn in zip(preds, gold_preds, mn_labels):
+        pred = pred.split()
+        gold = gold.split()
         tokens = 0
         for i in range(min(len(pred), len(gold))):
             if accuracy_type == 'no_correct_tokens':
@@ -76,9 +76,9 @@ def get_accuracies(preds: list, gold_preds: list, mn_labels: list, accuracy_type
             nmn_acc += (tokens * 100 / len(gold)) * len(gold)
             nmn_lens += len(gold)
 
-        acc /= lens
-        mn_acc /= mn_lens
-        nmn_acc /= nmn_lens
+    acc /= lens
+    mn_acc /= mn_lens
+    nmn_acc /= nmn_lens
 
-        return acc, mn_acc, nmn_acc
+    return acc, mn_acc, nmn_acc
 
