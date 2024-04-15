@@ -1,0 +1,787 @@
+2024-04-15 11:24:00,938 INFO    StreamThr :3353102 [internal.py:wandb_internal():89] W&B internal server running at pid: 3353102, started at: 2024-04-15 11:24:00.916847
+2024-04-15 11:24:00,942 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: status
+2024-04-15 11:24:00,943 INFO    WriterThread:3353102 [datastore.py:open_for_write():87] open: /scratch/smaddin/CS678-TPol/wandb/offline-run-20240415_112400-3rgjs1oh/run-3rgjs1oh.wandb
+2024-04-15 11:24:00,987 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: run_start
+2024-04-15 11:24:01,014 DEBUG   HandlerThread:3353102 [system_info.py:__init__():26] System info init
+2024-04-15 11:24:01,014 DEBUG   HandlerThread:3353102 [system_info.py:__init__():41] System info init done
+2024-04-15 11:24:01,014 INFO    HandlerThread:3353102 [system_monitor.py:start():194] Starting system monitor
+2024-04-15 11:24:01,014 INFO    SystemMonitor:3353102 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-15 11:24:01,014 INFO    HandlerThread:3353102 [system_monitor.py:probe():214] Collecting system info
+2024-04-15 11:24:01,022 INFO    SystemMonitor:3353102 [interfaces.py:start():190] Started cpu monitoring
+2024-04-15 11:24:01,024 INFO    SystemMonitor:3353102 [interfaces.py:start():190] Started disk monitoring
+2024-04-15 11:24:01,025 INFO    SystemMonitor:3353102 [interfaces.py:start():190] Started gpu monitoring
+2024-04-15 11:24:01,025 INFO    SystemMonitor:3353102 [interfaces.py:start():190] Started memory monitoring
+2024-04-15 11:24:01,026 INFO    SystemMonitor:3353102 [interfaces.py:start():190] Started network monitoring
+2024-04-15 11:24:01,028 DEBUG   HandlerThread:3353102 [system_info.py:probe():150] Probing system
+2024-04-15 11:24:01,028 DEBUG   HandlerThread:3353102 [system_info.py:probe():198] Probing system done
+2024-04-15 11:24:01,028 DEBUG   HandlerThread:3353102 [system_monitor.py:probe():223] {'os': 'Linux-4.18.0-348.7.1.el8_5.x86_64-x86_64-with-centos-8.5-Green_Obsidian', 'python': '3.7.11', 'heartbeatAt': '2024-04-15T15:24:01.028205', 'startedAt': '2024-04-15T15:24:00.829391', 'docker': None, 'cuda': None, 'args': ('--language', 'de', '--dataset', '/scratch/smaddin/CS678-TPol/data/GEO-Aligned/data/DE.csv', '--test-ids', '/scratch/smaddin/CS678-TPol/data/GEO-Aligned/splits/question/test.txt', '--val-ids', '/scratch/smaddin/CS678-TPol/data/GEO-Aligned/splits/question/dev1.txt', '--out-file', '/scratch/smaddin/CS678-TPol/outputs/bert-question-partition-output/bert-reorderer-DE-outputs.txt', '--results-file', '/scratch/smaddin/CS678-TPol/outputs/bert-question-partition-output/bert-reorderer-DE-results.txt', '--lexical-predictions', '/scratch/smaddin/CS678-TPol/outputs/bert-question-partition-output/bert-translator-DE-outputs.txt'), 'state': 'running', 'program': 'bert_reorderer.py', 'codePathLocal': 'bert_reorderer.py', 'codePath': 'bert_reorderer.py', 'host': 'gpu019.orc.gmu.edu', 'username': 'smaddin', 'executable': '/home/smaddin/.conda/envs/tpol-private/bin/python', 'cpu_count': 64, 'cpu_count_logical': 64, 'cpu_freq': {'current': 2846.0164687500005, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 3482.14, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 3661.111, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 3660.385, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 3660.378, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 251.7418975830078, 'used': 23.095794677734375}}, 'gpu': 'NVIDIA A100-SXM4-80GB', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA A100-SXM4-80GB', 'memory_total': 85899345920}], 'memory': {'total': 503.4837951660156}}
+2024-04-15 11:24:01,028 INFO    HandlerThread:3353102 [system_monitor.py:probe():224] Finished collecting system info
+2024-04-15 11:24:01,028 INFO    HandlerThread:3353102 [system_monitor.py:probe():227] Publishing system info
+2024-04-15 11:24:01,028 DEBUG   HandlerThread:3353102 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-04-15 11:24:01,037 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:01,037 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:02,857 DEBUG   HandlerThread:3353102 [system_info.py:_save_conda():222] Saving conda packages done
+2024-04-15 11:24:02,860 INFO    HandlerThread:3353102 [system_monitor.py:probe():229] Finished publishing system info
+2024-04-15 11:24:02,913 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: python_packages
+2024-04-15 11:24:03,038 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:03,038 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:05,039 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:05,039 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:05,951 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: status_report
+2024-04-15 11:24:05,952 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: status_report
+2024-04-15 11:24:07,040 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:07,040 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:09,040 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:09,041 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:09,410 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:24:10,952 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: status_report
+2024-04-15 11:24:10,952 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: status_report
+2024-04-15 11:24:11,041 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:11,041 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:13,042 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:13,042 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:15,042 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:15,043 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:15,721 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:24:15,953 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: status_report
+2024-04-15 11:24:15,953 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: status_report
+2024-04-15 11:24:17,043 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:17,043 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:19,044 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:19,044 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:20,953 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: status_report
+2024-04-15 11:24:20,953 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: status_report
+2024-04-15 11:24:21,044 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:21,045 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:22,082 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:24:23,045 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:23,045 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:25,046 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:25,046 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:25,954 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: status_report
+2024-04-15 11:24:25,954 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: status_report
+2024-04-15 11:24:27,046 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:27,047 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:28,361 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:24:29,047 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:29,047 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:30,954 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: status_report
+2024-04-15 11:24:30,954 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: status_report
+2024-04-15 11:24:31,165 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:31,165 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:33,165 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:33,166 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:34,662 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:24:35,166 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:35,166 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:35,955 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: status_report
+2024-04-15 11:24:35,955 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: status_report
+2024-04-15 11:24:37,173 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:37,174 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:39,174 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:39,174 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:40,938 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:24:40,962 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: status_report
+2024-04-15 11:24:40,962 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: status_report
+2024-04-15 11:24:41,175 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:41,175 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:43,175 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:43,176 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:45,181 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:45,182 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:45,963 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: status_report
+2024-04-15 11:24:45,963 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: status_report
+2024-04-15 11:24:47,182 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:47,182 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:47,206 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:24:49,183 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:49,183 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:50,963 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: status_report
+2024-04-15 11:24:50,963 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: status_report
+2024-04-15 11:24:51,183 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:51,183 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:53,184 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:53,184 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:53,481 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:24:55,185 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:55,185 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:55,964 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: status_report
+2024-04-15 11:24:55,964 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: status_report
+2024-04-15 11:24:57,185 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:57,186 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:59,186 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:59,186 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:24:59,781 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:00,964 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: status_report
+2024-04-15 11:25:00,965 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: status_report
+2024-04-15 11:25:01,026 DEBUG   SystemMonitor:3353102 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-15 11:25:01,332 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:01,332 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:03,333 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:03,333 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:05,333 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:05,334 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:05,965 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: status_report
+2024-04-15 11:25:05,965 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: status_report
+2024-04-15 11:25:05,971 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:07,334 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:07,334 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:09,335 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:09,335 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:10,965 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: status_report
+2024-04-15 11:25:10,966 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: status_report
+2024-04-15 11:25:11,336 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:11,336 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:12,251 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,803 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,804 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,805 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,805 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,807 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,810 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,812 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,815 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,815 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,816 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,817 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,818 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,819 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,820 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,821 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,822 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,823 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,824 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,825 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,825 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,827 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,830 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,832 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,835 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,836 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,836 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,837 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,838 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,840 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,841 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,842 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,843 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,843 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,845 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,845 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,846 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,848 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,850 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,852 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,856 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,856 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,857 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,858 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,859 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,860 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,861 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,862 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,863 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,864 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,865 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,866 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,866 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,868 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,871 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,873 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,876 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,877 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,877 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,878 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,879 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,881 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,882 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,883 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,884 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,884 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,886 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,886 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,887 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,889 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,891 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,893 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,897 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,898 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,898 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,899 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,900 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,901 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,903 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,904 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,905 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,906 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,907 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,907 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,908 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,910 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,913 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,915 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,919 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,919 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,920 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,921 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,922 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,923 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,924 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,925 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,926 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,927 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,928 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,929 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,929 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,931 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,934 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,936 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,940 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,940 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,941 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,942 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,943 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,944 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,945 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,946 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,947 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,948 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,949 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,950 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,951 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,952 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,955 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,957 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,961 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,961 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,962 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,963 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,964 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,965 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,966 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,967 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,968 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,969 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,970 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,971 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,972 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,973 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,977 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,978 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,982 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,983 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,983 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,984 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,985 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,986 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,988 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,988 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,990 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,990 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,992 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,992 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,993 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,995 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:12,998 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,000 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,004 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,004 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,005 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,006 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,007 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,008 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,009 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,010 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,011 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,012 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,013 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,050 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,051 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,051 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,051 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,051 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,051 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,051 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,051 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,051 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,051 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,051 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,051 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,051 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,051 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,052 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,052 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,052 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,052 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,052 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,052 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,052 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,052 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,052 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,052 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,052 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,052 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,052 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,052 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,053 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,053 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,053 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,053 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,054 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,054 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,056 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,056 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,090 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,141 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:13,336 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:13,337 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:15,337 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:15,337 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:15,966 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: status_report
+2024-04-15 11:25:15,966 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: status_report
+2024-04-15 11:25:17,338 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:17,338 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:19,339 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:19,339 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:20,845 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:20,967 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: status_report
+2024-04-15 11:25:20,967 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: status_report
+2024-04-15 11:25:21,340 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:21,340 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:23,340 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:23,340 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:25,341 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:25,349 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:25,972 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: status_report
+2024-04-15 11:25:25,972 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: status_report
+2024-04-15 11:25:27,150 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:27,350 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:27,350 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:29,350 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:29,351 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:30,973 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: status_report
+2024-04-15 11:25:30,973 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: status_report
+2024-04-15 11:25:31,504 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:31,505 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:33,482 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:33,505 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:33,505 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:35,506 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:35,506 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:35,973 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: status_report
+2024-04-15 11:25:35,974 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: status_report
+2024-04-15 11:25:37,506 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:37,507 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:39,507 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:39,507 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:39,821 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:40,977 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: status_report
+2024-04-15 11:25:40,977 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: status_report
+2024-04-15 11:25:41,508 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:41,508 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:43,509 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:43,509 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:45,509 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:45,510 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:45,978 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: status_report
+2024-04-15 11:25:45,978 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: status_report
+2024-04-15 11:25:46,072 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:47,510 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:47,510 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:49,511 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:49,511 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:50,978 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: status_report
+2024-04-15 11:25:50,978 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: status_report
+2024-04-15 11:25:51,511 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:51,512 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:52,380 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:53,512 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:53,512 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:55,513 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:55,513 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:55,979 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: status_report
+2024-04-15 11:25:55,979 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: status_report
+2024-04-15 11:25:57,513 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:57,514 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:58,682 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:25:59,515 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:25:59,515 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:00,979 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: status_report
+2024-04-15 11:26:00,980 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: status_report
+2024-04-15 11:26:01,644 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:01,644 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:03,645 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:03,645 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:04,990 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:05,645 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:05,646 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:05,980 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: status_report
+2024-04-15 11:26:05,980 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: status_report
+2024-04-15 11:26:07,646 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:07,646 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:09,647 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:09,647 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:10,981 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: status_report
+2024-04-15 11:26:10,981 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: status_report
+2024-04-15 11:26:11,248 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:11,647 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:11,648 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:13,648 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:13,649 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:15,649 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:15,649 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:15,981 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: status_report
+2024-04-15 11:26:15,981 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: status_report
+2024-04-15 11:26:17,625 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:17,650 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:17,650 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:19,650 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:19,651 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:20,982 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: status_report
+2024-04-15 11:26:20,982 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: status_report
+2024-04-15 11:26:21,651 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:21,651 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:23,652 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:23,652 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:23,950 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,230 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,231 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,231 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,232 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,234 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,236 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,238 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,241 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,241 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,242 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,243 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,244 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,245 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,246 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,247 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,248 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,249 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,250 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,251 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,251 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,253 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,256 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,258 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,261 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,261 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,262 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,263 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,264 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,265 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,266 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,267 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,268 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,269 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,270 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,271 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,271 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,274 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,276 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,278 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,281 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,282 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,282 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,283 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,284 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,285 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,286 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,287 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,288 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,289 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,290 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,291 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,291 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,294 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,296 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,298 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,302 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,303 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,303 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,304 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,305 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,306 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,307 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,308 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,309 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,310 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,311 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,312 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,313 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,350 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,350 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,350 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,350 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,350 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,350 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,350 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,350 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,350 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,350 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,350 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,351 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,351 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,351 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,351 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,351 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,351 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,351 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,351 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,351 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,351 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,351 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,351 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,351 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,351 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,351 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,352 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,352 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,352 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,352 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,352 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,352 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,354 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,357 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,359 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,362 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,363 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,364 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,365 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,366 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,367 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,368 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,369 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,370 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,371 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,372 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,372 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,373 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,375 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,378 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,380 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,383 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,384 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,422 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,422 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,422 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,422 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,422 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,422 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,422 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,423 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,423 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,423 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,423 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,423 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,423 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,423 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,423 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,423 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,423 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,423 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,423 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,423 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,423 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,424 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,424 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,424 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,424 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,424 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,424 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,424 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,424 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,424 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,424 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,424 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,425 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,426 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,427 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,428 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,430 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,430 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,432 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,433 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,434 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,435 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,435 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,437 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,440 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,443 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,446 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,447 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,448 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,449 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,450 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,451 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,452 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,453 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,455 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,456 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,457 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,457 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,458 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,460 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,463 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,465 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,469 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,470 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,470 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,471 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,472 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,473 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,475 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,476 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,477 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,478 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,479 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,479 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,480 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,481 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,482 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,515 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,566 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:25,652 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:25,653 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:25,982 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: status_report
+2024-04-15 11:26:25,983 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: status_report
+2024-04-15 11:26:27,653 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:27,654 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:29,654 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:29,654 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:30,983 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: status_report
+2024-04-15 11:26:30,984 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: status_report
+2024-04-15 11:26:31,784 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:31,784 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:32,678 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:33,785 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:33,785 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:35,786 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:35,786 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:35,987 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: status_report
+2024-04-15 11:26:35,987 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: status_report
+2024-04-15 11:26:37,786 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:37,787 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:39,046 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:39,787 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:39,787 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:40,988 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: status_report
+2024-04-15 11:26:40,988 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: status_report
+2024-04-15 11:26:41,788 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:41,788 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:43,789 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:43,789 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:45,384 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:45,396 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-15 11:26:45,789 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:45,789 ERROR   gpu       :3353102 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-15 11:26:45,988 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: status_report
+2024-04-15 11:26:45,988 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: status_report
+2024-04-15 11:26:47,136 DEBUG   SenderThread:3353102 [sender.py:send():379] send: exit
+2024-04-15 11:26:47,136 INFO    SenderThread:3353102 [sender.py:send_exit():586] handling exit code: 0
+2024-04-15 11:26:47,136 INFO    SenderThread:3353102 [sender.py:send_exit():588] handling runtime: 166
+2024-04-15 11:26:47,153 INFO    SenderThread:3353102 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-15 11:26:47,153 INFO    SenderThread:3353102 [sender.py:send_exit():594] send defer
+2024-04-15 11:26:47,153 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: defer
+2024-04-15 11:26:47,154 INFO    HandlerThread:3353102 [handler.py:handle_request_defer():172] handle defer: 0
+2024-04-15 11:26:47,154 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: defer
+2024-04-15 11:26:47,154 INFO    SenderThread:3353102 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-04-15 11:26:47,154 INFO    SenderThread:3353102 [sender.py:transition_state():614] send defer: 1
+2024-04-15 11:26:47,154 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: defer
+2024-04-15 11:26:47,154 INFO    HandlerThread:3353102 [handler.py:handle_request_defer():172] handle defer: 1
+2024-04-15 11:26:47,154 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: defer
+2024-04-15 11:26:47,154 INFO    SenderThread:3353102 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-04-15 11:26:47,154 INFO    SenderThread:3353102 [sender.py:transition_state():614] send defer: 2
+2024-04-15 11:26:47,154 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: defer
+2024-04-15 11:26:47,154 INFO    HandlerThread:3353102 [handler.py:handle_request_defer():172] handle defer: 2
+2024-04-15 11:26:47,154 INFO    HandlerThread:3353102 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-15 11:26:47,154 DEBUG   SystemMonitor:3353102 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-15 11:26:47,154 DEBUG   SystemMonitor:3353102 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-15 11:26:47,159 INFO    HandlerThread:3353102 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-15 11:26:47,159 INFO    HandlerThread:3353102 [interfaces.py:finish():202] Joined disk monitor
+2024-04-15 11:26:47,224 INFO    HandlerThread:3353102 [interfaces.py:finish():202] Joined gpu monitor
+2024-04-15 11:26:47,224 INFO    HandlerThread:3353102 [interfaces.py:finish():202] Joined memory monitor
+2024-04-15 11:26:47,224 INFO    HandlerThread:3353102 [interfaces.py:finish():202] Joined network monitor
+2024-04-15 11:26:47,224 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: defer
+2024-04-15 11:26:47,224 INFO    SenderThread:3353102 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-04-15 11:26:47,224 INFO    SenderThread:3353102 [sender.py:transition_state():614] send defer: 3
+2024-04-15 11:26:47,224 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: defer
+2024-04-15 11:26:47,224 INFO    HandlerThread:3353102 [handler.py:handle_request_defer():172] handle defer: 3
+2024-04-15 11:26:47,225 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: defer
+2024-04-15 11:26:47,225 INFO    SenderThread:3353102 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-04-15 11:26:47,225 INFO    SenderThread:3353102 [sender.py:transition_state():614] send defer: 4
+2024-04-15 11:26:47,225 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: defer
+2024-04-15 11:26:47,225 INFO    HandlerThread:3353102 [handler.py:handle_request_defer():172] handle defer: 4
+2024-04-15 11:26:47,225 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: defer
+2024-04-15 11:26:47,225 INFO    SenderThread:3353102 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-04-15 11:26:47,225 INFO    SenderThread:3353102 [sender.py:transition_state():614] send defer: 5
+2024-04-15 11:26:47,225 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: defer
+2024-04-15 11:26:47,225 INFO    HandlerThread:3353102 [handler.py:handle_request_defer():172] handle defer: 5
+2024-04-15 11:26:47,244 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: defer
+2024-04-15 11:26:47,245 INFO    SenderThread:3353102 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-04-15 11:26:47,245 INFO    SenderThread:3353102 [sender.py:transition_state():614] send defer: 6
+2024-04-15 11:26:47,245 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: defer
+2024-04-15 11:26:47,245 INFO    HandlerThread:3353102 [handler.py:handle_request_defer():172] handle defer: 6
+2024-04-15 11:26:47,245 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: defer
+2024-04-15 11:26:47,245 INFO    SenderThread:3353102 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-04-15 11:26:47,245 INFO    SenderThread:3353102 [sender.py:transition_state():614] send defer: 7
+2024-04-15 11:26:47,245 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: status_report
+2024-04-15 11:26:47,245 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: defer
+2024-04-15 11:26:47,245 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: status_report
+2024-04-15 11:26:47,245 INFO    HandlerThread:3353102 [handler.py:handle_request_defer():172] handle defer: 7
+2024-04-15 11:26:47,245 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: defer
+2024-04-15 11:26:47,245 INFO    SenderThread:3353102 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-04-15 11:26:47,245 INFO    SenderThread:3353102 [sender.py:transition_state():614] send defer: 8
+2024-04-15 11:26:47,245 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: defer
+2024-04-15 11:26:47,245 INFO    HandlerThread:3353102 [handler.py:handle_request_defer():172] handle defer: 8
+2024-04-15 11:26:47,245 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: defer
+2024-04-15 11:26:47,245 INFO    SenderThread:3353102 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-04-15 11:26:47,245 INFO    SenderThread:3353102 [sender.py:transition_state():614] send defer: 9
+2024-04-15 11:26:47,245 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: defer
+2024-04-15 11:26:47,245 INFO    HandlerThread:3353102 [handler.py:handle_request_defer():172] handle defer: 9
+2024-04-15 11:26:47,246 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: defer
+2024-04-15 11:26:47,246 INFO    SenderThread:3353102 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-04-15 11:26:47,246 INFO    SenderThread:3353102 [sender.py:transition_state():614] send defer: 10
+2024-04-15 11:26:47,246 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: defer
+2024-04-15 11:26:47,246 INFO    HandlerThread:3353102 [handler.py:handle_request_defer():172] handle defer: 10
+2024-04-15 11:26:47,246 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: defer
+2024-04-15 11:26:47,246 INFO    SenderThread:3353102 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-04-15 11:26:47,246 INFO    SenderThread:3353102 [sender.py:transition_state():614] send defer: 11
+2024-04-15 11:26:47,246 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: defer
+2024-04-15 11:26:47,246 INFO    HandlerThread:3353102 [handler.py:handle_request_defer():172] handle defer: 11
+2024-04-15 11:26:47,246 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: defer
+2024-04-15 11:26:47,246 INFO    SenderThread:3353102 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-04-15 11:26:47,246 INFO    SenderThread:3353102 [sender.py:transition_state():614] send defer: 12
+2024-04-15 11:26:47,246 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: defer
+2024-04-15 11:26:47,246 INFO    HandlerThread:3353102 [handler.py:handle_request_defer():172] handle defer: 12
+2024-04-15 11:26:47,246 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: defer
+2024-04-15 11:26:47,246 INFO    SenderThread:3353102 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-04-15 11:26:47,246 INFO    SenderThread:3353102 [sender.py:transition_state():614] send defer: 13
+2024-04-15 11:26:47,246 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: defer
+2024-04-15 11:26:47,246 INFO    HandlerThread:3353102 [handler.py:handle_request_defer():172] handle defer: 13
+2024-04-15 11:26:47,246 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: defer
+2024-04-15 11:26:47,246 INFO    SenderThread:3353102 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-04-15 11:26:47,246 INFO    SenderThread:3353102 [sender.py:transition_state():614] send defer: 14
+2024-04-15 11:26:47,246 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: defer
+2024-04-15 11:26:47,246 DEBUG   SenderThread:3353102 [sender.py:send():379] send: final
+2024-04-15 11:26:47,247 INFO    HandlerThread:3353102 [handler.py:handle_request_defer():172] handle defer: 14
+2024-04-15 11:26:47,247 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: defer
+2024-04-15 11:26:47,247 INFO    SenderThread:3353102 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-04-15 11:26:47,247 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-15 11:26:47,247 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-15 11:26:47,247 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: poll_exit
+2024-04-15 11:26:47,247 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: poll_exit
+2024-04-15 11:26:47,247 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: server_info
+2024-04-15 11:26:47,247 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: get_summary
+2024-04-15 11:26:47,248 DEBUG   SenderThread:3353102 [sender.py:send_request():406] send_request: server_info
+2024-04-15 11:26:47,258 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: sampled_history
+2024-04-15 11:26:47,259 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-15 11:26:47,259 INFO    MainThread:3353102 [wandb_run.py:_footer_history_summary_info():3936] rendering history
+2024-04-15 11:26:47,264 INFO    MainThread:3353102 [wandb_run.py:_footer_history_summary_info():3968] rendering summary
+2024-04-15 11:26:47,265 DEBUG   HandlerThread:3353102 [handler.py:handle_request():146] handle_request: shutdown
+2024-04-15 11:26:47,265 INFO    HandlerThread:3353102 [handler.py:finish():866] shutting down handler
+2024-04-15 11:26:48,248 INFO    WriterThread:3353102 [datastore.py:close():296] close: /scratch/smaddin/CS678-TPol/wandb/offline-run-20240415_112400-3rgjs1oh/run-3rgjs1oh.wandb
+2024-04-15 11:26:48,253 INFO    SenderThread:3353102 [sender.py:finish():1546] shutting down sender
