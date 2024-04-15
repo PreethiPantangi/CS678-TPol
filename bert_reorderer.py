@@ -60,6 +60,10 @@ class LexicalPredictionsTestDataset(Dataset):
         item["gold"] = self.golds[i]
         return item
 
+"""
+This function _align_labels_with_tokenization checks the tokenized part of the text with the offset in the original text
+and adjusts the label to match the tokenization so that each label is associated with the correct token.
+"""
 def _align_labels_with_tokenization(offset_mapping, labels):
     new_labels = []
     for o, l in zip(offset_mapping, labels):
@@ -76,6 +80,10 @@ def _align_labels_with_tokenization(offset_mapping, labels):
         new_labels.append(lab)
     return new_labels
 
+"""
+The function bert_classifier_data_collator takes a list of features such as the text and labels and aligns the labels with the 
+tokenization and arranges the data in a format that is suitable to be passed to the BERT model for training. 
+"""
 def bert_classifier_data_collator(features: List[InputDataClass], return_tensors="pt") -> Dict[str, Any]:
     tokenizer = features[0]['tokenizer']
     x = [i["x"] for i in features]
@@ -89,6 +97,9 @@ def bert_classifier_data_collator(features: List[InputDataClass], return_tensors
     del a['offset_mapping']
     return a
 
+"""
+The function preprocess_MR preprocesses the sentence by cleaning it to remove special characters such as parentheses.
+"""
 def preprocess_MR(sentence):
     sequence = sentence.replace('(', ' ( ').replace(')', ' ) ').split()
     s = []
@@ -116,12 +127,20 @@ def preprocess_MR(sentence):
 
     return s
 
+"""
+The function preprocess_MR_ALIGNMENT formats and parses the text by extracting relevant tokens and removing any epsilon labels.
+"""
 def preprocess_MR_ALIGNMENT(text):
     s = make_tuple(text)
     s = [j[1] for j in s if j[1]!='ε']
     return s
 
 EPSILON_LABEL = 0
+
+"""
+The function create_label_vocabulary creates a mapping of the label and the id so that the during the training process the 
+model understands and processes them. labeltoid and idtolabel are of type dictionary.
+"""
 def create_label_vocabulary(data, idx):
     seq = data.MR.tolist()
     seq = [seq[i] for i in range(len(seq)) if i in idx]
@@ -142,11 +161,16 @@ def create_label_vocabulary(data, idx):
                 count += 1
     return labeltoid, idtolabel
 
+"""The function remove_epsilons removes empty or null values so that the model can focus on the relevant parts of the data"""
 def remove_epsilons(x):
     s = make_tuple(x)
     s = [j[1] for j in s if j[1]!='ε']
     return s
 
+"""
+The function convert_MR_to_id maps the labels in the data into numerical IDs so that the model can process the data efficiently
+using numbers. 
+"""
 def convert_MR_to_id(data, labeltoid):
     mr = data.MR.tolist()
     mr = [[labeltoid[j] if j in labeltoid else EPSILON_LABEL for j in i] for i in mr]

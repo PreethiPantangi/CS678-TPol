@@ -2,6 +2,7 @@ def evaluate(preds: list, gold_preds: list, mn_labels: list, verbose=False):
     stats = {}
 
     mn_correct = nmn_correct = 0
+    # gold labels here refer to the expected labels for the given input data.
     for pred, gold, mn in zip(preds, gold_preds, mn_labels):
         if pred == gold:
             if mn: mn_correct += 1
