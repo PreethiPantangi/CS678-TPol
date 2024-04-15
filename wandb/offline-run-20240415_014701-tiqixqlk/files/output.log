@@ -1,0 +1,124 @@
+{'eval_loss': 0.31710049510002136, 'eval_runtime': 0.0566, 'eval_samples_per_second': 1059.208, 'eval_steps_per_second': 88.267, 'epoch': 1.0}
+{'eval_loss': 0.1900205910205841, 'eval_runtime': 0.0544, 'eval_samples_per_second': 1103.672, 'eval_steps_per_second': 91.973, 'epoch': 2.0}
+{'eval_loss': 0.10645877569913864, 'eval_runtime': 0.0542, 'eval_samples_per_second': 1106.92, 'eval_steps_per_second': 92.243, 'epoch': 3.0}
+{'eval_loss': 0.07082560658454895, 'eval_runtime': 0.0544, 'eval_samples_per_second': 1103.711, 'eval_steps_per_second': 91.976, 'epoch': 4.0}
+{'eval_loss': 0.058213911950588226, 'eval_runtime': 0.0542, 'eval_samples_per_second': 1107.631, 'eval_steps_per_second': 92.303, 'epoch': 5.0}
+{'eval_loss': 0.059518177062273026, 'eval_runtime': 0.0542, 'eval_samples_per_second': 1106.146, 'eval_steps_per_second': 92.179, 'epoch': 6.0}
+{'eval_loss': 0.05517119541764259, 'eval_runtime': 0.0544, 'eval_samples_per_second': 1103.425, 'eval_steps_per_second': 91.952, 'epoch': 7.0}
+{'eval_loss': 0.047609131783246994, 'eval_runtime': 0.0545, 'eval_samples_per_second': 1100.858, 'eval_steps_per_second': 91.738, 'epoch': 8.0}
+{'eval_loss': 0.044216807931661606, 'eval_runtime': 0.0553, 'eval_samples_per_second': 1084.879, 'eval_steps_per_second': 90.407, 'epoch': 9.0}
+{'eval_loss': 0.045025117695331573, 'eval_runtime': 0.0559, 'eval_samples_per_second': 1073.998, 'eval_steps_per_second': 89.5, 'epoch': 10.0}
+{'eval_loss': 0.04726811498403549, 'eval_runtime': 0.0559, 'eval_samples_per_second': 1073.092, 'eval_steps_per_second': 89.424, 'epoch': 11.0}
+{'loss': 0.1402, 'learning_rate': 5.555555555555556e-05, 'epoch': 11.11}
+{'eval_loss': 0.04430004581809044, 'eval_runtime': 0.0545, 'eval_samples_per_second': 1100.728, 'eval_steps_per_second': 91.727, 'epoch': 12.0}
+{'eval_loss': 0.04379564896225929, 'eval_runtime': 0.0541, 'eval_samples_per_second': 1109.922, 'eval_steps_per_second': 92.494, 'epoch': 13.0}
+{'eval_loss': 0.044774316251277924, 'eval_runtime': 0.0543, 'eval_samples_per_second': 1105.146, 'eval_steps_per_second': 92.095, 'epoch': 14.0}
+{'eval_loss': 0.044618114829063416, 'eval_runtime': 0.0541, 'eval_samples_per_second': 1108.514, 'eval_steps_per_second': 92.376, 'epoch': 15.0}
+{'eval_loss': 0.04395615682005882, 'eval_runtime': 0.0543, 'eval_samples_per_second': 1104.772, 'eval_steps_per_second': 92.064, 'epoch': 16.0}
+{'eval_loss': 0.04482220858335495, 'eval_runtime': 0.0542, 'eval_samples_per_second': 1107.714, 'eval_steps_per_second': 92.31, 'epoch': 17.0}
+{'eval_loss': 0.0414312444627285, 'eval_runtime': 0.0544, 'eval_samples_per_second': 1102.855, 'eval_steps_per_second': 91.905, 'epoch': 18.0}
+{'eval_loss': 0.04096979275345802, 'eval_runtime': 0.055, 'eval_samples_per_second': 1090.497, 'eval_steps_per_second': 90.875, 'epoch': 19.0}
+{'eval_loss': 0.043679963797330856, 'eval_runtime': 0.0543, 'eval_samples_per_second': 1105.991, 'eval_steps_per_second': 92.166, 'epoch': 20.0}
+{'eval_loss': 0.04379599168896675, 'eval_runtime': 0.054, 'eval_samples_per_second': 1110.138, 'eval_steps_per_second': 92.511, 'epoch': 21.0}
+{'eval_loss': 0.04368988797068596, 'eval_runtime': 0.0544, 'eval_samples_per_second': 1103.643, 'eval_steps_per_second': 91.97, 'epoch': 22.0}
+{'loss': 0.0043, 'learning_rate': 1.1111111111111112e-05, 'epoch': 22.22}
+{'eval_loss': 0.043450891971588135, 'eval_runtime': 0.0542, 'eval_samples_per_second': 1106.248, 'eval_steps_per_second': 92.187, 'epoch': 23.0}
+{'eval_loss': 0.043750178068876266, 'eval_runtime': 0.0544, 'eval_samples_per_second': 1103.658, 'eval_steps_per_second': 91.971, 'epoch': 24.0}
+{'eval_loss': 0.04378581419587135, 'eval_runtime': 0.0542, 'eval_samples_per_second': 1107.841, 'eval_steps_per_second': 92.32, 'epoch': 25.0}
+{'train_runtime': 100.7029, 'train_samples_per_second': 134.058, 'train_steps_per_second': 11.171, 'train_loss': 0.06449494367175632, 'epoch': 25.0}
+EXACT-MATCH ACCURACY
+ACC: 35.71%
+MN: 36.11%
+NMN: 35.58%
+NO. CORRECT TOKENS
+ACC: 61.99%
+MN: 63.67%
+NMN: 61.37%
+MAX CORRECT SPAN
+ACC: 65.43%
+MN: 70.20%
+NMN: 63.68%
+  4%|████▋                                                                                                                | 45/1125 [00:03<01:25, 12.66it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+  8%|█████████▎                                                                                                           | 89/1125 [00:07<01:20, 12.91it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 12%|█████████████▉                                                                                                      | 135/1125 [00:11<01:16, 12.89it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 16%|██████████████████▍                                                                                                 | 179/1125 [00:14<01:12, 12.99it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 20%|███████████████████████▏                                                                                            | 225/1125 [00:18<01:09, 12.97it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 24%|███████████████████████████▋                                                                                        | 269/1125 [00:21<01:05, 13.06it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 28%|████████████████████████████████▍                                                                                   | 315/1125 [00:25<01:01, 13.09it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 32%|█████████████████████████████████████                                                                               | 359/1125 [00:28<00:58, 13.13it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 36%|█████████████████████████████████████████▊                                                                          | 405/1125 [00:32<00:54, 13.13it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 40%|██████████████████████████████████████████████▎                                                                     | 449/1125 [00:35<00:51, 13.13it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 44%|███████████████████████████████████████████████████                                                                 | 495/1125 [00:39<00:47, 13.17it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 44%|███████████████████████████████████████████████████▌                                                                | 500/1125 [00:39<00:51, 12.07it/s]Saving model checkpoint to models/checkpoint-500
+Configuration saved in models/checkpoint-500/config.json
+Model weights saved in models/checkpoint-500/pytorch_model.bin
+ 48%|███████████████████████████████████████████████████████▌                                                            | 539/1125 [00:44<00:44, 13.06it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 52%|████████████████████████████████████████████████████████████▎                                                       | 585/1125 [00:48<00:41, 13.12it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 56%|████████████████████████████████████████████████████████████████▊                                                   | 629/1125 [00:51<00:37, 13.11it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 60%|█████████████████████████████████████████████████████████████████████▌                                              | 675/1125 [00:55<00:34, 12.93it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 64%|██████████████████████████████████████████████████████████████████████████▏                                         | 719/1125 [00:58<00:30, 13.11it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 68%|██████████████████████████████████████████████████████████████████████████████▉                                     | 765/1125 [01:02<00:27, 13.11it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 72%|███████████████████████████████████████████████████████████████████████████████████▍                                | 809/1125 [01:05<00:24, 13.02it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 76%|████████████████████████████████████████████████████████████████████████████████████████▏                           | 855/1125 [01:09<00:20, 13.06it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 80%|████████████████████████████████████████████████████████████████████████████████████████████▋                       | 899/1125 [01:12<00:17, 13.13it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 84%|█████████████████████████████████████████████████████████████████████████████████████████████████▍                  | 945/1125 [01:16<00:13, 13.19it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 88%|█████████████████████████████████████████████████████████████████████████████████████████████████████▉              | 989/1125 [01:19<00:10, 13.14it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 89%|██████████████████████████████████████████████████████████████████████████████████████████████████████▏            | 1000/1125 [01:21<00:09, 12.70it/s]Saving model checkpoint to models/checkpoint-1000
+Configuration saved in models/checkpoint-1000/config.json
+Model weights saved in models/checkpoint-1000/pytorch_model.bin
+ 92%|█████████████████████████████████████████████████████████████████████████████████████████████████████████▊         | 1035/1125 [01:25<00:06, 12.95it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 96%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████▎    | 1079/1125 [01:29<00:03, 13.11it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1125/1125 [01:32<00:00, 13.12it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1125/1125 [01:32<00:00, 13.12it/s]
+Training completed. Do not forget to share your model on huggingface.co/models =)
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1125/1125 [01:32<00:00, 12.10it/s]
