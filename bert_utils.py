@@ -1,44 +1,5 @@
-from typing import Any, Dict, List, NewType
+from typing import Any, NewType
 InputDataClass = NewType("InputDataClass", Any)
-import torch
-
-"""
-This function _align_labels_with_tokenization checks the tokenized part of the text with the offset in the original text
-and adjusts the label to match the tokenization so that each label is associated with the correct token.
-"""
-def _align_labels_with_tokenization(offset_mapping, labels, EPSILON_LABEL):
-    new_labels = []
-    for o, l in zip(offset_mapping, labels):
-        lab = []
-        count = -1
-        for i in o:
-            if i[0]==0 and i[1]==0:
-                lab.append(EPSILON_LABEL)
-            elif i[0] == 0:
-                count += 1
-                lab.append(l[count])
-            else:
-                lab.append(EPSILON_LABEL)
-        new_labels.append(lab)
-    return new_labels
-
-
-"""
-The function bert_classifier_data_collator takes a list of features such as the text and labels and aligns the labels with the 
-tokenization and arranges the data in a format that is suitable to be passed to the BERT model for training. 
-"""
-def bert_classifier_data_collator(features: List[InputDataClass], return_tensors="pt") -> Dict[str, Any]:
-    tokenizer = features[0]['tokenizer']
-    x = [i["x"] for i in features]
-    a = tokenizer(x, return_offsets_mapping=True, is_split_into_words=True, padding=True, return_tensors = 'pt')
-    offset_mapping = a['offset_mapping']
-    if 'label' in features[0]:
-        labels = [i["label"] for i in features]
-        labels = _align_labels_with_tokenization(offset_mapping, labels)
-        labels = torch.tensor(labels)
-        a['labels'] = labels
-    del a['offset_mapping']
-    return a
 
 """
 The function create_label_vocabulary creates a mapping of the label and the id so that the during the training process the 

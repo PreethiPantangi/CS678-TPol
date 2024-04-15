@@ -8,7 +8,7 @@ from ast import literal_eval as make_tuple
 import argparse
 InputDataClass = NewType("InputDataClass", Any)
 from evaluation import evaluate
-from bert_utils import convert_MR_to_id, bert_classifier_data_collator, create_label_vocabulary
+from bert_utils import convert_MR_to_id, create_label_vocabulary
 
 class GeoQuery(Dataset):
     def __init__(self, dataframe, idx, tokenizer):
@@ -60,6 +60,43 @@ class LexicalPredictionsTestDataset(Dataset):
         item["tokenizer"] = self.tokenizer
         item["gold"] = self.golds[i]
         return item
+
+"""
+This function _align_labels_with_tokenization checks the tokenized part of the text with the offset in the original text
+and adjusts the label to match the tokenization so that each label is associated with the correct token.
+"""
+def _align_labels_with_tokenization(offset_mapping, labels):
+    new_labels = []
+    for o, l in zip(offset_mapping, labels):
+        lab = []
+        count = -1
+        for i in o:
+            if i[0]==0 and i[1]==0:
+                lab.append(EPSILON_LABEL)
+            elif i[0] == 0:
+                count += 1
+                lab.append(l[count])
+            else:
+                lab.append(EPSILON_LABEL)
+        new_labels.append(lab)
+    return new_labels
+
+"""
+The function bert_classifier_data_collator takes a list of features such as the text and labels and aligns the labels with the 
+tokenization and arranges the data in a format that is suitable to be passed to the BERT model for training. 
+"""
+def bert_classifier_data_collator(features: List[InputDataClass], return_tensors="pt") -> Dict[str, Any]:
+    tokenizer = features[0]['tokenizer']
+    x = [i["x"] for i in features]
+    a = tokenizer(x, return_offsets_mapping=True, is_split_into_words=True, padding=True, return_tensors = 'pt')
+    offset_mapping = a['offset_mapping']
+    if 'label' in features[0]:
+        labels = [i["label"] for i in features]
+        labels = _align_labels_with_tokenization(offset_mapping, labels)
+        labels = torch.tensor(labels)
+        a['labels'] = labels
+    del a['offset_mapping']
+    return a
 
 """
 The function preprocess_MR preprocesses the sentence by cleaning it to remove special characters such as parentheses.
@@ -115,7 +152,7 @@ def preprocess_data(data, test_idx, val_idx, train_idx):
 
     data["GOLD"] = data["MR"]
 
-    convert_MR_to_id(data, labeltoid, EPSILON_LABEL)
+    convert_MR_to_id(data, labeltoid)
 
     a = data.MR.tolist()
     b = data.NL.tolist()

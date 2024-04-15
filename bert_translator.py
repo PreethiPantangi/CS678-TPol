@@ -8,7 +8,7 @@ from evaluation import evaluate
 from ast import literal_eval as make_tuple
 import argparse
 InputDataClass = NewType("InputDataClass", Any)
-from bert_utils import convert_MR_to_id, bert_classifier_data_collator, create_label_vocabulary
+from bert_utils import convert_MR_to_id, create_label_vocabulary
 
 EPSILON_LABEL = 0
 
@@ -32,6 +32,43 @@ class GeoQuery(Dataset):
         item["tokenizer"] = self.tokenizer
         item["gold"] = self.golds[i]
         return item
+
+"""
+This function _align_labels_with_tokenization checks the tokenized part of the text with the offset in the original text
+and adjusts the label to match the tokenization so that each label is associated with the correct token.
+"""
+def _align_labels_with_tokenization(offset_mapping, labels):
+    new_labels = []
+    for o, l in zip(offset_mapping, labels):
+        lab = []
+        count = -1
+        for i in o:
+            if i[0]==0 and i[1]==0:
+                lab.append(EPSILON_LABEL)
+            elif i[0] == 0:
+                count += 1
+                lab.append(l[count])
+            else:
+                lab.append(EPSILON_LABEL)
+        new_labels.append(lab)
+    return new_labels
+
+"""
+The function bert_classifier_data_collator takes a list of features such as the text and labels and aligns the labels with the 
+tokenization and arranges the data in a format that is suitable to be passed to the BERT model for training. 
+"""
+def bert_classifier_data_collator(features: List[InputDataClass], return_tensors="pt") -> Dict[str, Any]:
+    tokenizer = features[0]['tokenizer']
+    input_texts = [i["x"] for i in features]
+    processed_data = tokenizer(input_texts, return_offsets_mapping=True, is_split_into_words=True, padding=True, return_tensors = 'pt')
+    offset_mapping = processed_data['offset_mapping']
+    if 'label' in features[0]:
+        labels = [i["label"] for i in features]
+        labels = _align_labels_with_tokenization(offset_mapping, labels)
+        labels = torch.tensor(labels)
+        processed_data['labels'] = labels
+    del processed_data['offset_mapping']
+    return processed_data # The return type of a here is a dictionary that contains all the information and requirements of the BERT model.
 
 """
 The function preprocess_MR prepares the MR text in such a way that it can be easily processed by the BERT model.
@@ -137,14 +174,13 @@ def remove_epsilons(x):
     s = [j[1] for j in s if j[1]!='ε']
     return s
 
-
 def preprocess_data(data, test_idx, val_idx, train_idx):
     data.MR = data["ALIGNMENT"].apply(preprocess_MR)
     data.NL = data["NL"].apply(preprocess_NL)
     labeltoid, idtolabel = create_label_vocabulary(data, train_idx+val_idx)
     insert_deterministic_epsilon(data, train_idx+val_idx)
     data["GOLD"] = data["ALIGNMENT"].apply(remove_epsilons)
-    convert_MR_to_id(data, labeltoid, EPSILON_LABEL)
+    convert_MR_to_id(data, labeltoid)
     return labeltoid, idtolabel
 
 def run(args):
