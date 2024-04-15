@@ -327,7 +327,6 @@ def run(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--language', type=str, help='input language (en, it, de)', required=True)
-    parser.add_argument('--partition', type=str, help='Partition (length, query, question)', required=True)
     parser.add_argument('--dataset', type=str, help='dataset path', required=True)
     parser.add_argument('--test-ids', type=str, help='test ids dataset path', required=True)
     parser.add_argument('--val-ids', type=str, help='val ids dataset path', required=True)
