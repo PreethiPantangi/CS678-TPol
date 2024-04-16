@@ -30,3 +30,15 @@ python bert_translator.py --language en --dataset "path/to/data/GEO-Aligned/data
 ```
 python bert_reorderer.py --language en --dataset "path/to/data/GEO-Aligned/data/EN.csv" --test-ids "path/to/data/GEO-Aligned/splits/length/test.txt" --val-ids "path/to/data/GEO-Aligned/splits/length/dev1.txt" --out-file "path/to/mbart-reorderer-output.txt" --results-file "path/to/mbart-reorderer-results.txt" --lexical-predictions "path/to/bert-translator-output.txt"
 ```
+
+
+```
+@inproceedings{locatelli-quattoni-2022-measuring,
+    title = "Translate First Reorder Later: Leveraging Monotonicity in Semantic Parsing",
+    author = "Cazzaro, Francesco   and Locatelli, Davide" and Quattoni, Ariadna"
+    booktitle = "Findings of the Association for Computational Linguistics: EACL 2023",
+    month = Feb,
+    year = "2023",
+    pages = "227--238"
+}
+```
