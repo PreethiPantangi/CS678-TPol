@@ -1,0 +1,39 @@
+{
+    "os": "Linux-4.18.0-348.7.1.el8_5.x86_64-x86_64-with-glibc2.10",
+    "python": "3.8.5",
+    "heartbeatAt": "2024-04-15T22:21:02.899808",
+    "startedAt": "2024-04-15T22:21:01.695045",
+    "docker": null,
+    "gpu": "NVIDIA A100-SXM4-80GB",
+    "gpu_count": 1,
+    "cpu_count": 64,
+    "cuda": null,
+    "args": [
+        "--language",
+        "de",
+        "--dataset",
+        "/scratch/spantang/CS678-TPol/data/GEO-Aligned/data/DE.csv",
+        "--test-ids",
+        "/scratch/spantang/CS678-TPol/data/GEO-Aligned/splits/length/test.txt",
+        "--val-ids",
+        "/scratch/spantang/CS678-TPol/data/GEO-Aligned/splits/length/dev1.txt",
+        "--out-file",
+        "/scratch/spantang/CS678-TPol/mbart-reorderer-DE-output.txt",
+        "--results-file",
+        "/scratch/spantang/CS678-TPol/mbart-reorderer-DE-results.txt",
+        "--lexical-predictions",
+        "/scratch/spantang/CS678-TPol/outputs/bert-length-partition-output/bert-translator-DE-output.txt"
+    ],
+    "state": "running",
+    "program": "mbart_reorderer.py",
+    "codePath": "mbart_reorderer.py",
+    "git": {
+        "remote": "https://github.com/PreethiPantangi/CS678-TPol",
+        "commit": "9c7e5ba4cc94f9e0d00df577cc477dcca2b4ae62"
+    },
+    "email": "pantangisaipreethi@gmail.com",
+    "root": "/scratch/spantang/CS678-TPol",
+    "host": "gpu019.orc.gmu.edu",
+    "username": "spantang",
+    "executable": "/opt/sw/spack/apps/linux-centos8-cascadelake/gcc-9.3.0/miniconda3-4.9.2-vl/bin/python"
+}
