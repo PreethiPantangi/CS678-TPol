@@ -1,0 +1,184 @@
+{'eval_loss': 2.2813379764556885, 'eval_runtime': 0.3412, 'eval_samples_per_second': 175.847, 'eval_steps_per_second': 43.962, 'epoch': 1.0}
+{'eval_loss': 0.23546750843524933, 'eval_runtime': 0.3316, 'eval_samples_per_second': 180.949, 'eval_steps_per_second': 45.237, 'epoch': 2.0}
+{'eval_loss': 0.18289023637771606, 'eval_runtime': 0.3307, 'eval_samples_per_second': 181.437, 'eval_steps_per_second': 45.359, 'epoch': 3.0}
+{'loss': 1.4977, 'learning_rate': 8.765432098765432e-06, 'epoch': 3.7}
+{'eval_loss': 0.19271112978458405, 'eval_runtime': 0.3289, 'eval_samples_per_second': 182.401, 'eval_steps_per_second': 45.6, 'epoch': 4.0}
+{'eval_loss': 0.20753194391727448, 'eval_runtime': 0.3289, 'eval_samples_per_second': 182.44, 'eval_steps_per_second': 45.61, 'epoch': 5.0}
+{'eval_loss': 0.14790727198123932, 'eval_runtime': 0.3305, 'eval_samples_per_second': 181.522, 'eval_steps_per_second': 45.381, 'epoch': 6.0}
+{'eval_loss': 0.19015179574489594, 'eval_runtime': 0.3305, 'eval_samples_per_second': 181.529, 'eval_steps_per_second': 45.382, 'epoch': 7.0}
+{'loss': 0.0252, 'learning_rate': 7.530864197530865e-06, 'epoch': 7.41}
+{'eval_loss': 0.16536706686019897, 'eval_runtime': 0.3303, 'eval_samples_per_second': 181.651, 'eval_steps_per_second': 45.413, 'epoch': 8.0}
+{'eval_loss': 0.18058890104293823, 'eval_runtime': 0.3309, 'eval_samples_per_second': 181.309, 'eval_steps_per_second': 45.327, 'epoch': 9.0}
+{'eval_loss': 0.23010794818401337, 'eval_runtime': 0.3326, 'eval_samples_per_second': 180.398, 'eval_steps_per_second': 45.1, 'epoch': 10.0}
+{'eval_loss': 0.18807612359523773, 'eval_runtime': 0.3324, 'eval_samples_per_second': 180.524, 'eval_steps_per_second': 45.131, 'epoch': 11.0}
+{'loss': 0.0087, 'learning_rate': 6.296296296296297e-06, 'epoch': 11.11}
+{'eval_loss': 0.2138691395521164, 'eval_runtime': 0.3291, 'eval_samples_per_second': 182.294, 'eval_steps_per_second': 45.573, 'epoch': 12.0}
+{'eval_loss': 0.1940041184425354, 'eval_runtime': 0.3308, 'eval_samples_per_second': 181.373, 'eval_steps_per_second': 45.343, 'epoch': 13.0}
+{'eval_loss': 0.1809026449918747, 'eval_runtime': 0.3394, 'eval_samples_per_second': 176.795, 'eval_steps_per_second': 44.199, 'epoch': 14.0}
+{'loss': 0.0038, 'learning_rate': 5.061728395061729e-06, 'epoch': 14.81}
+{'eval_loss': 0.1774878203868866, 'eval_runtime': 0.3293, 'eval_samples_per_second': 182.204, 'eval_steps_per_second': 45.551, 'epoch': 15.0}
+{'eval_loss': 0.1991529017686844, 'eval_runtime': 0.3293, 'eval_samples_per_second': 182.189, 'eval_steps_per_second': 45.547, 'epoch': 16.0}
+{'eval_loss': 0.2089306265115738, 'eval_runtime': 0.3291, 'eval_samples_per_second': 182.34, 'eval_steps_per_second': 45.585, 'epoch': 17.0}
+{'eval_loss': 0.18648232519626617, 'eval_runtime': 0.3317, 'eval_samples_per_second': 180.884, 'eval_steps_per_second': 45.221, 'epoch': 18.0}
+{'loss': 0.0029, 'learning_rate': 3.827160493827161e-06, 'epoch': 18.52}
+{'eval_loss': 0.1860230267047882, 'eval_runtime': 0.33, 'eval_samples_per_second': 181.843, 'eval_steps_per_second': 45.461, 'epoch': 19.0}
+{'eval_loss': 0.21014729142189026, 'eval_runtime': 0.3299, 'eval_samples_per_second': 181.884, 'eval_steps_per_second': 45.471, 'epoch': 20.0}
+{'eval_loss': 0.19175733625888824, 'eval_runtime': 0.3307, 'eval_samples_per_second': 181.424, 'eval_steps_per_second': 45.356, 'epoch': 21.0}
+{'eval_loss': 0.20952725410461426, 'eval_runtime': 0.3289, 'eval_samples_per_second': 182.422, 'eval_steps_per_second': 45.606, 'epoch': 22.0}
+{'loss': 0.0024, 'learning_rate': 2.5925925925925925e-06, 'epoch': 22.22}
+{'eval_loss': 0.21409045159816742, 'eval_runtime': 0.329, 'eval_samples_per_second': 182.383, 'eval_steps_per_second': 45.596, 'epoch': 23.0}
+{'eval_loss': 0.2085273265838623, 'eval_runtime': 0.3305, 'eval_samples_per_second': 181.541, 'eval_steps_per_second': 45.385, 'epoch': 24.0}
+{'eval_loss': 0.20662768185138702, 'eval_runtime': 0.3289, 'eval_samples_per_second': 182.44, 'eval_steps_per_second': 45.61, 'epoch': 25.0}
+{'loss': 0.001, 'learning_rate': 1.3580246913580248e-06, 'epoch': 25.93}
+{'eval_loss': 0.21170590817928314, 'eval_runtime': 0.3303, 'eval_samples_per_second': 181.637, 'eval_steps_per_second': 45.409, 'epoch': 26.0}
+{'eval_loss': 0.20821236073970795, 'eval_runtime': 0.33, 'eval_samples_per_second': 181.807, 'eval_steps_per_second': 45.452, 'epoch': 27.0}
+{'eval_loss': 0.2079739272594452, 'eval_runtime': 0.3295, 'eval_samples_per_second': 182.121, 'eval_steps_per_second': 45.53, 'epoch': 28.0}
+{'eval_loss': 0.2062990814447403, 'eval_runtime': 0.3293, 'eval_samples_per_second': 182.195, 'eval_steps_per_second': 45.549, 'epoch': 29.0}
+{'loss': 0.0003, 'learning_rate': 1.234567901234568e-07, 'epoch': 29.63}
+{'eval_loss': 0.20671407878398895, 'eval_runtime': 0.3275, 'eval_samples_per_second': 183.226, 'eval_steps_per_second': 45.806, 'epoch': 30.0}
+{'train_runtime': 996.4869, 'train_samples_per_second': 16.257, 'train_steps_per_second': 4.064, 'train_loss': 0.19036432530937925, 'epoch': 30.0}
+EXACT-MATCH ACCURACY
+ACC: 27.14%
+MN: 18.06%
+NMN: 30.29%
+NO. CORRECT TOKENS
+ACC: 54.07%
+MN: 51.84%
+NMN: 54.88%
+MAX CORRECT SPAN
+ACC: 62.86%
+MN: 63.06%
+NMN: 62.79%
+  3%|███▊                                                                                                                | 135/4050 [00:32<14:54,  4.38it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 4
+  7%|███████▋                                                                                                            | 270/4050 [01:03<14:26,  4.36it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 4
+ 10%|███████████▌                                                                                                        | 405/4050 [01:34<13:52,  4.38it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 4
+ 12%|██████████████▎                                                                                                     | 500/4050 [01:57<25:09,  2.35it/s]Saving model checkpoint to models/checkpoint-500
+Configuration saved in models/checkpoint-500/config.json
+Model weights saved in models/checkpoint-500/pytorch_model.bin
+tokenizer config file saved in models/checkpoint-500/tokenizer_config.json
+Special tokens file saved in models/checkpoint-500/special_tokens_map.json
+ 13%|███████████████▍                                                                                                    | 540/4050 [02:15<13:02,  4.49it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 4
+ 17%|███████████████████▎                                                                                                | 675/4050 [02:45<12:32,  4.49it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 4
+ 20%|███████████████████████▏                                                                                            | 810/4050 [03:16<11:50,  4.56it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 4
+ 23%|███████████████████████████                                                                                         | 945/4050 [03:46<11:22,  4.55it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 4
+ 25%|████████████████████████████▍                                                                                      | 1000/4050 [03:59<20:59,  2.42it/s]Saving model checkpoint to models/checkpoint-1000
+Configuration saved in models/checkpoint-1000/config.json
+Model weights saved in models/checkpoint-1000/pytorch_model.bin
+tokenizer config file saved in models/checkpoint-1000/tokenizer_config.json
+Special tokens file saved in models/checkpoint-1000/special_tokens_map.json
+ 27%|██████████████████████████████▋                                                                                    | 1080/4050 [04:26<11:05,  4.46it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 4
+ 30%|██████████████████████████████████▌                                                                                | 1215/4050 [04:56<10:25,  4.53it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 4
+ 33%|██████████████████████████████████████▎                                                                            | 1350/4050 [05:26<10:05,  4.46it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 4
+ 37%|██████████████████████████████████████████▏                                                                        | 1485/4050 [05:56<09:16,  4.61it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 4
+ 37%|██████████████████████████████████████████▌                                                                        | 1500/4050 [06:00<17:41,  2.40it/s]Saving model checkpoint to models/checkpoint-1500
+Configuration saved in models/checkpoint-1500/config.json
+Model weights saved in models/checkpoint-1500/pytorch_model.bin
+tokenizer config file saved in models/checkpoint-1500/tokenizer_config.json
+Special tokens file saved in models/checkpoint-1500/special_tokens_map.json
+ 40%|██████████████████████████████████████████████                                                                     | 1620/4050 [06:36<08:44,  4.63it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 4
+ 43%|█████████████████████████████████████████████████▊                                                                 | 1755/4050 [07:06<08:15,  4.63it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 4
+ 47%|█████████████████████████████████████████████████████▋                                                             | 1890/4050 [07:35<07:53,  4.57it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 4
+ 49%|████████████████████████████████████████████████████████▊                                                          | 2000/4050 [08:00<14:05,  2.42it/s]Saving model checkpoint to models/checkpoint-2000
+Configuration saved in models/checkpoint-2000/config.json
+Model weights saved in models/checkpoint-2000/pytorch_model.bin
+tokenizer config file saved in models/checkpoint-2000/tokenizer_config.json
+Special tokens file saved in models/checkpoint-2000/special_tokens_map.json
+ 50%|█████████████████████████████████████████████████████████▌                                                         | 2025/4050 [08:17<07:18,  4.61it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 4
+ 53%|█████████████████████████████████████████████████████████████▎                                                     | 2160/4050 [08:46<06:49,  4.61it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 4
+ 57%|█████████████████████████████████████████████████████████████████▏                                                 | 2295/4050 [09:16<06:26,  4.54it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 4
+ 60%|█████████████████████████████████████████████████████████████████████                                              | 2430/4050 [09:46<05:50,  4.62it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 4
+ 62%|██████████████████████████████████████████████████████████████████████▉                                            | 2500/4050 [10:02<10:36,  2.43it/s]Saving model checkpoint to models/checkpoint-2500
+Configuration saved in models/checkpoint-2500/config.json
+Model weights saved in models/checkpoint-2500/pytorch_model.bin
+tokenizer config file saved in models/checkpoint-2500/tokenizer_config.json
+Special tokens file saved in models/checkpoint-2500/special_tokens_map.json
+ 63%|████████████████████████████████████████████████████████████████████████▊                                          | 2565/4050 [10:27<05:22,  4.61it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 4
+ 67%|████████████████████████████████████████████████████████████████████████████▋                                      | 2700/4050 [10:56<04:51,  4.63it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 4
+ 70%|████████████████████████████████████████████████████████████████████████████████▌                                  | 2835/4050 [11:26<04:23,  4.61it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 4
+ 73%|████████████████████████████████████████████████████████████████████████████████████▎                              | 2970/4050 [11:56<03:53,  4.62it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 4
+ 74%|█████████████████████████████████████████████████████████████████████████████████████▏                             | 3000/4050 [12:03<07:11,  2.43it/s]Saving model checkpoint to models/checkpoint-3000
+Configuration saved in models/checkpoint-3000/config.json
+Model weights saved in models/checkpoint-3000/pytorch_model.bin
+tokenizer config file saved in models/checkpoint-3000/tokenizer_config.json
+Special tokens file saved in models/checkpoint-3000/special_tokens_map.json
+ 77%|████████████████████████████████████████████████████████████████████████████████████████▏                          | 3105/4050 [12:37<03:23,  4.64it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 4
+ 80%|████████████████████████████████████████████████████████████████████████████████████████████                       | 3240/4050 [13:06<02:54,  4.63it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 4
+ 83%|███████████████████████████████████████████████████████████████████████████████████████████████▊                   | 3375/4050 [13:36<02:26,  4.61it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 4
+ 86%|███████████████████████████████████████████████████████████████████████████████████████████████████▍               | 3500/4050 [14:04<03:45,  2.44it/s]Saving model checkpoint to models/checkpoint-3500
+Configuration saved in models/checkpoint-3500/config.json
+Model weights saved in models/checkpoint-3500/pytorch_model.bin
+tokenizer config file saved in models/checkpoint-3500/tokenizer_config.json
+Special tokens file saved in models/checkpoint-3500/special_tokens_map.json
+ 87%|███████████████████████████████████████████████████████████████████████████████████████████████████▋               | 3510/4050 [14:17<03:09,  2.85it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 4
+ 90%|███████████████████████████████████████████████████████████████████████████████████████████████████████▌           | 3645/4050 [14:46<01:27,  4.62it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 4
+ 93%|███████████████████████████████████████████████████████████████████████████████████████████████████████████▎       | 3780/4050 [15:16<00:58,  4.65it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 4
+ 97%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████▏   | 3915/4050 [15:46<00:29,  4.61it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 4
+ 99%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌ | 4000/4050 [16:05<00:20,  2.44it/s]Saving model checkpoint to models/checkpoint-4000
+Configuration saved in models/checkpoint-4000/config.json
+Model weights saved in models/checkpoint-4000/pytorch_model.bin
+tokenizer config file saved in models/checkpoint-4000/tokenizer_config.json
+Special tokens file saved in models/checkpoint-4000/special_tokens_map.json
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4050/4050 [16:27<00:00,  4.62it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 4
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4050/4050 [16:27<00:00,  4.62it/s]
+Training completed. Do not forget to share your model on huggingface.co/models =)
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4050/4050 [16:27<00:00,  4.10it/s]
