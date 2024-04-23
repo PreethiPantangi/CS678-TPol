@@ -1,0 +1,206 @@
+,ID,NL,MR,PRED,MONOTONIC
+0,4,answer capital loc_2 stateid(texas),answer capital loc_2 stateid(texas),capital loc_2 stateid(texas),1
+1,6,count state answer low_point_2 lower_2 low_point_1 stateid(alabama),answer count state low_point_2 lower_2 low_point_1 stateid(alabama),answer state loc_1 place(all) higher_2 answer stateid(alabama),0
+2,12,answer lake loc_2 stateid(california),answer lake loc_2 stateid(california),answer lake loc_2 stateid(california),1
+3,15,answer count river loc_2 stateid(california),answer count river loc_2 stateid(california),answer answer river loc_2 stateid(california),1
+4,59,"answer count intersection city cityid(austin, _) loc_2 countryid(usa)","answer count intersection city cityid(austin, _) loc_2 countryid(usa)","answer count city cityid(austin, _) loc_2 countryid(usa)",1
+5,61,answer population_1 stateid(alabama),answer population_1 stateid(alabama),answer population_1 stateid(alabama),1
+6,63,answer population_1 stateid(california),answer population_1 stateid(california),answer population_1 stateid(california),1
+7,74,answer population_1 stateid(nevada),answer population_1 stateid(nevada),answer population_1 stateid(nevada),1
+8,75,answer population_1 stateid(iowa),answer population_1 stateid(iowa),answer population_1 stateid(iowa),1
+9,76,answer population_1 stateid(new york),answer population_1 stateid(new york),answer population_1 stateid(new york),1
+10,80,answer population_1 stateid(california),answer population_1 stateid(california),answer population_1 stateid(california),1
+11,83,answer population_1 stateid(hawaii),answer population_1 stateid(hawaii),answer population_1 stateid(hawaii),1
+12,86,answer population_1 stateid(kansas),answer population_1 stateid(kansas),answer population_1 stateid(kansas),1
+13,88,answer population_1 stateid(mississippi),answer population_1 stateid(mississippi),answer population_1 stateid(mississippi),1
+14,89,answer population_1 stateid(montana),answer population_1 stateid(montana),answer population_1 stateid(montana),1
+15,90,answer population_1 stateid(new hampshire),answer population_1 stateid(new hampshire),answer population_1 stateid(new hampshire),1
+16,91,answer population_1 stateid(new mexico),answer population_1 stateid(new mexico),answer population_1 stateid(new mexico),1
+17,92,answer population_1 stateid(new york),answer population_1 stateid(new york),answer population_1 stateid(new york),1
+18,93,answer population_1 stateid(rhode island),answer population_1 stateid(rhode island),answer population_1 stateid(rhode island),1
+19,96,answer population_1 stateid(south dakota),answer population_1 stateid(south dakota),answer population_1 stateid(south dakota),1
+20,98,answer population_1 stateid(texas),answer population_1 stateid(texas),answer population_1 stateid(texas),1
+21,104,answer population_1 countryid(usa),answer population_1 countryid(usa),answer population_1 countryid(usa),1
+22,105,answer population_1 stateid(washington),answer population_1 stateid(washington),answer population_1 stateid(washington),1
+23,108,answer population_1 stateid(utah),answer population_1 stateid(utah),answer population_1 stateid(utah),1
+24,109,answer population_1 stateid(utah),answer population_1 stateid(utah),answer population_1 stateid(utah),1
+25,110,answer population_1 stateid(texas),answer population_1 stateid(texas),answer population_1 stateid(texas),1
+26,112,answer count river loc_2 stateid(colorado),answer count river loc_2 stateid(colorado),answer count river loc_2 stateid(colorado),1
+27,113,answer count river loc_2 stateid(colorado),answer count river loc_2 stateid(colorado),answer count river loc_2 stateid(colorado),1
+28,114,answer count river loc_2 stateid(iowa),answer count river loc_2 stateid(iowa),answer count river loc_2 stateid(iowa),1
+29,115,answer count river loc_2 stateid(missouri),answer count river loc_2 stateid(missouri),answer count river loc_2 stateid(missouri),1
+30,116,answer count river loc_2 stateid(new york),answer count river loc_2 stateid(new york),answer count river loc_2 stateid(new york),1
+31,120,answer count river loc_2 stateid(idaho),answer count river loc_2 stateid(idaho),answer count river loc_2 stateid(idaho),1
+32,121,answer count river loc_2 stateid(texas),answer count river loc_2 stateid(texas),answer count river loc_2 stateid(texas),1
+33,124,answer count river stateid(alaska) loc_2,answer count river loc_2 stateid(alaska),answer count river loc_2 stateid(alaska),0
+34,125,answer count river stateid(colorado) loc_2,answer count river loc_2 stateid(colorado),answer count stateid(colorado) loc_2,0
+35,127,answer count river loc_2 stateid(washington),answer count river loc_2 stateid(washington),answer count intersection river loc_2 stateid(washington),1
+36,137,answer count state next_to_2 stateid(alaska),answer count state next_to_2 stateid(alaska),answer count state next_to_2 stateid(alaska),1
+37,140,answer count state next_to_2 stateid(hawaii),answer count state next_to_2 stateid(hawaii),answer count state next_to_2 stateid(hawaii),1
+38,141,answer count state next_to_2 stateid(iowa),answer count state next_to_2 stateid(iowa),answer count state next_to_2 stateid(iowa),1
+39,143,answer count state next_to_2 stateid(tennessee),answer count state next_to_2 stateid(tennessee),answer count state next_to_2 stateid(tennessee),1
+40,144,answer count state next_to_2 stateid(texas),answer count state next_to_2 stateid(texas),answer count state next_to_2 stateid(texas),1
+41,150,answer count state stateid(iowa) next_to_1,answer count state next_to_1 stateid(iowa),answer count state next_to_2 stateid(iowa),0
+42,151,answer count state stateid(missouri) next_to_1,answer count state next_to_1 stateid(missouri),answer count state next_to_2 stateid(missouri),0
+43,152,answer count state stateid(tennessee) next_to_1,answer count state next_to_1 stateid(tennessee),answer count state next_to_2 stateid(tennessee),0
+44,153,answer count state riverid(colorado) traverse_1,answer count state traverse_1 riverid(colorado),answer count state traverse_1 riverid(colorado),0
+45,154,answer count state riverid(colorado) traverse_1,answer count state traverse_1 riverid(colorado),answer count state traverse_1 riverid(colorado),0
+46,155,answer count state riverid(mississippi) traverse_1,answer count state traverse_1 riverid(mississippi),answer count state traverse_1 riverid(mississippi),0
+47,156,answer count state riverid(mississippi) traverse_1,answer count state traverse_1 riverid(mississippi),answer count state traverse_1 riverid(mississippi),0
+48,157,answer count state riverid(missouri) river traverse_1,answer count state traverse_1 river riverid(missouri),answer count state traverse_1 riverid(missouri),0
+49,166,answer population_1 stateid(texas),answer population_1 stateid(texas),answer population_1 stateid(texas),1
+50,172,stateid(iowa) next_to_1 answer count state,answer count state next_to_1 stateid(iowa),answer count state next_to_2 stateid(iowa),0
+51,176,answer capital loc_2 countryid(usa),answer capital loc_2 countryid(usa),answer capital loc_2 countryid(usa),1
+52,178,answer major lake loc_2 stateid(michigan),answer major lake loc_2 stateid(michigan),answer major lake loc_2 stateid(michigan),1
+53,179,answer major river loc_2 stateid(florida),answer major river loc_2 stateid(florida),answer major river loc_2 stateid(florida),1
+54,184,answer count state next_to_2 stateid(iowa),answer count state next_to_2 stateid(iowa),answer state next_to_2 stateid(iowa),1
+55,189,"cityid(sacramento, _) capital loc_1 answer state","answer state loc_1 capital cityid(sacramento, _)","answer state loc_2 cityid(sacramento, _)",0
+56,196,traverse_1 answer state longest river loc_2 stateid(texas),answer state traverse_1 longest river loc_2 stateid(texas),answer state traverse_1 longest river loc_2 stateid(texas),0
+57,200,answer major river loc_2 stateid(texas),answer major river loc_2 stateid(texas),answer major river loc_2 stateid(texas),1
+58,201,answer longest river loc_2 stateid(texas),answer longest river loc_2 stateid(texas),answer largest river loc_2 stateid(texas),1
+59,203,answer capital city loc_2 stateid(texas),answer capital city loc_2 stateid(texas),answer capital city loc_2 stateid(texas),1
+60,231,answer major city loc_2 countryid(usa),answer major city loc_2 countryid(usa),answer major city loc_2 countryid(usa),1
+61,235,answer major city loc_2 countryid(usa),answer major city loc_2 countryid(usa),answer major city loc_2 countryid(usa),1
+62,236,answer major city loc_2 countryid(usa),answer major city loc_2 countryid(usa),answer major city loc_2 countryid(usa),1
+63,238,answer major river loc_2 stateid(ohio),answer major river loc_2 stateid(ohio),answer major river loc_2 stateid(ohio),1
+64,239,answer major river loc_2 countryid(usa),answer major river loc_2 countryid(usa),answer major river loc_2 countryid(usa),1
+65,243,answer population_1 stateid(mississippi),answer population_1 stateid(mississippi),answer population_1 stateid(mississippi),1
+66,263,answer population_1 stateid(missouri),answer population_1 stateid(missouri),answer population_1 stateid(missouri),1
+67,271,answer city(all) smallest_one population_1,answer smallest_one population_1 city(all),answer smallest_one population_1 city(all),0
+68,274,answer capital loc_2 stateid(iowa),answer capital loc_2 stateid(iowa),answer capital loc_2 stateid(iowa),1
+69,290,answer area_1 largest state(all),answer area_1 largest state(all),answer area_1 largest state(all),1
+70,294,answer area_1 state(all),answer area_1 state(all),answer area_1 state(all),1
+71,298,answer density_1 stateid(pennsylvania),answer density_1 stateid(pennsylvania),answer density_1 stateid(pennsylvania),1
+72,314,answer longest river loc_2 stateid(illinois),answer longest river loc_2 stateid(illinois),answer largest river loc_2 stateid(illinois),1
+73,319,answer capital loc_2 stateid(california),answer capital loc_2 stateid(california),answer capital loc_2 stateid(california),1
+74,320,answer capital loc_2 stateid(colorado),answer capital loc_2 stateid(colorado),answer capital loc_2 stateid(colorado),1
+75,321,answer capital loc_2 stateid(georgia),answer capital loc_2 stateid(georgia),answer capital loc_2 stateid(georgia),1
+76,322,answer capital loc_2 stateid(hawaii),answer capital loc_2 stateid(hawaii),answer capital loc_2 stateid(hawaii),1
+77,323,answer capital loc_2 stateid(illinois),answer capital loc_2 stateid(illinois),answer capital loc_2 stateid(illinois),1
+78,324,answer capital loc_2 stateid(indiana),answer capital loc_2 stateid(indiana),answer capital loc_2 stateid(indiana),1
+79,325,answer capital loc_2 stateid(iowa),answer capital loc_2 stateid(iowa),answer capital loc_2 stateid(iowa),1
+80,326,answer capital loc_2 stateid(maine),answer capital loc_2 stateid(maine),answer capital loc_2 stateid(maine),1
+81,327,answer capital loc_2 stateid(maryland),answer capital loc_2 stateid(maryland),answer capital loc_2 stateid(maryland),1
+82,328,answer capital loc_2 stateid(massachusetts),answer capital loc_2 stateid(massachusetts),answer capital loc_2 stateid(massachusetts),1
+83,329,answer capital loc_2 stateid(michigan),answer capital loc_2 stateid(michigan),answer capital loc_2 stateid(michigan),1
+84,330,answer capital loc_2 stateid(new hampshire),answer capital loc_2 stateid(new hampshire),answer capital loc_2 stateid(new hampshire),1
+85,331,answer capital loc_2 stateid(new jersey),answer capital loc_2 stateid(new jersey),answer capital loc_2 stateid(new jersey),1
+86,332,answer capital loc_2 stateid(new york),answer capital loc_2 stateid(new york),"answer capital loc_2 cityid(new york, _)",1
+87,333,answer capital loc_2 stateid(north dakota),answer capital loc_2 stateid(north dakota),answer capital loc_2 stateid(north dakota),1
+88,334,answer capital loc_2 stateid(ohio),answer capital loc_2 stateid(ohio),answer capital loc_2 stateid(ohio),1
+89,335,answer capital loc_2 stateid(pennsylvania),answer capital loc_2 stateid(pennsylvania),answer capital loc_2 stateid(pennsylvania),1
+90,337,answer capital loc_2 stateid(texas),answer capital loc_2 stateid(texas),answer capital loc_2 stateid(texas),1
+91,338,answer capital loc_2 stateid(alabama),answer capital loc_2 stateid(alabama),answer capital loc_2 stateid(alabama),1
+92,339,answer capital loc_2 stateid(florida),answer capital loc_2 stateid(florida),answer capital loc_2 stateid(florida),1
+93,342,answer capital loc_2 stateid(texas),answer capital loc_2 stateid(texas),answer capital loc_2 state stateid(texas),1
+94,347,answer capital loc_2 state(all) largest_one population_1,answer capital loc_2 largest_one population_1 state(all),answer capital loc_2 largest_one population_1 state(all),0
+95,348,answer capital loc_2 state(all) largest_one density_1,answer capital loc_2 largest_one density_1 state(all),answer capital loc_2 largest_one density_1 state(all),0
+96,350,answer capital loc_2 state(all) largest_one population_1,answer capital loc_2 largest_one population_1 state(all),answer capital loc_2 largest_one population_1 state(all),0
+97,351,answer capital loc_2 stateid(utah),answer capital loc_2 stateid(utah),answer capital loc_2 stateid(utah),1
+98,352,answer capital loc_2 stateid(vermont),answer capital loc_2 stateid(vermont),answer capital loc_2 stateid(vermont),1
+99,353,answer capital loc_2 stateid(washington),answer capital loc_2 stateid(washington),answer capital loc_2 stateid(washington),1
+100,355,answer city(all) smallest_one population_1,answer smallest_one population_1 city(all),answer smallest_one population_1 city(all),0
+101,357,answer sum population_1 state(all),answer sum population_1 state(all),answer sum population_1 state(all),1
+102,358,answer density_1 stateid(texas),answer density_1 stateid(texas),answer density_1 stateid(texas),1
+103,359,answer density_1 stateid(new york),answer density_1 stateid(new york),answer density_1 stateid(new york),1
+104,372,answer highest mountain loc_2 countryid(usa),answer highest mountain loc_2 countryid(usa),answer highest mountain loc_2 countryid(usa),1
+105,373,answer highest mountain loc_2 countryid(usa),answer highest mountain loc_2 countryid(usa),answer highest mountain loc_2 countryid(usa),1
+106,402,answer highest place loc_2 state(all) smallest_one density_1,answer highest place loc_2 smallest_one density_1 state(all),answer highest place loc_2 smallest_one density_1 state(all),0
+107,420,answer longest river loc_2 stateid(washington),answer longest river loc_2 stateid(washington),answer largest river loc_2 stateid(washington),1
+108,432,answer smallest_one population_1 state(all),answer smallest_one population_1 state(all),answer smallest_one population_1 state(all),1
+109,438,answer len river traverse_2 most state(all),answer len most river traverse_2 state(all),answer most len river traverse_2 state(all),0
+110,439,answer len river traverse_2 most state(all),answer len most river traverse_2 state(all),answer len river traverse_2 largest_one count state(all),0
+111,440,answer len river traverse_2 most state(all),answer len most river traverse_2 state(all),answer most len river traverse_2 state(all),0
+112,441,answer len river traverse_2 most state(all),answer len most river traverse_2 state(all),answer most len river traverse_2 state(all),0
+113,443,answer longest river traverse_2 stateid(new york),answer longest river traverse_2 stateid(new york),answer longest river traverse_2 stateid(new york),1
+114,445,answer longest river loc_2 stateid(california),answer longest river loc_2 stateid(california),answer longest river loc_2 stateid(california),1
+115,446,answer longest river loc_2 stateid(florida),answer longest river loc_2 stateid(florida),answer longest river loc_2 stateid(florida),1
+116,447,answer longest river loc_2 stateid(mississippi),answer longest river loc_2 stateid(mississippi),answer longest river loc_2 stateid(mississippi),1
+117,448,answer longest river loc_2 stateid(new york),answer longest river loc_2 stateid(new york),answer longest river loc_2 stateid(new york),1
+118,449,answer longest river loc_2 stateid(pennsylvania),answer longest river loc_2 stateid(pennsylvania),answer longest river loc_2 stateid(pennsylvania),1
+119,450,answer longest river loc_2 stateid(texas),answer longest river loc_2 stateid(texas),answer longest river loc_2 stateid(texas),1
+120,453,answer longest river loc_2 state loc_1 highest place(all),answer longest river loc_2 state loc_1 highest place(all),answer longest river loc_2 state loc_1 highest place(all),1
+121,460,answer longest river traverse_2 stateid(colorado),answer longest river traverse_2 stateid(colorado),answer longest river traverse_2 stateid(colorado),1
+122,474,answer lowest place loc_2 countryid(usa),answer lowest place loc_2 countryid(usa),answer lowest place loc_2 countryid(usa),1
+123,475,answer lowest place loc_2 countryid(usa),answer lowest place loc_2 countryid(usa),answer lowest place loc_2 countryid(usa),1
+124,479,answer lowest place loc_2 state(all) largest_one area_1,answer lowest place loc_2 largest_one area_1 state(all),answer lowest place loc_2 largest_one area_1 state(all),0
+125,480,answer lowest place loc_2 countryid(usa),answer lowest place loc_2 countryid(usa),answer lowest place loc_2 countryid(usa),1
+126,489,answer largest_one population_1 state(all),answer largest_one population_1 state(all),answer largest_one population_1 state(all),1
+127,492,answer state loc_1 lowest place(all),answer state loc_1 lowest place(all),answer state loc_1 lowest place(all),1
+128,493,answer count next_to_2 state stateid(kentucky),answer count state next_to_2 stateid(kentucky),answer answer state next_to_2 stateid(kentucky),0
+129,495,answer density_1 stateid(maine),answer density_1 stateid(maine),answer density_1 stateid(maine),1
+130,496,answer density_1 stateid(south dakota),answer density_1 stateid(south dakota),answer density_1 stateid(south dakota),1
+131,497,answer density_1 stateid(texas),answer density_1 stateid(texas),answer density_1 stateid(texas),1
+132,501,answer density_1 state(all) smallest_one population_1,answer density_1 smallest_one population_1 state(all),answer density_1 smallest_one population_1 state(all),0
+133,502,answer density_1 stateid(wyoming),answer density_1 stateid(wyoming),answer density_1 stateid(wyoming),1
+134,504,answer population_1 stateid(alaska),answer population_1 stateid(alaska),answer population_1 stateid(alaska),1
+135,505,answer population_1 stateid(arizona),answer population_1 stateid(arizona),answer population_1 stateid(arizona),1
+136,512,answer population_1 stateid(california),answer population_1 stateid(california),answer population_1 stateid(california),1
+137,516,answer population_1 stateid(hawaii),answer population_1 stateid(hawaii),answer population_1 stateid(hawaii),1
+138,518,answer population_1 stateid(idaho),answer population_1 stateid(idaho),answer population_1 stateid(idaho),1
+139,519,answer population_1 stateid(illinois),answer population_1 stateid(illinois),answer population_1 stateid(illinois),1
+140,520,answer population_1 stateid(maine),answer population_1 stateid(maine),answer population_1 stateid(maine),1
+141,521,answer population_1 stateid(maryland),answer population_1 stateid(maryland),answer population_1 stateid(maryland),1
+142,522,answer population_1 stateid(minnesota),answer population_1 stateid(minnesota),answer population_1 stateid(minnesota),1
+143,523,answer population_1 stateid(montana),answer population_1 stateid(montana),answer population_1 stateid(montana),1
+144,524,answer population_1 stateid(new mexico),answer population_1 stateid(new mexico),answer population_1 stateid(new mexico),1
+145,525,answer population_1 stateid(new york),answer population_1 stateid(new york),"answer population_1 cityid(new york, _)",1
+146,527,answer population_1 stateid(oregon),answer population_1 stateid(oregon),answer population_1 stateid(oregon),1
+147,529,answer population_1 stateid(rhode island),answer population_1 stateid(rhode island),answer population_1 stateid(rhode island),1
+148,534,answer population_1 stateid(south dakota),answer population_1 stateid(south dakota),answer population_1 stateid(south dakota),1
+149,538,answer population_1 stateid(texas),answer population_1 stateid(texas),answer population_1 stateid(texas),1
+150,541,answer population_1 capital loc_2 smallest state(all),answer population_1 capital loc_2 smallest state(all),answer population_1 capital loc_2 smallest state(all),1
+151,542,answer population_1 largest city loc_2 state(all) largest_one area_1,answer population_1 largest city loc_2 largest_one area_1 state(all),answer population_1 largest city loc_2 largest_one area_1 state(all),0
+152,544,answer population_1 largest state next_to_2 stateid(texas),answer population_1 largest state next_to_2 stateid(texas),answer population_1 largest state next_to_2 stateid(texas),1
+153,551,answer population_1 stateid(utah),answer population_1 stateid(utah),answer population_1 stateid(utah),1
+154,552,answer population_1 stateid(washington),answer population_1 stateid(washington),answer population_1 stateid(washington),1
+155,567,answer size largest state loc_2 countryid(usa),answer size largest state loc_2 countryid(usa),answer size largest state loc_2 countryid(usa),1
+156,572,answer smallest city loc_2 countryid(usa),answer smallest city loc_2 countryid(usa),answer smallest city loc_2 countryid(usa),1
+157,573,answer smallest city loc_2 countryid(usa),answer smallest city loc_2 countryid(usa),answer smallest city loc_2 countryid(usa),1
+158,576,answer smallest state next_to_2 stateid(ohio),answer smallest state next_to_2 stateid(ohio),answer smallest state next_to_2 stateid(ohio),1
+159,577,answer smallest state next_to_2 stateid(wyoming),answer smallest state next_to_2 stateid(wyoming),answer smallest state next_to_2 stateid(wyoming),1
+160,580,answer smallest state next_to_2 stateid(texas),answer smallest state next_to_2 stateid(texas),answer smallest state next_to_2 stateid(texas),1
+161,581,answer smallest state next_to_2 most state(all),answer smallest most state next_to_2 state(all),answer smallest state next_to_2 most state(all),0
+162,582,answer smallest state riverid(mississippi) traverse_1,answer smallest state traverse_1 riverid(mississippi),answer smallest state traverse_1 riverid(mississippi),0
+163,583,answer smallest state traverse_1 longest river(all),answer smallest state traverse_1 longest river(all),answer smallest state traverse_1 longest river(all),1
+164,589,answer state loc_1 lowest place(all),answer state loc_1 lowest place(all),answer state loc_1 lowest place(all),1
+165,590,answer state(all) smallest_one population_1,answer smallest_one population_1 state(all),answer smallest_one population_1 state(all),0
+166,593,answer highest mountain loc_2 countryid(usa),answer highest mountain loc_2 countryid(usa),answer highest mountain loc_2 countryid(usa),1
+167,594,answer highest mountain loc_2 countryid(usa),answer highest mountain loc_2 countryid(usa),answer highest mountain loc_2 countryid(usa),1
+168,600,answer major river traverse_2 stateid(illinois),answer major river traverse_2 stateid(illinois),answer major river traverse_2 stateid(illinois),1
+169,608,answer river traverse_2 state loc_1 most city(all),answer river traverse_2 most state loc_1 city(all),answer river traverse_2 most state loc_1 city(all),0
+170,615,answer river loc_2 state next_to_2 stateid(texas),answer river loc_2 state next_to_2 stateid(texas),answer river loc_2 state next_to_2 stateid(texas),1
+171,622,answer river traverse_2 state stateid(alabama) next_to_1,answer river traverse_2 state next_to_1 stateid(alabama),answer river traverse_2 state next_to_2 stateid(alabama),0
+172,625,answer river traverse_2 state(all) largest_one population_1,answer river traverse_2 largest_one population_1 state(all),answer river traverse_2 largest_one population_1 state(all),0
+173,633,"answer river traverse_2 state next_to_2 state loc_1 capital cityid(atlanta, _)","answer river traverse_2 state next_to_2 state loc_1 capital cityid(atlanta, _)","answer river traverse_2 state next_to_2 state loc_1 capital cityid(atlanta, _)",1
+174,648,"answer state loc_1 capital cityid(salem, _)","answer state loc_1 capital cityid(salem, _)","answer state loc_1 capital cityid(portland, _)",1
+175,654,answer state(all) largest_one population_1,answer largest_one population_1 state(all),answer largest_one population_1 state(all),0
+176,659,answer state(all) largest_one population_1,answer largest_one population_1 state(all),answer largest_one population_1 state(all),0
+177,661,answer state(all) largest_one population_1,answer largest_one population_1 state(all),answer largest_one population_1 state(all),0
+178,663,answer state loc_1 longest river(all),answer state loc_1 longest river(all),answer state loc_1 longest river(all),1
+179,668,answer state(all) largest_one population_1,answer largest_one population_1 state(all),answer largest_one population_1 state(all),0
+180,671,answer state loc_1 shortest river(all),answer state loc_1 shortest river(all),answer state loc_1 shortest river(all),1
+181,674,answer state(all) smallest_one population_1,answer smallest_one population_1 state(all),answer smallest_one population_1 state(all),0
+182,676,answer state(all) smallest_one population_1,answer smallest_one population_1 state(all),answer smallest_one population_1 state(all),0
+183,679,"answer state cityid(austin, _) capital loc_1","answer state loc_1 capital cityid(austin, _)","answer state loc_2 capital cityid(austin, _)",0
+184,681,"answer state cityid(columbus, _) capital loc_1","answer state loc_1 capital cityid(columbus, _)","answer state loc_2 capital cityid(dallas, _)",0
+185,687,answer state(all) largest_one population_1,answer largest_one population_1 state(all),answer largest_one loc_2 population_1 state(all),0
+186,710,answer state next_to_2 state next_to_2 stateid(colorado),answer state next_to_2 state next_to_2 stateid(colorado),answer state next_to_2 state next_to_2 stateid(colorado),1
+187,711,answer state next_to_2 state next_to_2 stateid(mississippi),answer state next_to_2 state next_to_2 stateid(mississippi),answer state next_to_2 state next_to_2 stateid(mississippi),1
+188,722,answer state next_to_2 state next_to_2 most state(all),answer state next_to_2 most state next_to_2 state(all),answer state next_to_2 most state next_to_2 state(all),0
+189,728,"answer state capital_2 cityid(dover, _)","answer state capital_2 cityid(dover, _)","answer state loc_1 capital cityid(portland, _)",1
+190,738,answer state shortest river(all) traverse_1,answer state traverse_1 shortest river(all),answer state traverse_1 shortest river(all),0
+191,764,answer loc_1 stateid(massachusetts),answer loc_1 stateid(massachusetts),answer loc_1 stateid(massachusetts),1
+192,767,answer loc_1 stateid(new hampshire),answer loc_1 stateid(new hampshire),answer loc_1 stateid(new hampshire),1
+193,775,answer highest mountain loc_2 countryid(usa),answer highest mountain loc_2 countryid(usa),answer highest mountain loc_2 countryid(usa),1
+194,779,answer lowest place loc_2 countryid(usa),answer lowest place loc_2 countryid(usa),answer lowest place loc_2 countryid(usa),1
+195,801,answer river traverse_2 state next_to_2 stateid(new mexico),answer river traverse_2 state next_to_2 stateid(new mexico),answer river traverse_2 state next_to_2 stateid(new mexico),1
+196,802,"answer river traverse_2 state next_to_2 state loc_1 capital cityid(austin, _)","answer river traverse_2 state next_to_2 state loc_1 capital cityid(austin, _)","answer river traverse_2 state next_to_2 state loc_1 capital cityid(austin, _)",1
+197,804,answer river traverse_2 state loc_1 largest city loc_2 countryid(usa),answer river traverse_2 state loc_1 largest city loc_2 countryid(usa),answer river traverse_2 state loc_1 largest city loc_2 countryid(usa),1
+198,813,answer state(all) largest_one population_1,answer largest_one population_1 state(all),answer largest_one population_1 state(all),0
+199,815,answer state(all) largest_one population_1,answer largest_one population_1 state(all),answer largest_one population_1 state(all),0
+200,824,answer state loc_1 lowest place(all),answer state loc_1 lowest place(all),answer state loc_1 lowest place(all),1
+201,830,answer state(all) largest_one population_1,answer largest_one population_1 state(all),answer largest_one population_1 state(all),0
+202,831,answer state(all) largest_one population_1,answer largest_one population_1 state(all),answer largest_one population_1 state(all),0
+203,832,answer state loc_1 most river(all),answer most state loc_1 river(all),answer most state loc_1 river(all),0
+204,835,answer state smallest_one area_1 next_to_2 stateid(texas),answer smallest_one area_1 state next_to_2 stateid(texas),answer state smallest_one area_1 next_to_2 stateid(texas),0
