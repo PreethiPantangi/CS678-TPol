@@ -1,0 +1,124 @@
+{'eval_loss': 0.8433324694633484, 'eval_runtime': 0.0513, 'eval_samples_per_second': 1168.509, 'eval_steps_per_second': 97.376, 'epoch': 1.0}
+{'eval_loss': 0.48759332299232483, 'eval_runtime': 0.0486, 'eval_samples_per_second': 1234.2, 'eval_steps_per_second': 102.85, 'epoch': 2.0}
+{'eval_loss': 0.38287848234176636, 'eval_runtime': 0.0481, 'eval_samples_per_second': 1246.16, 'eval_steps_per_second': 103.847, 'epoch': 3.0}
+{'eval_loss': 0.3426205813884735, 'eval_runtime': 0.0483, 'eval_samples_per_second': 1242.088, 'eval_steps_per_second': 103.507, 'epoch': 4.0}
+{'eval_loss': 0.29881295561790466, 'eval_runtime': 0.0488, 'eval_samples_per_second': 1230.398, 'eval_steps_per_second': 102.533, 'epoch': 5.0}
+{'eval_loss': 0.25195014476776123, 'eval_runtime': 0.0494, 'eval_samples_per_second': 1213.916, 'eval_steps_per_second': 101.16, 'epoch': 6.0}
+{'eval_loss': 0.22468283772468567, 'eval_runtime': 0.0481, 'eval_samples_per_second': 1248.026, 'eval_steps_per_second': 104.002, 'epoch': 7.0}
+{'eval_loss': 0.21752816438674927, 'eval_runtime': 0.0485, 'eval_samples_per_second': 1237.227, 'eval_steps_per_second': 103.102, 'epoch': 8.0}
+{'eval_loss': 0.20490846037864685, 'eval_runtime': 0.0505, 'eval_samples_per_second': 1188.828, 'eval_steps_per_second': 99.069, 'epoch': 9.0}
+{'eval_loss': 0.20159024000167847, 'eval_runtime': 0.0484, 'eval_samples_per_second': 1240.013, 'eval_steps_per_second': 103.334, 'epoch': 10.0}
+{'eval_loss': 0.17660798132419586, 'eval_runtime': 0.0482, 'eval_samples_per_second': 1245.081, 'eval_steps_per_second': 103.757, 'epoch': 11.0}
+{'loss': 0.3439, 'learning_rate': 5.555555555555556e-05, 'epoch': 11.11}
+{'eval_loss': 0.16561418771743774, 'eval_runtime': 0.0487, 'eval_samples_per_second': 1232.978, 'eval_steps_per_second': 102.748, 'epoch': 12.0}
+{'eval_loss': 0.17835266888141632, 'eval_runtime': 0.0483, 'eval_samples_per_second': 1243.223, 'eval_steps_per_second': 103.602, 'epoch': 13.0}
+{'eval_loss': 0.16810806095600128, 'eval_runtime': 0.0484, 'eval_samples_per_second': 1239.989, 'eval_steps_per_second': 103.332, 'epoch': 14.0}
+{'eval_loss': 0.17563557624816895, 'eval_runtime': 0.05, 'eval_samples_per_second': 1200.167, 'eval_steps_per_second': 100.014, 'epoch': 15.0}
+{'eval_loss': 0.17547152936458588, 'eval_runtime': 0.0483, 'eval_samples_per_second': 1240.998, 'eval_steps_per_second': 103.416, 'epoch': 16.0}
+{'eval_loss': 0.1854991912841797, 'eval_runtime': 0.0482, 'eval_samples_per_second': 1245.241, 'eval_steps_per_second': 103.77, 'epoch': 17.0}
+{'eval_loss': 0.18075202405452728, 'eval_runtime': 0.0484, 'eval_samples_per_second': 1239.189, 'eval_steps_per_second': 103.266, 'epoch': 18.0}
+{'eval_loss': 0.18548278510570526, 'eval_runtime': 0.0484, 'eval_samples_per_second': 1239.433, 'eval_steps_per_second': 103.286, 'epoch': 19.0}
+{'eval_loss': 0.19033072888851166, 'eval_runtime': 0.0479, 'eval_samples_per_second': 1251.769, 'eval_steps_per_second': 104.314, 'epoch': 20.0}
+{'eval_loss': 0.18399421870708466, 'eval_runtime': 0.0484, 'eval_samples_per_second': 1238.476, 'eval_steps_per_second': 103.206, 'epoch': 21.0}
+{'eval_loss': 0.1862088143825531, 'eval_runtime': 0.0484, 'eval_samples_per_second': 1239.214, 'eval_steps_per_second': 103.268, 'epoch': 22.0}
+{'loss': 0.0163, 'learning_rate': 1.1111111111111112e-05, 'epoch': 22.22}
+{'eval_loss': 0.18378786742687225, 'eval_runtime': 0.0484, 'eval_samples_per_second': 1239.989, 'eval_steps_per_second': 103.332, 'epoch': 23.0}
+{'eval_loss': 0.18355053663253784, 'eval_runtime': 0.0506, 'eval_samples_per_second': 1186.172, 'eval_steps_per_second': 98.848, 'epoch': 24.0}
+{'eval_loss': 0.18350966274738312, 'eval_runtime': 0.0492, 'eval_samples_per_second': 1218.477, 'eval_steps_per_second': 101.54, 'epoch': 25.0}
+{'train_runtime': 76.802, 'train_samples_per_second': 175.777, 'train_steps_per_second': 14.648, 'train_loss': 0.16084195793999567, 'epoch': 25.0}
+  4%|████▋                                                                                                                | 45/1125 [00:03<00:58, 18.33it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+  8%|█████████▎                                                                                                           | 89/1125 [00:06<00:55, 18.53it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 12%|█████████████▉                                                                                                      | 135/1125 [00:08<00:53, 18.54it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 16%|██████████████████▍                                                                                                 | 179/1125 [00:11<00:50, 18.63it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 20%|███████████████████████▏                                                                                            | 225/1125 [00:13<00:57, 15.52it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 24%|███████████████████████████▋                                                                                        | 269/1125 [00:16<00:46, 18.58it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 28%|████████████████████████████████▍                                                                                   | 315/1125 [00:18<00:43, 18.70it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 32%|█████████████████████████████████████                                                                               | 359/1125 [00:21<00:40, 19.01it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 36%|█████████████████████████████████████████▊                                                                          | 405/1125 [00:23<00:37, 19.21it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 40%|██████████████████████████████████████████████▎                                                                     | 449/1125 [00:25<00:35, 19.18it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 44%|███████████████████████████████████████████████████                                                                 | 495/1125 [00:28<00:33, 19.02it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 44%|███████████████████████████████████████████████████▌                                                                | 500/1125 [00:28<00:36, 17.03it/s]Saving model checkpoint to models/checkpoint-500
+Configuration saved in models/checkpoint-500/config.json
+Model weights saved in models/checkpoint-500/pytorch_model.bin
+ 48%|███████████████████████████████████████████████████████▌                                                            | 539/1125 [00:33<00:30, 19.17it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 52%|████████████████████████████████████████████████████████████▎                                                       | 585/1125 [00:35<00:28, 19.17it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 56%|████████████████████████████████████████████████████████████████▊                                                   | 629/1125 [00:38<00:25, 19.66it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 60%|█████████████████████████████████████████████████████████████████████▌                                              | 675/1125 [00:40<00:23, 19.31it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 64%|██████████████████████████████████████████████████████████████████████████▏                                         | 719/1125 [00:42<00:21, 19.29it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 68%|██████████████████████████████████████████████████████████████████████████████▉                                     | 765/1125 [00:45<00:18, 19.28it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 72%|███████████████████████████████████████████████████████████████████████████████████▍                                | 809/1125 [00:47<00:16, 19.49it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 76%|████████████████████████████████████████████████████████████████████████████████████████                            | 854/1125 [00:49<00:14, 19.36it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 80%|████████████████████████████████████████████████████████████████████████████████████████████▊                       | 900/1125 [00:52<00:11, 19.57it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 84%|█████████████████████████████████████████████████████████████████████████████████████████████████▎                  | 944/1125 [00:54<00:09, 19.36it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 88%|██████████████████████████████████████████████████████████████████████████████████████████████████████              | 990/1125 [00:57<00:06, 19.56it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 89%|██████████████████████████████████████████████████████████████████████████████████████████████████████▏            | 1000/1125 [00:57<00:10, 12.07it/s]Saving model checkpoint to models/checkpoint-1000
+Configuration saved in models/checkpoint-1000/config.json
+Model weights saved in models/checkpoint-1000/pytorch_model.bin
+ 92%|█████████████████████████████████████████████████████████████████████████████████████████████████████████▋         | 1034/1125 [01:01<00:04, 19.08it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+ 96%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████▎    | 1079/1125 [01:04<00:02, 19.61it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1125/1125 [01:06<00:00, 19.50it/s]***** Running Evaluation *****
+  Num examples = 60
+  Batch size = 12
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1125/1125 [01:06<00:00, 19.50it/s]
+Training completed. Do not forget to share your model on huggingface.co/models =)
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1125/1125 [01:06<00:00, 16.86it/s]
+Traceback (most recent call last):
+  File "roberta_translator.py", line 186, in <module>
+    run(args)
+  File "roberta_translator.py", line 143, in run
+    new_df.to_csv(args.out_file)
+  File "/home/spantang/.local/lib/python3.8/site-packages/pandas/core/generic.py", line 3170, in to_csv
+    formatter.save()
+  File "/home/spantang/.local/lib/python3.8/site-packages/pandas/io/formats/csvs.py", line 185, in save
+    f, handles = get_handle(
+  File "/home/spantang/.local/lib/python3.8/site-packages/pandas/io/common.py", line 493, in get_handle
+    f = open(path_or_buf, mode, encoding=encoding, errors=errors, newline="")
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/spantang/CS678-TPol/outputs/roberta/roberta-translator-EN-output-new.txt'

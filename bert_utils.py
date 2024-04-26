@@ -29,7 +29,7 @@ def create_label_vocabulary(data, idx):
 The function convert_MR_to_id maps the labels in the data into numerical IDs so that the model can process the data efficiently
 using numbers. 
 """
-def convert_MR_to_id(data, labeltoid, EPSILON_LABEL):
+def convert_MR_to_id(data, labeltoid, EPSILON_LABEL=0):
     mr = data.MR.tolist()
     mr = [[labeltoid[j] if j in labeltoid else EPSILON_LABEL for j in i] for i in mr]
     data.MR = mr
