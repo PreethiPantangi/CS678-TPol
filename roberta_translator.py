@@ -181,6 +181,7 @@ if __name__ == "__main__":
     parser.add_argument('--val-ids', type=str, help='val ids dataset path', required=True)
     parser.add_argument('--out-file', type=str, help='out file path', required=True)
     parser.add_argument('--results-file', type=str, help='file path with results')
+    parser.add_argument('--all-predictions-file', type=str, help='out file path of predictions for all sequences of the dataset')
     args = parser.parse_args()
 
     run(args)
