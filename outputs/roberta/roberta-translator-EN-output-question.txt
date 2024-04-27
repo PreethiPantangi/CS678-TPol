@@ -1,0 +1,281 @@
+,ID,NL,MR,PRED,MONOTONIC
+0,3,"['name', 'all', 'the', 'rivers', 'in', 'colorado']",answer river loc_2 stateid(colorado),answer river loc_2 stateid(colorado),1
+1,6,"['count', 'the', 'states', 'which', 'have', 'elevations', 'lower', 'than', 'what', 'alabama', 'has']",count state answer low_point_2 lower_2 low_point_1 stateid(alabama),answer state place stateid(alabama) next_to_1,0
+2,15,"['give', 'me', 'the', 'number', 'of', 'rivers', 'in', 'california']",answer count river loc_2 stateid(california),answer count river loc_2 stateid(california),1
+3,16,"['give', 'me', 'the', 'states', 'that', 'border', 'utah']",answer state next_to_2 stateid(utah),answer state next_to_2 stateid(utah),1
+4,25,"['how', 'high', 'is', 'mount', 'mckinley']",answer elevation_1 placeid(mount mckinley),answer elevation_1 placeid(mount mckinley),1
+5,26,"['how', 'high', 'is', 'the', 'highest', 'point', 'in', 'america']",answer elevation_1 highest place loc_2 countryid(usa),answer elevation_1 highest place loc_2 countryid(usa),1
+6,29,"['how', 'high', 'is', 'the', 'highest', 'point', 'of', 'alabama']",answer elevation_1 highest place loc_2 stateid(alabama),answer elevation_1 highest place loc_2 stateid(alabama),1
+7,33,"['how', 'large', 'is', 'alaska']",answer size stateid(alaska),answer size stateid(alaska),1
+8,34,"['how', 'large', 'is', 'texas']",answer size stateid(texas),answer size stateid(texas),1
+9,37,"['how', 'long', 'is', 'the', 'colorado', 'river']",answer len riverid(colorado),answer len riverid(colorado),1
+10,38,"['how', 'long', 'is', 'the', 'delaware', 'river']",answer len riverid(delaware),answer len riverid(missouri),1
+11,39,"['how', 'long', 'is', 'the', 'longest', 'river', 'in', 'california']",answer len longest river loc_2 stateid(california),answer len longest river loc_2 stateid(california),1
+12,40,"['how', 'long', 'is', 'the', 'longest', 'river', 'in', 'the', 'usa']",answer len longest river loc_2 countryid(usa),answer len longest river loc_2 countryid(usa),1
+13,45,"['how', 'long', 'is', 'the', 'north', 'platte', 'river']",answer len riverid(north platte),answer len riverid(mississippi),1
+14,46,"['how', 'long', 'is', 'the', 'ohio', 'river']",answer len riverid(ohio),answer len stateid(ohio),1
+15,50,"['how', 'many', 'capitals', 'does', 'rhode', 'island', 'have']",answer count capital stateid(rhode island) loc_2,answer count capital stateid(rhode island),0
+16,53,"['how', 'many', 'cities', 'are', 'there', 'in', 'the', 'united', 'states']",answer count city loc_2 countryid(usa),answer count city loc_2 countryid(usa),1
+17,60,"['how', 'many', 'citizens', 'does', 'the', 'biggest', 'city', 'have', 'in', 'the', 'usa']",answer population_1 largest city(all),answer population_1 largest city loc_2 countryid(usa),1
+18,64,"['how', 'many', 'colorado', 'rivers', 'are', 'there']",answer count riverid(colorado) river,answer count riverid(colorado),1
+19,82,"['how', 'many', 'people', 'live', 'in', 'detroit']","answer population_1 cityid(detroit, _)",answer population_1 stateid(missouri),1
+20,84,"['how', 'many', 'people', 'live', 'in', 'houston']","answer population_1 cityid(houston, _)","answer population_1 cityid(houston, _)",1
+21,87,"['how', 'many', 'people', 'live', 'in', 'minneapolis', 'minnesota']","answer population_1 cityid(minneapolis, mn",answer population_1 stateid(minnesota),1
+22,88,"['how', 'many', 'people', 'live', 'in', 'mississippi']",answer population_1 stateid(mississippi),answer population_1 stateid(mississippi),1
+23,93,"['how', 'many', 'people', 'live', 'in', 'rhode', 'island']",answer population_1 stateid(rhode island),answer population_1 stateid(rhode island),1
+24,99,"['how', 'many', 'people', 'live', 'in', 'the', 'biggest', 'city', 'in', 'new', 'york', 'state']",answer population_1 largest city loc_2 stateid(new york),answer population_1 largest city loc_2 stateid(new york),1
+25,101,"['how', 'many', 'people', 'live', 'in', 'the', 'capital', 'of', 'texas']",answer population_1 capital loc_2 stateid(texas),answer population_1 capital loc_2 stateid(texas),1
+26,104,"['how', 'many', 'people', 'live', 'in', 'the', 'usa']",answer population_1 countryid(usa),answer population_1 countryid(usa),1
+27,107,"['how', 'many', 'people', 'live', 'in', 'austin']",answer population_1 cityid(austin),"answer population_1 cityid(austin, _)",1
+28,108,"['how', 'many', 'people', 'reside', 'in', 'utah']",answer population_1 stateid(utah),answer population_1 stateid(utah),1
+29,110,"['how', 'many', 'residents', 'live', 'in', 'texas']",answer population_1 stateid(texas),answer population_1 stateid(texas),1
+30,114,"['how', 'many', 'rivers', 'are', 'in', 'iowa']",answer count river loc_2 stateid(iowa),answer count river loc_2 stateid(iowa),1
+31,117,"['how', 'many', 'rivers', 'are', 'in', 'the', 'state', 'that', 'has', 'most', 'rivers']",answer count river loc_2 state loc_1 most river(all),answer count river loc_2 state loc_1 most river(all),0
+32,125,"['how', 'many', 'rivers', 'does', 'colorado', 'have']",answer count river stateid(colorado) loc_2,answer count river riverid(colorado) riverid(colorado),0
+33,132,"['how', 'many', 'states', 'are', 'there', 'in', 'the', 'usa']",answer count state loc_2 countryid(usa),answer count state loc_2 countryid(usa),1
+34,134,"['how', 'many', 'states', 'are', 'there']",answer count state(all),answer count state,1
+35,135,"['how', 'many', 'states', 'are', 'there', 'in', 'the', 'usa']",answer count state loc_2 countryid(usa),answer count state loc_2 countryid(usa),1
+36,141,"['how', 'many', 'states', 'border', 'iowa']",answer count state next_to_2 stateid(iowa),answer count state next_to_2 stateid(iowa),1
+37,148,"['how', 'many', 'states', 'border', 'the', 'state', 'with', 'the', 'largest', 'population']",answer count state next_to_2 state(all) largest_one population_1,answer count state next_to_2 state(all) largest_one population_1,0
+38,149,"['how', 'many', 'states', 'do', 'not', 'have', 'rivers']",answer count state(all) exclude loc_1 river(all),answer count state(all) loc_1 exclude next_to_2 river(all),0
+39,152,"['how', 'many', 'states', 'does', 'tennessee', 'border']",answer count state stateid(tennessee) next_to_1,answer count state stateid(tennessee),0
+40,158,"['how', 'many', 'states', 'does', 'the', 'usa', 'have']",answer count state countryid(usa) loc_2,answer count state countryid(usa) loc_2,0
+41,161,"['how', 'many', 'states', 'have', 'a', 'higher', 'point', 'than', 'the', 'highest', 'point', 'of', 'the', 'state', 'with', 'the', 'largest', 'capital', 'city', 'in', 'the', 'us']",answer count state loc_1 higher_2 place highest loc_1 place loc_2 state largest capital city loc_2 countryid(usa),answer count state loc_1 highest place highest place loc_2 state loc_1 largest city city loc_2 countryid(usa),0
+42,166,"['how', 'much', 'population', 'does', 'texas', 'have']",answer population_1 stateid(texas),answer population_1 stateid(texas) loc_2,1
+43,167,"['how', 'tall', 'is', 'mount', 'mckinley']",answer elevation_1 placeid(mount mckinley),answer elevation_1 placeid(mount mckinley),1
+44,168,"['how', 'tall', 'is', 'the', 'highest', 'point', 'in', 'montana']",answer elevation_1 highest place loc_2 stateid(montana),answer elevation_1 highest place loc_2 stateid(montana),1
+45,172,"['iowa', 'borders', 'how', 'many', 'states']",stateid(iowa) next_to_1 answer count state,answer stateid(iowa) count state(all),0
+46,179,"['name', 'the', 'major', 'rivers', 'in', 'florida']",answer major river loc_2 stateid(florida),answer major river loc_2 stateid(florida),1
+47,183,"['number', 'of', 'people', 'in', 'boulder']","answer population_1 cityid(boulder, _)","answer population_1 cityid(boulder, _)",1
+48,184,"['number', 'of', 'states', 'bordering', 'iowa']",answer count state next_to_2 stateid(iowa),answer state next_to_2 stateid(iowa),1
+49,188,"['rivers', 'in', 'new', 'york']",answer river loc_2 stateid(new york),answer loc_2 stateid(new york),1
+50,190,"['san', 'antonio', 'is', 'in', 'what', 'state']","cityid(san antonio, _) loc_1 answer state",answer stateid(arizona) loc_1 loc_2 answer state,0
+51,195,"['tell', 'me', 'what', 'cities', 'are', 'in', 'texas']",answer city loc_2 stateid(texas),answer city loc_2 stateid(texas),1
+52,196,"['through', 'which', 'states', 'does', 'the', 'longest', 'river', 'in', 'texas', 'run']",traverse_1 answer state longest river loc_2 stateid(texas),answer state longest river loc_2 stateid(texas) stateid(texas),0
+53,199,"['what', 'are', 'all', 'the', 'rivers', 'in', 'texas']",answer river loc_2 stateid(texas),answer river loc_2 stateid(texas),1
+54,203,"['what', 'is', 'the', 'capital', 'city', 'in', 'texas']",answer capital city loc_2 stateid(texas),answer capital city loc_2 stateid(texas),1
+55,204,"['what', 'are', 'the', 'capitals', 'of', 'states', 'that', 'border', 'missouri']",answer capital loc_2 state next_to_2 stateid(missouri),answer capital loc_2 state next_to_2 stateid(missouri),1
+56,207,"['what', 'are', 'the', 'cities', 'in', 'states', 'through', 'which', 'the', 'mississippi', 'runs']",answer city loc_2 state traverse_1 riverid(mississippi),answer city loc_2 state traverse_1 riverid(mississippi),1
+57,208,"['what', 'are', 'the', 'cities', 'of', 'the', 'state', 'with', 'the', 'highest', 'point']",answer city loc_2 state loc_1 highest place(all),answer city loc_2 state loc_1 highest place(all),1
+58,209,"['what', 'are', 'the', 'highest', 'points', 'of', 'all', 'the', 'states']",answer highest place loc_2 state(all),answer highest place loc_2 state(all),1
+59,213,"['what', 'are', 'the', 'major', 'cities', 'in', 'alabama']",answer major city loc_2 stateid(alabama),answer major city loc_2 stateid(alabama),1
+60,214,"['what', 'are', 'the', 'major', 'cities', 'in', 'alaska']",answer major city loc_2 stateid(alaska),answer major city loc_2 stateid(alaska),1
+61,220,"['what', 'are', 'the', 'major', 'cities', 'in', 'new', 'york']",answer major city loc_2 stateid(new york),answer major city loc_2 stateid(new york),1
+62,225,"['what', 'are', 'the', 'major', 'cities', 'in', 'states', 'through', 'which', 'the', 'mississippi', 'runs']",answer major city loc_2 state traverse_1 riverid(mississippi),answer major city loc_2 state traverse_1 riverid(mississippi),1
+63,229,"['what', 'are', 'the', 'major', 'cities', 'in', 'the', 'state', 'of', 'california']",answer major city loc_2 stateid(california),answer major city loc_2 stateid(california),1
+64,231,"['what', 'are', 'the', 'major', 'cities', 'in', 'the', 'usa']",answer major city loc_2 countryid(usa),answer major city loc_2 countryid(usa),1
+65,232,"['what', 'are', 'the', 'major', 'cities', 'in', 'vermont']",answer major city loc_2 stateid(vermont),answer major city loc_2 stateid(vermont),1
+66,238,"['what', 'are', 'the', 'major', 'rivers', 'in', 'ohio']",answer major river loc_2 stateid(ohio),answer major river loc_2 stateid(ohio),1
+67,242,"['what', 'are', 'the', 'population', 'densities', 'of', 'each', 'us', 'state']",answer density_1 state(all),answer density_1,1
+68,243,"['what', 'is', 'the', 'population', 'of', 'mississippi']",answer population_1 stateid(mississippi),answer population_1 stateid(mississippi),1
+69,245,"['what', 'are', 'the', 'populations', 'of', 'states', 'through', 'which', 'the', 'mississippi', 'river', 'runs']",answer population_1 state traverse_1 riverid(mississippi),answer population_1 state traverse_1 riverid(mississippi),1
+70,247,"['what', 'are', 'the', 'populations', 'of', 'states', 'through', 'which', 'the', 'mississippi', 'runs']",answer population_1 state traverse_1 riverid(mississippi),answer population_1 state traverse_1 riverid(mississippi),1
+71,249,"['what', 'are', 'the', 'populations', 'of', 'states', 'which', 'border', 'texas']",answer population_1 state next_to_2 stateid(texas),answer population_1 state next_to_2 stateid(texas),1
+72,250,"['what', 'are', 'the', 'populations', 'of', 'the', 'major', 'cities', 'of', 'texas']",answer population_1 major city loc_2 stateid(texas),answer population_1 major city loc_2 stateid(texas),1
+73,255,"['what', 'are', 'the', 'rivers', 'in', 'alaska']",answer river loc_2 stateid(alaska),answer river loc_2 stateid(alaska),1
+74,272,"['what', 'city', 'has', 'the', 'most', 'people']",answer city(all) largest_one population_1,answer city(all) largest_one population_1,0
+75,273,"['what', 'city', 'in', 'the', 'united', 'states', 'has', 'the', 'highest', 'population', 'density']",answer city loc_2 countryid(usa) largest_one density_1,answer city loc_2 countryid(usa) largest_one density_1,0
+76,275,"['what', 'is', 'capital', 'of', 'the', 'state', 'with', 'the', 'lowest', 'point']",answer capital loc_2 state loc_1 lowest place(all),answer capital loc_2 state loc_1 lowest place(all),1
+77,281,"['what', 'is', 'the', 'area', 'of', 'florida']",answer area_1 stateid(florida),answer area_1 stateid(florida),1
+78,286,"['what', 'is', 'the', 'area', 'of', 'ohio']",answer area_1 stateid(ohio),answer area_1 stateid(ohio),1
+79,295,"['what', 'is', 'the', 'area', 'of', 'the', 'texas', 'state']",answer area_1 stateid(texas),answer area_1 stateid(texas),1
+80,296,"['what', 'is', 'the', 'area', 'of', 'wisconsin']",answer area_1 stateid(wisconsin),answer area_1 stateid(wisconsin),1
+81,300,"['what', 'is', 'the', 'biggest', 'american', 'city', 'in', 'a', 'state', 'with', 'a', 'river']",answer largest city loc_2 state loc_1 river(all),answer largest city city loc_2 state loc_1 river(all),1
+82,301,"['what', 'is', 'the', 'biggest', 'capital', 'city', 'in', 'the', 'us']",answer largest capital city loc_2 countryid(usa),answer largest city city loc_2 countryid(usa),1
+83,304,"['what', 'is', 'the', 'biggest', 'city', 'in', 'kansas']",answer largest city loc_2 stateid(kansas),answer largest city loc_2 stateid(kansas),1
+84,305,"['what', 'is', 'the', 'biggest', 'city', 'in', 'louisiana']",answer largest city loc_2 stateid(louisiana),answer largest city loc_2 stateid(louisiana),1
+85,319,"['what', 'is', 'the', 'capital', 'of', 'california']",answer capital loc_2 stateid(california),answer capital loc_2 stateid(california),1
+86,320,"['what', 'is', 'the', 'capital', 'of', 'colorado']",answer capital loc_2 stateid(colorado),answer capital loc_2 stateid(colorado),1
+87,323,"['what', 'is', 'the', 'capital', 'of', 'illinois']",answer capital loc_2 stateid(illinois),answer capital loc_2 stateid(illinois),1
+88,325,"['what', 'is', 'the', 'capital', 'of', 'iowa']",answer capital loc_2 stateid(iowa),answer capital loc_2 stateid(iowa),1
+89,328,"['what', 'is', 'the', 'capital', 'of', 'massachusetts']",answer capital loc_2 stateid(massachusetts),answer capital loc_2 stateid(massachusetts),1
+90,331,"['what', 'is', 'the', 'capital', 'of', 'new', 'jersey']",answer capital loc_2 stateid(new jersey),answer capital loc_2 stateid(new mexico),1
+91,332,"['what', 'is', 'the', 'capital', 'of', 'new', 'york']",answer capital loc_2 stateid(new york),answer capital loc_2 stateid(new york),1
+92,333,"['what', 'is', 'the', 'capital', 'of', 'north', 'dakota']",answer capital loc_2 stateid(north dakota),answer capital loc_2 stateid(south dakota),1
+93,334,"['what', 'is', 'the', 'capital', 'of', 'ohio']",answer capital loc_2 stateid(ohio),answer capital loc_2 stateid(ohio),1
+94,336,"['what', 'is', 'the', 'capital', 'of', 'states', 'that', 'have', 'cities', 'named', 'durham']","answer capital loc_2 state loc_1 city cityid(durham, _)","answer capital loc_2 state loc_1 city cityid(springfield, _)",1
+95,339,"['what', 'is', 'the', 'capital', 'of', 'the', 'florida', 'state']",answer capital loc_2 stateid(florida),answer capital loc_2 stateid(florida),1
+96,341,"['what', 'is', 'the', 'capital', 'of', 'the', 'smallest', 'state']",answer capital loc_2 smallest state(all),answer capital loc_2 smallest state(all),1
+97,347,"['what', 'is', 'the', 'capital', 'of', 'the', 'state', 'with', 'the', 'largest', 'population']",answer capital loc_2 state(all) largest_one population_1,answer capital loc_2 state(all) largest_one population_1,0
+98,348,"['what', 'is', 'the', 'capital', 'of', 'the', 'state', 'with', 'the', 'largest', 'population', 'density']",answer capital loc_2 state(all) largest_one density_1,answer capital loc_2 state(all) largest_one density_1,0
+99,349,"['what', 'is', 'the', 'capital', 'of', 'the', 'state', 'with', 'the', 'longest', 'river']",answer capital loc_2 state loc_1 longest river(all),answer capital loc_2 state loc_1 longest river(all),1
+100,350,"['what', 'is', 'the', 'capital', 'of', 'the', 'state', 'with', 'the', 'most', 'inhabitants']",answer capital loc_2 state(all) largest_one population_1,answer capital loc_2 state(all) largest_one population_1,0
+101,356,"['what', 'is', 'the', 'combined', 'area', 'of', 'all', 'fifty', 'states']",answer sum area_1 state(all),answer sum area_1 state(all),1
+102,359,"['what', 'is', 'the', 'density', 'of', 'the', 'new', 'york']",answer density_1 stateid(new york),answer density_1 stateid(new york),1
+103,365,"['what', 'is', 'the', 'high', 'point', 'of', 'wyoming']",answer high_point_1 stateid(wyoming),answer high_point_1 stateid(wyoming),1
+104,368,"['what', 'is', 'the', 'highest', 'elevation', 'in', 'texas']",answer highest place loc_2 stateid(texas),answer highest place loc_2 stateid(texas),1
+105,369,"['what', 'is', 'the', 'highest', 'elevation', 'in', 'the', 'united', 'states']",answer highest place loc_2 countryid(usa),answer highest place loc_2 countryid(usa),1
+106,372,"['what', 'is', 'the', 'highest', 'mountain', 'in', 'the', 'us']",answer highest mountain loc_2 countryid(usa),answer highest mountain loc_2 countryid(usa),1
+107,373,"['what', 'is', 'the', 'highest', 'mountain', 'in', 'us']",answer highest mountain loc_2 countryid(usa),answer highest mountain loc_2 countryid(usa),1
+108,375,"['what', 'is', 'the', 'highest', 'point', 'in', 'delaware']",answer highest place loc_2 stateid(delaware),answer highest place loc_2 stateid(delaware),1
+109,378,"['what', 'is', 'the', 'highest', 'point', 'in', 'iowa']",answer highest place loc_2 stateid(iowa),answer highest place loc_2 stateid(iowa),1
+110,380,"['what', 'is', 'the', 'highest', 'point', 'in', 'maine']",answer highest place loc_2 stateid(maine),answer highest place loc_2 stateid(maine),1
+111,381,"['what', 'is', 'the', 'highest', 'point', 'in', 'montana']",answer highest place loc_2 stateid(montana),answer highest place loc_2 stateid(montana),1
+112,382,"['what', 'is', 'the', 'highest', 'point', 'in', 'nevada', 'in', 'meters']",answer highest place loc_2 stateid(nevada),answer highest place loc_2 stateid(nevada),1
+113,386,"['what', 'is', 'the', 'highest', 'point', 'in', 'states', 'bordering', 'georgia']",answer highest place loc_2 state next_to_2 stateid(georgia),answer highest place loc_2 state next_to_2 stateid(georgia),1
+114,390,"['what', 'is', 'the', 'highest', 'point', 'in', 'the', 'state', 'with', 'capital', 'austin']","answer highest place loc_2 state loc_1 capital cityid(austin, _)","answer highest place loc_2 state loc_1 capital cityid(austin, _)",1
+115,395,"['what', 'is', 'the', 'highest', 'point', 'in', 'the', 'states', 'bordering', 'colorado']",answer highest place loc_2 state next_to_2 stateid(colorado),answer highest place loc_2 state next_to_2 stateid(colorado),1
+116,398,"['what', 'is', 'the', 'highest', 'point', 'in', 'the', 'usa']",answer highest place loc_2 countryid(usa),answer highest place loc_2 countryid(usa),1
+117,399,"['what', 'is', 'the', 'highest', 'point', 'in', 'virginia']",answer highest place loc_2 stateid(virginia),answer highest place loc_2 stateid(virginia),1
+118,402,"['what', 'is', 'the', 'highest', 'point', 'of', 'the', 'state', 'with', 'the', 'smallest', 'population', 'density']",answer highest place loc_2 state(all) smallest_one density_1,answer highest place loc_2 state(all) smallest_one density_1,0
+119,403,"['what', 'is', 'the', 'highest', 'point', 'of', 'the', 'usa']",answer highest place loc_2 countryid(usa),answer highest place loc_2 countryid(usa),1
+120,405,"['what', 'is', 'the', 'largest', 'capital', 'city', 'in', 'the', 'usa']",answer largest capital city loc_2 countryid(usa),answer largest city city loc_2 countryid(usa),1
+121,408,"['what', 'is', 'the', 'largest', 'city', 'in', 'california']",answer largest city loc_2 stateid(california),answer largest city loc_2 stateid(california),1
+122,412,"['what', 'is', 'the', 'largest', 'city', 'in', 'rhode', 'island']",answer largest city loc_2 stateid(rhode island),answer largest city loc_2 stateid(rhode island),1
+123,413,"['what', 'is', 'the', 'largest', 'city', 'in', 'smallest', 'state', 'through', 'which', 'the', 'mississippi', 'runs']",answer largest city loc_2 smallest state traverse_1 riverid(mississippi),answer largest city loc_2 smallest state traverse_1 riverid(mississippi),1
+124,416,"['what', 'is', 'the', 'largest', 'city', 'in', 'the', 'smallest', 'state', 'in', 'the', 'usa']",answer largest city loc_2 smallest state loc_2 countryid(usa),answer largest city loc_2 smallest state loc_2 countryid(usa),1
+125,420,"['what', 'is', 'the', 'largest', 'river', 'in', 'washington', 'state']",answer longest river loc_2 stateid(washington),answer longest river loc_2 stateid(washington),1
+126,422,"['what', 'is', 'the', 'largest', 'state', 'bordering', 'arkansas']",answer largest state next_to_2 stateid(arkansas),answer largest state next_to_2 stateid(arkansas),1
+127,428,"['what', 'is', 'the', 'largest', 'state', 'that', 'borders', 'texas']",answer largest state next_to_2 stateid(texas),answer largest state next_to_2 stateid(texas),1
+128,432,"['what', 'is', 'the', 'least', 'populous', 'state']",answer smallest_one population_1 state(all),answer smallest_one population_1 state(all),1
+129,433,"['what', 'is', 'the', 'length', 'of', 'the', 'colorado', 'river']",answer len riverid(colorado),answer len intersection,1
+130,436,"['what', 'is', 'the', 'length', 'of', 'the', 'longest', 'river', 'that', 'runs', 'through', 'texas']",answer len longest river traverse_2 stateid(texas),answer len longest river traverse_2 stateid(texas),1
+131,437,"['what', 'is', 'the', 'length', 'of', 'the', 'mississippi', 'river']",answer len riverid(mississippi),answer len riverid(mississippi),1
+132,438,"['what', 'is', 'the', 'length', 'of', 'the', 'river', 'that', 'flows', 'through', 'the', 'most', 'states']",answer len river traverse_2 most state(all),answer len river traverse_2 most state(all),0
+133,440,"['what', 'is', 'the', 'length', 'of', 'the', 'river', 'that', 'runs', 'through', 'the', 'most', 'states']",answer len river traverse_2 most state(all),answer len river traverse_2 most state(all),0
+134,446,"['what', 'is', 'the', 'longest', 'river', 'in', 'florida']",answer longest river loc_2 stateid(florida),answer longest river loc_2 stateid(florida),1
+135,451,"['what', 'is', 'the', 'longest', 'river', 'in', 'the', 'largest', 'state']",answer longest river loc_2 largest state(all),answer longest river loc_2 largest state(all),1
+136,454,"['what', 'is', 'the', 'longest', 'river', 'in', 'the', 'state', 'with', 'the', 'most', 'major', 'cities']",answer longest river loc_2 state loc_1 most major city(all),answer longest river loc_2 loc_1 major city(all),0
+137,455,"['what', 'is', 'the', 'longest', 'river', 'in', 'the', 'states', 'that', 'border', 'nebraska']",answer longest river loc_2 state next_to_2 stateid(nebraska),answer longest river loc_2 state next_to_2 stateid(nebraska),1
+138,459,"['what', 'is', 'the', 'longest', 'river', 'that', 'flows', 'through', 'a', 'state', 'that', 'borders', 'indiana']",answer longest river traverse_2 state next_to_2 stateid(indiana),answer longest river traverse_2 state next_to_2 stateid(indiana),1
+139,464,"['what', 'is', 'the', 'lowest', 'point', 'in', 'arkansas']",answer lowest place loc_2 stateid(arkansas),answer lowest place loc_2 stateid(arkansas),1
+140,467,"['what', 'is', 'the', 'lowest', 'point', 'in', 'massachusetts']",answer lowest place loc_2 stateid(massachusetts),answer lowest place loc_2 stateid(massachusetts),1
+141,468,"['what', 'is', 'the', 'lowest', 'point', 'in', 'mississippi']",answer lowest place loc_2 stateid(mississippi),answer lowest place loc_2 stateid(mississippi),1
+142,469,"['what', 'is', 'the', 'lowest', 'point', 'in', 'nebraska', 'in', 'meters']",answer lowest place loc_2 stateid(nebraska),answer lowest place loc_2 stateid(nebraska),1
+143,472,"['what', 'is', 'the', 'lowest', 'point', 'in', 'the', 'state', 'of', 'california']",answer lowest place loc_2 stateid(california),answer lowest place loc_2 stateid(california),1
+144,475,"['what', 'is', 'the', 'lowest', 'point', 'in', 'usa']",answer lowest place loc_2 countryid(usa),answer lowest place loc_2 countryid(usa),1
+145,477,"['what', 'is', 'the', 'lowest', 'point', 'of', 'all', 'states', 'through', 'which', 'the', 'colorado', 'river', 'runs', 'through']",answer lowest place loc_2 state traverse_1 riverid(colorado),answer lowest place loc_2 state traverse_1 riverid(colorado) traverse_1,1
+146,482,"['what', 'is', 'the', 'maximum', 'elevation', 'of', 'san', 'francisco']","answer highest place loc_2 cityid(san francisco, _)",answer highest place stateid(louisiana),1
+147,483,"['what', 'is', 'the', 'most', 'dense', 'state', 'in', 'the', 'usa']",answer largest_one density_1 state loc_2 countryid(usa),answer largest_one population_1 state loc_2 countryid(usa),1
+148,486,"['what', 'is', 'the', 'most', 'populous', 'city']",answer largest_one population_1 city(all),answer largest_one population_1 city(all),1
+149,489,"['what', 'is', 'the', 'most', 'populous', 'state']",answer largest_one population_1 state(all),answer largest_one population_1 state(all),1
+150,491,"['what', 'is', 'the', 'most', 'populous', 'state', 'through', 'which', 'the', 'mississippi', 'runs']",answer largest_one population_1 state traverse_1 riverid(mississippi),answer largest_one population_1 state traverse_1 riverid(mississippi),1
+151,495,"['what', 'is', 'the', 'population', 'density', 'of', 'maine']",answer density_1 stateid(maine),answer density_1 stateid(maine),1
+152,498,"['what', 'is', 'the', 'population', 'density', 'of', 'the', 'largest', 'state']",answer density_1 largest state(all),answer density_1 largest state(all),1
+153,504,"['what', 'is', 'the', 'population', 'of', 'alaska']",answer population_1 stateid(alaska),answer population_1 stateid(alaska),1
+154,511,"['what', 'is', 'the', 'population', 'of', 'boulder']","answer population_1 cityid(boulder, _)","answer population_1 cityid(boulder, _)",1
+155,515,"['what', 'is', 'the', 'population', 'of', 'erie', 'pennsylvania']","answer population_1 cityid(erie, pa",answer population_1 stateid(ohio),1
+156,516,"['what', 'is', 'the', 'population', 'of', 'hawaii']",answer population_1 stateid(hawaii),answer population_1 stateid(hawaii),1
+157,517,"['what', 'is', 'the', 'population', 'of', 'houston']","answer population_1 cityid(houston, _)","answer population_1 cityid(houston, _)",1
+158,521,"['what', 'is', 'the', 'population', 'of', 'maryland']",answer population_1 stateid(maryland),answer population_1 stateid(maryland),1
+159,524,"['what', 'is', 'the', 'population', 'of', 'new', 'mexico']",answer population_1 stateid(new mexico),answer population_1 stateid(new mexico),1
+160,526,"['what', 'is', 'the', 'population', 'of', 'new', 'york', 'city']","answer population_1 cityid(new york, _) city",answer population_1 stateid(new york),0
+161,531,"['what', 'is', 'the', 'population', 'of', 'san', 'antonio']","answer population_1 cityid(san antonio, _)",answer population_1 stateid(arizona),1
+162,537,"['what', 'is', 'the', 'population', 'of', 'tempe', 'arizona']","answer population_1 cityid(tempe, az",answer population_1 stateid(arizona),1
+163,542,"['what', 'is', 'the', 'population', 'of', 'the', 'largest', 'city', 'in', 'the', 'state', 'with', 'the', 'largest', 'area']",answer population_1 largest city loc_2 state(all) largest_one area_1,answer population_1 largest_one city loc_2 state(all) largest_one area_1,0
+164,546,"['what', 'is', 'the', 'population', 'of', 'the', 'smallest', 'state']",answer population_1 smallest state(all),answer population_1 smallest state(all),0
+165,547,"['what', 'is', 'the', 'population', 'of', 'the', 'state', 'that', 'borders', 'the', 'most', 'states']",answer population_1 state next_to_2 most state(all),answer population_1 state next_to_2 most state(all),0
+166,548,"['what', 'is', 'the', 'population', 'of', 'the', 'state', 'with', 'the', 'highest', 'population', 'density']",answer population_1 state(all) largest_one density_1,answer population_1 state(all) largest_one density_1,0
+167,550,"['what', 'is', 'the', 'population', 'of', 'tucson']","answer population_1 cityid(tucson, _)",answer population_1 stateid(tennessee),1
+168,551,"['what', 'is', 'the', 'population', 'of', 'utah']",answer population_1 stateid(utah),answer population_1 stateid(utah),1
+169,552,"['what', 'is', 'the', 'population', 'of', 'washington']",answer population_1 stateid(washington),answer population_1 stateid(washington),1
+170,572,"['what', 'is', 'the', 'smallest', 'city', 'in', 'the', 'us']",answer smallest city loc_2 countryid(usa),answer smallest city loc_2 countryid(usa),1
+171,573,"['what', 'is', 'the', 'smallest', 'city', 'in', 'the', 'usa']",answer smallest city loc_2 countryid(usa),answer smallest city loc_2 countryid(usa),1
+172,577,"['what', 'is', 'the', 'smallest', 'state', 'bordering', 'wyoming']",answer smallest state next_to_2 stateid(wyoming),answer smallest state next_to_2 stateid(wyoming),1
+173,581,"['what', 'is', 'the', 'smallest', 'state', 'that', 'borders', 'the', 'most', 'states']",answer smallest state next_to_2 most state(all),answer smallest state next_to_2 most state(all),0
+174,582,"['what', 'is', 'the', 'smallest', 'state', 'that', 'the', 'mississippi', 'river', 'runs', 'through']",answer smallest state riverid(mississippi) traverse_1,answer smallest state riverid(mississippi) traverse_1,0
+175,586,"['what', 'is', 'the', 'state', 'with', 'the', 'largest', 'area']",answer state(all) largest_one area_1,answer state(all) largest_one area_1,0
+176,592,"['what', 'is', 'the', 'state', 'with', 'the', 'smallest', 'area']",answer state(all) smallest_one area_1,answer state(all) smallest_one area_1,0
+177,596,"['what', 'is', 'the', 'total', 'length', 'of', 'all', 'rivers', 'in', 'the', 'usa']",answer sum len river(all),answer sum len river loc_2 countryid(usa),1
+178,598,"['what', 'length', 'is', 'the', 'mississippi']",answer len riverid(mississippi),answer len riverid(mississippi),1
+179,599,"['what', 'major', 'cities', 'are', 'located', 'in', 'pennsylvania']",answer major city loc_2 stateid(pennsylvania),answer major city loc_2 stateid(pennsylvania),1
+180,604,"['what', 'river', 'flows', 'through', 'the', 'most', 'states']",answer river traverse_2 most state(all),answer river traverse_2 most state(all),0
+181,608,"['what', 'river', 'runs', 'through', 'the', 'state', 'with', 'the', 'most', 'cities']",answer river traverse_2 state loc_1 most city(all),answer river traverse_2 state loc_1 most city(all),0
+182,611,"['what', 'river', 'traverses', 'the', 'state', 'which', 'borders', 'the', 'most', 'states']",answer river traverse_2 state next_to_2 most state(all),answer river traverse_2 state next_to_2 most state(all),0
+183,615,"['what', 'rivers', 'are', 'in', 'states', 'that', 'border', 'texas']",answer river loc_2 state next_to_2 stateid(texas),answer river loc_2 state next_to_2 stateid(texas),1
+184,616,"['what', 'rivers', 'are', 'in', 'texas']",answer river loc_2 stateid(texas),answer river loc_2 stateid(texas),1
+185,618,"['what', 'rivers', 'are', 'there', 'in', 'texas']",answer river loc_2 stateid(texas),answer river loc_2 stateid(texas),1
+186,631,"['what', 'rivers', 'run', 'through', 'new', 'york']",answer river traverse_2 stateid(new york),answer river traverse_2 stateid(new york),1
+187,635,"['what', 'rivers', 'traverses', 'the', 'state', 'which', 'borders', 'the', 'most', 'states']",answer river traverse_2 state next_to_2 most state(all),answer river traverse_2 state next_to_2 most state(all),0
+188,636,"['what', 'state', 'bordering', 'nevada', 'has', 'the', 'largest', 'population']",answer state next_to_2 stateid(nevada) largest_one population_1,answer state next_to_2 stateid(nevada) largest_one population_1,0
+189,639,"['what', 'state', 'borders', 'new', 'york']",answer state next_to_2 stateid(new york),answer state next_to_2 stateid(new york),1
+190,642,"['what', 'state', 'borders', 'the', 'most', 'states']",answer state next_to_2 most state(all),answer state next_to_2 most state(all),0
+191,645,"['what', 'state', 'contains', 'the', 'highest', 'point', 'of', 'those', 'the', 'colorado', 'river', 'traverses']",answer state loc_1 highest place loc_2 state riverid(colorado) traverse_1,answer state loc_1 highest place loc_2 riverid(colorado) traverse_1,0
+192,656,"['what', 'state', 'has', 'the', 'largest', 'area']",answer state(all) largest_one area_1,answer state(all) largest_one area_1,0
+193,657,"['what', 'state', 'has', 'the', 'largest', 'capital']",answer state loc_1 largest capital(all),answer state loc_1 largest capital(all),1
+194,663,"['what', 'state', 'has', 'the', 'longest', 'river']",answer state loc_1 longest river(all),answer state loc_1 longest river(all),1
+195,664,"['what', 'state', 'has', 'the', 'lowest', 'population', 'density']",answer state(all) smallest_one density_1,answer state(all) smallest_one density_1,0
+196,666,"['what', 'state', 'has', 'the', 'most', 'major', 'cities']",answer state loc_1 most major city(all),answer state loc_1 most major city(all),0
+197,669,"['what', 'state', 'has', 'the', 'most', 'rivers']",answer state loc_1 most river(all),answer state loc_1 most river(all),0
+198,676,"['what', 'state', 'has', 'the', 'smallest', 'urban', 'population']",answer state(all) smallest_one population_1,answer state(all) smallest_one population_1 population_1,0
+199,678,"['what', 'state', 'is', 'austin', 'in']","answer state cityid(austin, _) loc_1","answer state cityid(austin, _) cityid(austin, _)",0
+200,684,"['what', 'state', 'is', 'miami', 'in']","answer state cityid(miami, _) loc_1",answer state stateid(michigan) loc_1,0
+201,687,"['what', 'state', 'is', 'the', 'largest', 'in', 'population']",answer state(all) largest_one population_1,answer state(all) largest_one population_1,0
+202,692,"['what', 'states', 'are', 'next', 'to', 'arizona']",answer state next_to_2 stateid(arizona),answer state next_to_2 stateid(arizona),1
+203,698,"['what', 'states', 'border', 'florida']",answer state next_to_2 stateid(florida),answer state next_to_2 stateid(florida),1
+204,701,"['what', 'states', 'border', 'indiana']",answer state next_to_2 stateid(indiana),answer state next_to_2 stateid(indiana),1
+205,703,"['what', 'states', 'border', 'michigan']",answer state next_to_2 stateid(michigan),answer state next_to_2 stateid(michigan),1
+206,705,"['what', 'states', 'border', 'montana']",answer state next_to_2 stateid(montana),answer state next_to_2 stateid(montana),1
+207,707,"['what', 'states', 'border', 'new', 'jersey']",answer state next_to_2 stateid(new jersey),answer state next_to_2 stateid(new mexico),1
+208,711,"['what', 'states', 'border', 'states', 'that', 'border', 'mississippi']",answer state next_to_2 state next_to_2 stateid(mississippi),answer state next_to_2 state next_to_2 stateid(mississippi),1
+209,716,"['what', 'states', 'border', 'states', 'that', 'the', 'ohio', 'runs', 'through']",answer state next_to_2 state riverid(ohio) traverse_1,answer state next_to_2 state riverid(ohio),0
+210,719,"['what', 'states', 'border', 'texas', 'and', 'have', 'a', 'major', 'river']",answer state next_to_2 stateid(texas) intersection loc_1 major river(all),answer state next_to_2 stateid(texas) loc_1 major river(all),0
+211,721,"['what', 'states', 'border', 'the', 'most', 'populous', 'state']",answer state next_to_2 largest_one population_1 state(all),answer state next_to_2 largest_one population_1 state(all),1
+212,722,"['what', 'states', 'border', 'the', 'state', 'that', 'borders', 'the', 'most', 'states']",answer state next_to_2 state next_to_2 most state(all),answer state next_to_2 state next_to_2 most state(all),0
+213,723,"['what', 'states', 'border', 'the', 'state', 'with', 'the', 'most', 'cities']",answer state next_to_2 state loc_1 most city(all),answer state next_to_2 state loc_1 most city(all),0
+214,724,"['what', 'states', 'border', 'the', 'state', 'with', 'the', 'most', 'major', 'cities']",answer state next_to_2 state loc_1 most major city(all),answer state next_to_2 state loc_1 most major city(all),0
+215,725,"['what', 'states', 'border', 'the', 'state', 'with', 'the', 'smallest', 'area']",answer state next_to_2 state(all) smallest_one area_1,answer state next_to_2 state(all) smallest_one area_1,0
+216,729,"['what', 'states', 'contain', 'at', 'least', 'one', 'major', 'rivers']",answer state loc_1 major river(all),answer state loc_1 major river(all),1
+217,731,"['what', 'states', 'does', 'the', 'delaware', 'river', 'run', 'through']",answer state riverid(delaware) traverse_1,answer state riverid(missouri) traverse_1,0
+218,732,"['what', 'states', 'does', 'the', 'mississippi', 'river', 'run', 'through']",answer state riverid(mississippi) traverse_1,answer state riverid(mississippi) traverse_1,0
+219,735,"['what', 'states', 'does', 'the', 'missouri', 'run', 'through']",answer state riverid(missouri) traverse_1,answer state riverid(missouri) traverse_1,0
+220,737,"['what', 'states', 'does', 'the', 'ohio', 'river', 'run', 'through']",answer state riverid(ohio) traverse_1,answer state riverid(ohio) traverse_1,0
+221,742,"['what', 'states', 'have', 'cities', 'named', 'dallas']","answer state loc_1 city cityid(dallas, _)","answer state loc_1 city cityid(austin, _)",1
+222,743,"['what', 'states', 'have', 'cities', 'named', 'plano']","answer state loc_1 city cityid(plano, _)","answer state loc_1 city cityid(austin, _)",1
+223,744,"['what', 'states', 'have', 'cities', 'named', 'portland']","answer state loc_1 city cityid(portland, _)","answer state loc_1 city cityid(springfield, _)",1
+224,745,"['what', 'states', 'have', 'cities', 'named', 'rochester']","answer state loc_1 city cityid(rochester, _)","answer state loc_1 city cityid(rochester, _)",1
+225,746,"['what', 'states', 'have', 'cities', 'named', 'salt', 'lake', 'city']","answer state loc_1 city cityid(salt lake city, _)","answer state loc_1 city cityid(springfield, _)",1
+226,754,"['what', 'states', 'surround', 'kentucky']",answer state next_to_2 stateid(kentucky),answer state next_to_2 stateid(kentucky),1
+227,757,"['where', 'are', 'mountains']",answer loc_1 mountain(all),answer loc_1 river(all),1
+228,760,"['where', 'is', 'dallas']","answer loc_1 cityid(dallas, _)","answer loc_1 cityid(dallas, _)",1
+229,769,"['where', 'is', 'portland']","answer loc_1 cityid(portland, _)",answer loc_1 stateid(massachusetts),1
+230,774,"['where', 'is', 'the', 'chattahoochee', 'river']",answer loc_1 riverid(chattahoochee),answer riverid(mississippi),1
+231,775,"['where', 'is', 'the', 'highest', 'mountain', 'of', 'the', 'united', 'states']",answer highest mountain loc_2 countryid(usa),answer highest mountain loc_2 countryid(usa),1
+232,776,"['where', 'is', 'the', 'highest', 'point', 'in', 'hawaii']",answer highest place loc_2 stateid(hawaii),answer highest place loc_2 stateid(hawaii),1
+233,778,"['where', 'is', 'the', 'lowest', 'point', 'in', 'maryland']",answer lowest place loc_2 stateid(maryland),answer lowest place loc_2 stateid(maryland),1
+234,781,"['where', 'is', 'the', 'most', 'populated', 'area', 'of', 'new', 'mexico']",answer largest_one population_1 city loc_2 stateid(new mexico),answer largest_one population_1 area_1 stateid(new mexico),1
+235,782,"['where', 'is', 'the', 'smallest', 'city']",answer loc_1 smallest city(all),answer smallest city(all),1
+236,785,"['which', 'city', 'in', 'california', 'has', 'the', 'largest', 'population']",answer city loc_2 stateid(california) largest_one population_1,answer city loc_2 stateid(california) largest_one population_1,0
+237,786,"['which', 'is', 'the', 'density', 'of', 'the', 'state', 'that', 'the', 'largest', 'river', 'in', 'the', 'united', 'states', 'runs', 'through']",answer density_1 state longest river loc_2 countryid(usa) traverse_1,answer density_1 state longest river loc_2 countryid(usa),0
+238,787,"['which', 'is', 'the', 'highest', 'peak', 'not', 'in', 'alaska']",answer highest mountain(all) exclude loc_2 stateid(alaska),answer highest place loc_2 loc_2 stateid(alaska),0
+239,788,"['which', 'is', 'the', 'longest', 'river', 'in', 'usa']",answer longest river loc_2 countryid(usa),answer longest river loc_2 countryid(usa),1
+240,791,"['which', 'is', 'the', 'smallest', 'state']",answer smallest state(all),answer smallest state(all),1
+241,792,"['which', 'of', 'the', 'states', 'bordering', 'pennsylvania', 'has', 'the', 'largest', 'population']",answer state next_to_2 stateid(pennsylvania) largest_one population_1,answer state next_to_2 stateid(pennsylvania) largest_one population_1,0
+242,793,"['which', 'river', 'goes', 'through', 'the', 'most', 'states']",answer river traverse_2 most state(all),answer river traverse_2 most state(all),0
+243,794,"['which', 'river', 'runs', 'through', 'most', 'states']",answer river traverse_2 most state(all),answer river traverse_2 most state(all),0
+244,796,"['which', 'river', 'traverses', 'most', 'states']",answer river traverse_2 most state(all),answer river traverse_2 most state(all),0
+245,798,"['which', 'rivers', 'do', 'not', 'run', 'through', 'texas']",answer river(all) exclude traverse_2 stateid(texas),answer river(all) exclude traverse_2 stateid(texas),0
+246,799,"['which', 'rivers', 'do', 'not', 'run', 'through', 'usa']",answer river(all) exclude traverse_2 countryid(usa),answer river(all) exclude traverse_2 countryid(usa),0
+247,802,"['which', 'rivers', 'run', 'through', 'states', 'that', 'border', 'the', 'state', 'with', 'the', 'capital', 'austin']","answer river traverse_2 state next_to_2 state loc_1 capital cityid(austin, _)","answer river traverse_2 state next_to_2 state loc_1 capital cityid(austin, _)",1
+248,803,"['which', 'rivers', 'run', 'through', 'states', 'with', 'fewest', 'cities']",answer river traverse_2 state loc_1 fewest city(all),answer river traverse_2 state loc_1 exclude city(all) city(all),0
+249,808,"['which', 'state', 'borders', 'hawaii']",answer state next_to_2 stateid(hawaii),answer state next_to_2 stateid(hawaii),1
+250,810,"['which', 'state', 'borders', 'the', 'most', 'states']",answer state next_to_2 most state(all),answer state next_to_2 most state(all),0
+251,811,"['which', 'state', 'capital', 'has', 'the', 'smallest', 'population']",answer capital(all) smallest_one population_1,answer state(all) capital(all) smallest_one population_1,0
+252,813,"['which', 'state', 'has', 'the', 'biggest', 'population']",answer state(all) largest_one population_1,answer state(all) largest_one population_1,0
+253,815,"['which', 'state', 'has', 'the', 'greatest', 'population']",answer state(all) largest_one population_1,answer state(all) largest_one population_1,0
+254,816,"['which', 'state', 'has', 'the', 'highest', 'elevation']",answer state loc_1 highest place(all),answer state loc_1 highest place(all),1
+255,818,"['which', 'state', 'has', 'the', 'highest', 'point']",answer state loc_1 highest place(all),answer state loc_1 highest place(all),1
+256,819,"['which', 'state', 'has', 'the', 'highest', 'population', 'density']",answer state(all) largest_one density_1,answer state(all) largest_one density_1,0
+257,824,"['which', 'state', 'has', 'the', 'lowest', 'elevation']",answer state loc_1 lowest place(all),answer state loc_1 lowest place(all),1
+258,825,"['which', 'state', 'has', 'the', 'lowest', 'point', 'that', 'borders', 'idaho']",answer state loc_1 lowest place loc_2 next_to_2 stateid(idaho),answer state loc_1 lowest place loc_2 next_to_2 stateid(idaho),1
+259,826,"['which', 'state', 'has', 'the', 'lowest', 'population', 'density']",answer state(all) smallest_one density_1,answer state(all) smallest_one density_1,0
+260,827,"['which', 'state', 'has', 'the', 'most', 'major', 'cities']",answer state loc_1 most major city(all),answer state loc_1 most major city(all),0
+261,828,"['which', 'state', 'has', 'the', 'most', 'major', 'rivers']",answer state loc_1 most major river(all),answer state loc_1 most major river(all),0
+262,829,"['which', 'state', 'has', 'the', 'most', 'major', 'rivers', 'running', 'through', 'it']",answer state most major river(all) traverse_1,answer state most most river(all) traverse_1,0
+263,831,"['which', 'state', 'has', 'the', 'most', 'population']",answer state(all) largest_one population_1,answer state(all) largest_one population_1,0
+264,832,"['which', 'state', 'has', 'the', 'most', 'rivers']",answer state loc_1 most river(all),answer state loc_1 most river(all),0
+265,836,"['which', 'state', 'has', 'the', 'smallest', 'average', 'urban', 'population']",answer state(all) smallest_one density_1,answer state(all) smallest_one density_1 density_1,0
+266,837,"['which', 'state', 'has', 'the', 'smallest', 'population', 'density']",answer state(all) smallest_one density_1,answer state(all) smallest_one density_1,0
+267,840,"['which', 'state', 'is', 'mount', 'mckinley', 'in']",answer state placeid(mount mckinley) loc_1,answer state placeid(mount mckinley),0
+268,843,"['which', 'state', 'is', 'the', 'smallest']",answer state(all) smallest,answer state(all) smallest,0
+269,850,"['which', 'states', 'border', 'illinois']",answer state next_to_2 stateid(illinois),answer state next_to_2 stateid(illinois),1
+270,852,"['which', 'states', 'border', 'kentucky']",answer state next_to_2 stateid(kentucky),answer state next_to_2 stateid(kentucky),1
+271,860,"['which', 'states', 'border', 'the', 'missouri', 'river']",answer state next_to_2 riverid(missouri),answer state next_to_2 riverid(missouri),1
+272,861,"['which', 'states', 'border', 'the', 'state', 'with', 'the', 'smallest', 'area']",answer state next_to_2 state(all) smallest_one area_1,answer state next_to_2 state(all) smallest_one area_1,0
+273,862,"['which', 'state', 's', 'capital', 'city', 'is', 'the', 'largest']",answer state loc_1 capital_1 city largest state(all),answer state capital city(all) largest,0
+274,865,"['which', 'states', 'does', 'the', 'chattahoochee', 'river', 'run', 'through']",answer state riverid(chattahoochee) traverse_1,answer state riverid(mississippi) traverse_1,0
+275,868,"['which', 'states', 'does', 'the', 'longest', 'river', 'run', 'through']",answer state longest river(all) traverse_1,answer state longest river(all) traverse_1,0
+276,870,"['which', 'states', 'does', 'the', 'mississippi', 'run', 'through']",answer state riverid(mississippi) traverse_1,answer state riverid(mississippi) traverse_1,0
+277,874,"['which', 'states', 'have', 'a', 'river']",answer state loc_1 river(all),answer state loc_1 river(all),1
+278,875,"['which', 'states', 'have', 'cities', 'named', 'austin']","answer state loc_1 city cityid(austin, _)","answer state loc_1 city cityid(austin, _)",1
+279,879,"['which', 'us', 'city', 'has', 'the', 'highest', 'population', 'density']",answer city(all) largest_one density_1,answer city(all) largest_one density_1,0

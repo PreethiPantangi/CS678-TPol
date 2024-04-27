@@ -98,11 +98,11 @@ def run(args):
     
     args_t = TrainingArguments(
         output_dir='models/',
-        num_train_epochs=25,
-        per_device_train_batch_size=12,
-        per_device_eval_batch_size=12,
+        num_train_epochs=50,
+        per_device_train_batch_size=16,
+        per_device_eval_batch_size=16,
         evaluation_strategy='epoch',
-        learning_rate=1e-4,
+        learning_rate=2e-5,
         weight_decay=0.01,
         save_total_limit=3,
         push_to_hub=False,

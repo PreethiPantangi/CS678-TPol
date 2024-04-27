@@ -204,7 +204,7 @@ def run(args):
 
     args_t = TrainingArguments(
         output_dir='models/',
-        num_train_epochs=25,
+        num_train_epochs=100,
         per_device_train_batch_size=12,
         per_device_eval_batch_size=12,
         evaluation_strategy='epoch',
