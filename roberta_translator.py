@@ -90,7 +90,13 @@ def run(args):
 
     labeltoid, idtolabel = preprocess_data(data, test_idx, val_idx, train_idx)
 
-    MODEL_NAME = "roberta-base"
+    if args.language == 'it':
+        MODEL_NAME = "osiria/roberta-base-italian"
+    elif args.language == 'de':
+        MODEL_NAME = "roberta-base-wechsel-german"
+    elif args.language == 'en':
+        MODEL_NAME = "roberta-base"
+
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, add_prefix_space=True)
     model = AutoModelForTokenClassification.from_pretrained(MODEL_NAME, num_labels=len(labeltoid))
 
@@ -176,6 +182,7 @@ def run(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
+    parser.add_argument('--language', type=str, help='input language (en, it, de)', required=True)
     parser.add_argument('--dataset', type=str, help='dataset path', required=True)
     parser.add_argument('--test-ids', type=str, help='test ids dataset path', required=True)
     parser.add_argument('--val-ids', type=str, help='val ids dataset path', required=True)
