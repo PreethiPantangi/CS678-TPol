@@ -1,0 +1,281 @@
+,ID,NL,MR,PRED,MONOTONIC
+0,3,nenne alle fluesse in colorado,answer river loc_2 stateid(colorado),answer river traverse_2 stateid(colorado),1
+1,6,zahle die staaten welche erhebungen haben die niedriger liegen als jene in alabama,count state answer low_point_2 lower_2 low_point_1 stateid(alabama),answer state loc_1 place higher_2 stateid(alabama),0
+2,15,nenne mir die anzahl der fluesse in california,answer count river loc_2 stateid(california),answer population_1 river loc_2 stateid(california),1
+3,16,nenne mir die staaten welche an utah grenzen,answer state next_to_2 stateid(utah),answer state next_to_2 stateid(utah),1
+4,25,wie hoch ist mount mckinley,answer elevation_1 placeid(mount mckinley),answer elevation_1 placeid(mount mckinley),1
+5,26,wie hoch liegt der hoechste punkt in amerika,answer elevation_1 highest place loc_2 countryid(usa),answer elevation_1 highest place loc_2 countryid(usa),1
+6,29,wie hoch liegt der hoechste punkt in alabama,answer elevation_1 highest place loc_2 stateid(alabama),answer elevation_1 highest place loc_2 stateid(alabama),1
+7,33,wie gross ist alaska,answer size stateid(alaska),answer size stateid(alaska),1
+8,34,wie gross ist texas,answer size stateid(texas),answer size stateid(texas),1
+9,37,wie lang ist der colorado fluss,answer len riverid(colorado),answer len riverid(colorado),1
+10,38,wie lang ist der delaware fluss,answer len riverid(delaware),answer len riverid(delaware),1
+11,39,wie lang ist der laengste fluss californias,answer len longest river loc_2 stateid(california),answer len longest river loc_2 stateid(california),1
+12,40,wie lange ist der laengste fluss der usa,answer len longest river loc_2 countryid(usa),answer len longest river loc_2 countryid(usa),1
+13,45,wie lange ist der north platte fluss,answer len riverid(north platte),answer len riverid(north),1
+14,46,wie lang ist der fluss ohio,answer len riverid(ohio),answer len riverid(ohio),1
+15,50,wie viele grosse staedte gibt es in rhode island,answer count capital loc_2 stateid(rhode island),answer count major city loc_2 stateid(rhode island),1
+16,53,wie viele staedte gibt es in den usa,answer count city loc_2 countryid(usa),answer count city loc_2 countryid(usa),1
+17,60,wie viele einwohner hat die groesste stadt in den usa,answer population_1 largest city(all),answer population_1 largest city loc_2 countryid(usa),1
+18,64,wie viele fluesse mit dem namen colorado gibt es,answer count river riverid(colorado),answer count river loc_2 stateid(colorado),1
+19,82,wie viele menschen leben in detroit,"answer population_1 cityid(detroit, _)","answer population_1 cityid(detroit, _)",1
+20,84,wie viele menschen leben in houston,"answer population_1 cityid(houston, _)","answer population_1 cityid(houston, _)",1
+21,87,wie viele leute leben in minneapolis minnesota,"answer population_1 cityid(minneapolis, mn)","answer population_1 cityid(minnesota, _)",1
+22,88,wie viele leute leben in mississippi,answer population_1 stateid(mississippi),answer population_1 stateid(mississippi),1
+23,93,wie viele leute leben in rhode island,answer population_1 stateid(rhode island),answer population_1 stateid(rhode island),1
+24,99,wie viele menschen leben in der groessten stadt von new york state,answer population_1 largest city loc_2 stateid(new york),answer population_1 largest city loc_2 stateid(new york state),1
+25,101,wie viele leute leben in der hauptstadt von texas,answer population_1 capital loc_2 stateid(texas),answer population_1 capital loc_2 stateid(texas),1
+26,104,wie viele menschen leben in den usa,answer population_1 countryid(usa),answer population_1 countryid(usa),1
+27,107,wie viele leute leben in austin,"answer population_1 cityid(austin, _)","answer population_1 cityid(austin, _)",1
+28,108,wie viele menschen leben in utah,answer population_1 stateid(utah),answer population_1 stateid(utah),1
+29,110,wie viele einwohner leben in texas,answer population_1 stateid(texas),answer population_1 stateid(texas),1
+30,114,wie viele fluesse gibt es in iowa,answer count river loc_2 stateid(iowa),answer count river loc_2 stateid(iowa),1
+31,117,wie viele fluesse gibt es im staat mit den meisten fluessen,answer count river loc_2 state loc_1 most river(all),answer count river loc_2 state most traverse_1 river(all),0
+32,125,wie viele fluesse gibt es in colorado,answer count river loc_2 stateid(colorado),answer count river loc_2 stateid(colorado),1
+33,132,wie viele staaten gibt es in den usa,answer count state loc_2 countryid(usa),answer count state loc_2 countryid(usa),1
+34,134,wie viele staaten gibt es,answer count state(all),answer count state(all),1
+35,135,wie viele staaten hat die usa,answer count state loc_2 countryid(usa),answer count state loc_2 countryid(usa),1
+36,141,nenne die anzahl der staaten welche an iowa grenzen,answer count state next_to_2 stateid(iowa),answer population_1 state next_to_2 stateid(iowa),1
+37,148,wie viele staaten grenzen an den staat mit der groessten bevoelkerung,answer count state next_to_2 state(all) largest_one population_1,answer count state next_to_2 state(all) largest_one population_1,0
+38,149,wie viele staaten haben keine fluesse,answer count state(all) loc_1 exclude river(all),answer count state(all) loc_1 exclude river(all),0
+39,152,an wie viele staaten grenzt tennessee,answer count state next_to_1 stateid(tennessee),answer count state next_to_2 stateid(tennessee),1
+40,158,wie viele staaten sind in den vereinigten staaten,answer count state loc_2 countryid(usa),answer count state loc_2 countryid(usa),1
+41,161,wie viele staaten haben einen hoeher gelegenen punkt als der hoechstgelegene punkt des staates mit der groessten hauptstadt in den usa,answer count state loc_1 higher_2 place highest place loc_2 state loc_1 largest capital city loc_2 countryid(usa),answer count state loc_1 higher place higher_2 highest place loc_2 state loc_1 largest capital loc_2 countryid(usa),0
+42,166,wie viele leute wohnen in texas,answer population_1 stateid(texas),answer population_1 stateid(texas),1
+43,167,wie hoch ist mount mckinley,answer elevation_1 placeid(mount mckinley),answer elevation_1 placeid(mount mckinley),1
+44,168,wie hoch ist der hoechste punkt in montana,answer elevation_1 highest place loc_2 stateid(montana),answer elevation_1 highest place loc_2 stateid(montana),1
+45,172,an wie viele staaten grenzt iowa,answer count state next_to_1 stateid(iowa),answer count state next_to_1 stateid(iowa),0
+46,179,nenne die wichtigsten fluesse in florida,answer major river loc_2 stateid(florida),answer major river loc_2 stateid(florida),1
+47,183,wie viele leute in boulder,"answer population_1 cityid(boulder, _)","answer population_1 cityid(boulder, _)",1
+48,184,wie viele staaten grenzen an iowa,answer count state next_to_2 stateid(iowa),answer count state next_to_2 stateid(iowa),1
+49,188,wie viele fluesse verlaufen durch new york,answer river loc_2 stateid(new york),answer count river traverse_2 stateid(new york),1
+50,190,in welchem staat liegt san antonio,"answer state loc_1 cityid(san antonio, _)","loc_1 answer state cityid(san antonio, _)",1
+51,195,nenne mir die staedte in texas,answer city loc_2 stateid(texas),answer city loc_2 stateid(texas),1
+52,196,durch welche staaten fliesst der laengste fluss in texas,answer state traverse_1 longest river loc_2 stateid(texas),traverse_1 answer state longest river loc_2 stateid(texas),0
+53,199,welche fluesse gibt es in texas,answer river loc_2 stateid(texas),answer river loc_2 stateid(texas),1
+54,203,was ist die hauptstadt des staates texas,answer capital city loc_2 stateid(texas),answer capital loc_2 stateid(texas),1
+55,204,wie lauten die hauptstaedte der staaten welche an missouri grenzen,answer capital loc_2 state next_to_2 stateid(missouri),answer capital city loc_2 state next_to_2 stateid(missouri),1
+56,207,wie lauten die staedte in den staaten durch welchder mississippi fluss verlaeuft,answer city loc_2 state traverse_1 riverid(mississippi),answer city loc_2 state traverse_1 riverid(mississippi),1
+57,208,welches sind die staedte des staates mit der hoechsten erhebung,answer city loc_2 state loc_1 highest place(all),answer city loc_2 state loc_1 highest place(all),1
+58,209,wie lauten die hoechsten punkte aller staaten,answer highest place loc_2 state(all),answer highest place loc_2 state(all),1
+59,213,welches sind die grossen staedte in alabama,answer major city loc_2 stateid(alabama),answer major city loc_2 stateid(alabama),1
+60,214,wie lauten die wichtigsten staedte in alaska,answer major city loc_2 stateid(alaska),answer major city loc_2 stateid(alaska),1
+61,220,welches sind grosse staedte in new york,answer major city loc_2 stateid(new york),answer major city loc_2 stateid(new york),1
+62,225,welches sind grosse staedte in den staaten durch die der mississippi fliesst,answer major city loc_2 state traverse_1 riverid(mississippi),answer major city loc_2 state traverse_1 riverid(mississippi),1
+63,229,wie lauten die wichtigsten staedte in california,answer major city loc_2 stateid(california),answer major city loc_2 stateid(california),1
+64,231,wie lauten die wichtigen staedte der usa,answer major city loc_2 countryid(usa),answer major city loc_2 countryid(usa),1
+65,232,welches sind grosse staedte in vermont,answer major city loc_2 stateid(vermont),answer major city loc_2 stateid(vermont),1
+66,238,wie lauten die wichtigsten fluesse in ohio,answer major river loc_2 stateid(ohio),answer major river loc_2 stateid(ohio),1
+67,242,welches sind die bevoelkerungsdichten der us staaten,answer density_1 state(all),answer density_1 us state(all),1
+68,243,welches ist die einwohnerzahl von mississippi,answer population_1 stateid(mississippi),answer population_1 stateid(mississippi),1
+69,245,wie hoch ist die bevoelkerung der staaten durch welche der mississippi fluss verlaeuft,answer population_1 state traverse_1 riverid(mississippi),answer population_1 state traverse_1 riverid(mississippi),1
+70,247,was sind die bevoelkerungen der staaten durch deren den mississippi fliesst,answer population_1 state traverse_1 riverid(mississippi),answer population_1 state traverse_1 riverid(mississippi),1
+71,249,wie gross sind die bevoelkerungen der staaten welche an texas grenzen,answer population_1 state next_to_2 stateid(texas),answer population_1 state next_to_2 stateid(texas),1
+72,250,welches sind die einwohnerzahlen der grossen staedte in texas,answer population_1 major city loc_2 stateid(texas),answer population_1 major city loc_2 stateid(texas),1
+73,255,welches sind die fluesse in alaska,answer river loc_2 stateid(alaska),answer river traverse_2 stateid(alaska),1
+74,272,welche stadt hat die meisten leute,answer city(all) largest_one population_1,answer city(all) largest_one population_1,0
+75,273,welche us stadt hat ide hoechste bevoelkerungsdichte,answer countryid(usa) city loc_2 largest_one density_1,answer us city(all) largest_one density_1,0
+76,275,welches ist die hauptstadt des staates mit dem tiefstgelegenen punkt,answer capital loc_2 state loc_1 lowest place(all),answer capital loc_2 state loc_1 lowest place(all),1
+77,281,wie gross ist die flaeche von florida,answer area_1 stateid(florida),answer area_1 stateid(florida),1
+78,286,welches ist die flaechenausdehnung von ohio,answer area_1 stateid(ohio),answer area_1 stateid(ohio),1
+79,295,welches ist die flaeche der staates texas,answer area_1 stateid(texas),answer area_1 stateid(texas),1
+80,296,welches ist die flaeche von wisconsin,answer area_1 stateid(wisconsin),answer area_1 stateid(wisconsin),1
+81,300,wie lautet die groesste amerikanische stadt in einem staat mit einem fluss,answer largest city loc_2 state loc_1 river(all),answer largest city loc_2 state(all) traverse_1 river,1
+82,301,welches ist die groesste hauptstadt in den usa,answer largest capital city loc_2 countryid(usa),answer largest capital loc_2 countryid(usa),1
+83,304,wie lautet die groesste stadt von kansas,answer largest city loc_2 stateid(kansas),answer largest city loc_2 stateid(kansas),1
+84,305,welches ist die groesste stadt in louisiana,answer largest city loc_2 stateid(louisiana),answer largest city loc_2 stateid(louisiana),1
+85,319,wie lautet die hauptstadt von california,answer capital loc_2 stateid(california),answer capital loc_2 stateid(california),1
+86,320,welches ist die hauptstadt von colorado,answer capital loc_2 stateid(colorado),answer capital loc_2 stateid(colorado),1
+87,323,wie lautet die hauptstadt von illinois,answer capital loc_2 stateid(illinois),answer capital loc_2 stateid(illinois),1
+88,325,welches ist die hauptstadt von iowa,answer capital loc_2 stateid(iowa),answer capital loc_2 stateid(iowa),1
+89,328,wie lautet die hauptstadt von massachusetts,answer capital loc_2 stateid(massachusetts),answer capital loc_2 stateid(massachusetts),1
+90,331,wie lautet die hauptstadt von new jersey,answer capital loc_2 stateid(new jersey),answer capital loc_2 stateid(new jersey),1
+91,332,welches ist die hauptstadt von new york,answer capital loc_2 stateid(new york),answer capital loc_2 stateid(new york),1
+92,333,wie lautet die hauptstadt von north dakota,answer capital loc_2 stateid(north dakota),answer capital loc_2 stateid(north dakota),1
+93,334,wie lautet die hauptstadt von ohio,answer capital loc_2 stateid(ohio),answer capital loc_2 stateid(ohio),1
+94,336,wie lauten die hauptstaedte der staaten welche staedte mit dem namen durham haben,"answer capital loc_2 state loc_1 city cityid(durham, _)","answer capital loc_2 state loc_1 city cityid(durham, _)",1
+95,339,wie lautet die hauptstadt von florida state,answer capital loc_2 stateid(florida),answer capital loc_2 stateid(florida state),1
+96,341,welches ist die hauptstadt des kleinsten staates,answer capital loc_2 smallest state(all),answer capital loc_2 smallest state(all),1
+97,347,wie lautet die hauptstadt des staat mit den meisten einwohnern,answer capital loc_2 state(all) largest_one population_1,answer capital loc_2 state(all) largest_one population_1,0
+98,348,wie lautet die hauptstadt des staat mit dem groessten bevoelkerungsdichte,answer capital loc_2 state(all) largest_one density_1,answer capital loc_2 state(all) largest_one density_1,0
+99,349,welches ist die hauptstadt des staates mit dem laengsten fluss,answer capital loc_2 state loc_1 longest river(all),answer capital loc_2 state loc_1 longest river(all),1
+100,350,wie lautet die hauptstadt des staat mit der groessten bevoelkerung,answer capital loc_2 state(all) largest_one population_1,answer capital loc_2 state(all) largest_one population_1,0
+101,356,wie gross ist die gesamte flaeche aller staaten,answer sum area_1 state(all),answer area_1 state(all),1
+102,359,welches ist die dichte von new york,answer density_1 stateid(new york),answer density_1 stateid(new york),1
+103,365,wie lautet der hoechste punkt in wyoming,answer high_point_1 stateid(wyoming),answer highest place loc_2 stateid(wyoming),1
+104,368,was ist der hoechste punkt in texas,answer highest place loc_2 stateid(texas),answer highest place loc_2 stateid(texas),1
+105,369,wie lautet die hoechste erhebung in den vereinigten staaten,answer highest place loc_2 countryid(usa),answer highest place loc_2 countryid(usa),1
+106,372,welches ist der hoechste berg der vereinigten staaten,answer highest mountain loc_2 countryid(usa),answer highest mountain loc_2 countryid(usa),1
+107,373,welches ist der hoechste berg in den usa,answer highest mountain loc_2 countryid(usa),answer highest mountain loc_2 countryid(usa),1
+108,375,welches ist der hoechste punkt von delaware,answer highest place loc_2 stateid(delaware),answer highest place loc_2 stateid(delaware),1
+109,378,wie lautet der hoechste punkt in iowa,answer highest place loc_2 stateid(iowa),answer highest place loc_2 stateid(iowa),1
+110,380,welches ist der hoechstgelegene punkt in maine,answer highest place loc_2 stateid(maine),answer highest place loc_2 stateid(maine),1
+111,381,wie lautet der hoechste punkt in montana,answer highest place loc_2 stateid(montana),answer highest place loc_2 stateid(montana),1
+112,382,welches ist der hoechstgelegene punkt in nevada gemessen in metern,answer highest place loc_2 stateid(nevada),answer highest place loc_2 stateid(nevada),1
+113,386,welches ist der hoechste punkt der an georgia grenzenden staaten,answer highest place loc_2 next_to_2 stateid(georgia) state,answer highest place loc_2 next_to_2 stateid(georgia) state,0
+114,390,wie lautet der hoechste punkt in dem staat mit der hauptstadt austin,"answer highest place loc_2 state loc_1 capital cityid(austin, _)","answer highest place loc_2 state loc_1 capital cityid(austin, _)",1
+115,395,wie lautet der hoechste punkt in den staaten welche an colorado grenzen,answer highest place loc_2 state next_to_2 stateid(colorado),answer highest place loc_2 state next_to_2 stateid(colorado),1
+116,398,wie lautet der hoechste punkt in den usa,answer highest place loc_2 countryid(usa),answer highest place loc_2 countryid(usa),1
+117,399,welches ist der hoechstgelegene punkt in virginia,answer highest place loc_2 stateid(virginia),answer highest place loc_2 stateid(virginia),1
+118,402,wie lautet der hoechste punkt des staat mit der gerinsten bevoelkerungsdichte,answer highest place loc_2 state(all) smallest_one density_1,answer highest place loc_2 state(all) largest_one density_1,0
+119,403,wie lautet die hoechste erhebung der usa,answer highest place loc_2 countryid(usa),answer highest place loc_2 countryid(usa),1
+120,405,wie lautet die groesste hauptstadt in den usa,answer largest capital city loc_2 countryid(usa),answer largest capital loc_2 countryid(usa),1
+121,408,wie lautet die groesste stadt in california,answer largest city loc_2 stateid(california),answer largest city loc_2 stateid(california),1
+122,412,welches ist die groesste stadt in rhode island,answer largest city loc_2 stateid(rhode island),answer largest city loc_2 stateid(rhode island),1
+123,413,welches ist die groesste stadt im kleinsten staat durch den der mississippi fliesst,answer largest city loc_2 smallest state traverse_1 riverid(mississippi),answer largest city loc_2 smallest state traverse_1 riverid(mississippi),1
+124,416,welches ist die groesste stadt des kleinsten staates in den usa,answer largest city loc_2 smallest state loc_2 countryid(usa),answer largest city loc_2 smallest state loc_2 countryid(usa),1
+125,420,nenne mir die laenge des laengsten flusses in washington state,answer loc_2 river longest stateid(washington),answer len intersection longest river loc_2 stateid(washington state),1
+126,422,welches ist der groesste an arkansas grenzende staat,answer largest next_to_2 stateid(arkansas) state,answer largest next_to_2 stateid(arkansas) state,0
+127,428,welcher der an texas grenzenden staaten ist der groesste,answer next_to_2 stateid(texas) state largest,answer next_to_2 stateid(texas) state largest,0
+128,432,welches ist der staat mit der niedrigsten bevoelkerungszahl,answer state(all) smallest_one population_1,answer state(all) smallest_one population_1,0
+129,433,wie lang ist der fluss colorado,answer len riverid(colorado),answer len riverid(colorado),1
+130,436,wie lautet die laenge des lanegsten fluesses der durch texas verlaeuft,answer len longest river traverse_2 stateid(texas),answer len intersection river loc_2 stateid(texas),1
+131,437,wie lang ist der mississippi,answer len riverid(mississippi),answer len riverid(mississippi),1
+132,438,wie lang ist der fluss welcher durch die meisten staaten fliesst,answer len river traverse_2 most state(all),answer len river traverse_2 most state(all),0
+133,440,was ist die laenge des fluesses der durch die groessten anzahl staaten fliesst,answer len river traverse_2 most state(all),answer len intersection river(all) traverse_1 largest_one state(all),1
+134,446,welches ist der laengste fluss in florida,answer longest river loc_2 stateid(florida),answer longest river loc_2 stateid(florida),1
+135,451,welches ist der laengste fluss im groessten staat,answer longest river loc_2 largest state(all),answer longest river loc_2 largest state(all),1
+136,454,welches ist der laengste fluss im staat mit der groessten anzahl grosser staedte,answer longest river loc_2 state loc_1 major most city(all),answer longest river loc_2 state loc_1 largest_one population_1 city(all),1
+137,455,wie lautet der laengste fluss in den staaten welcher an nebraska grenzt,answer longest river loc_2 state next_to_2 stateid(nebraska),answer longest river loc_2 state next_to_2 stateid(nebraska),1
+138,459,wie lautet der laengste fluss welcher durch einen staat verlaeuft der an indiana grenzt,answer longest river traverse_2 state next_to_2 stateid(indiana),answer longest river traverse_2 state next_to_2 stateid(indiana),1
+139,464,welches ist der tiefstgelegene punkt in arkansas,answer lowest place loc_2 stateid(arkansas),answer lowest place loc_2 stateid(arkansas),1
+140,467,wie lautet der niedrigste punkt in massachusetts,answer lowest place loc_2 stateid(massachusetts),answer lowest place loc_2 stateid(massachusetts),1
+141,468,welches ist der tiefste punkt in mississippi,answer lowest place loc_2 stateid(mississippi),answer lowest place loc_2 stateid(mississippi),1
+142,469,wie hoch ist die niedrigste erhebung von nebraska,answer lowest place loc_2 stateid(nebraska),answer elevation_1 lowest place loc_2 stateid(nebraska),1
+143,472,wie lautet der niedrigste punkt in dem staat california,answer lowest place loc_2 stateid(california),answer lowest place loc_2 stateid(california),1
+144,475,wie lautet der niedrigste punkt in den usa,answer lowest place loc_2 countryid(usa),answer lowest place loc_2 countryid(usa),1
+145,477,welches ist der tiefste punkt aller staaten durch die der fluss colorado fliesst,answer lowest place loc_2 state traverse_1 riverid(colorado),answer lowest place loc_2 state traverse_1 riverid(colorado),1
+146,482,welches ist die maximale erhoehung von san francisco,"answer highest place loc_2 cityid(san francisco, _)","answer area_1 cityid(san francisco, _)",1
+147,483,welches ist der dichteste staat in den usa,answer largest_one density_1 state loc_2 countryid(usa),answer largest state loc_2 countryid(usa),1
+148,486,wie lautet die stadt mit der groessten bevoelkerung,answer city(all) largest_one population_1,answer city(all) loc_1 largest_one population_1,0
+149,489,welcher staat hat die groesse bevoelkerung,answer state(all) largest_one population_1,answer state(all) largest_one population_1,0
+150,491,welcher staat durch den der mississippi fliesst hat die groesste bevoelkerung,answer state traverse_1 riverid(mississippi) largest_one population_1,answer state traverse_1 riverid(mississippi) largest_one population_1,0
+151,495,welches ist die bevoelkerungsdichte von maine,answer density_1 stateid(maine),answer density_1 stateid(maine),1
+152,498,welches ist die bevoelkerungsdichte des groessten staates,answer density_1 largest state(all),answer density_1 largest state(all),1
+153,504,welches ist die bevoelkerungszahl von alaska,answer population_1 stateid(alaska),answer population_1 stateid(alaska),1
+154,511,wie hoch ist die bevoelkerung von boulder,"answer population_1 cityid(boulder, _)","answer population_1 cityid(boulder, _)",1
+155,515,wie gross ist die bevoelkerung von erie in pennsylvania,"answer population_1 cityid(erie, pa)","answer population_1 cityid(erie, pennnsylvania)",1
+156,516,wie viele menschen laeben in hawaii,answer population_1 stateid(hawaii),answer population_1 stateid(hawaii),1
+157,517,wie hoch ist die bevoelkerung von houston,"answer population_1 cityid(houston, _)","answer population_1 cityid(houston, _)",1
+158,521,wie gross ist die bevoelkerung von maryland,answer population_1 stateid(maryland),answer population_1 stateid(maryland),1
+159,524,wie viele leute wohnen in new mexico,answer population_1 stateid(new mexico),answer population_1 stateid(new mexico),1
+160,526,wie gross ist die bevoelkerung von new york city,"answer city population_1 cityid(new york, _)",answer population_1 stateid(new york city),0
+161,531,wie lautet die bevoelkerung von san antonio,"answer population_1 cityid(san antonio, _)","answer population_1 cityid(san antonio, _)",1
+162,537,welches ist die bevoelkerungszahl von tempe arizona,"answer population_1 cityid(tempe, az)","answer population_1 cityid(tempe, arizona)",1
+163,542,was ist die bevoelkerungszahl der groessten stadt des staates mit der groessten flaechenausdehnung,answer population_1 largest city loc_2 state(all) largest_one area_1,answer population_1 largest city loc_2 state(all) largest_one area_1,0
+164,546,welches ist die einwohnerzahl des kleinsten staates,answer population_1 smallest state(all),answer population_1 smallest state(all),0
+165,547,wie lautet die bevoelkerung des staat welche an die meisten staaten grenzt,answer population_1 state(all) next_to_2 most state,answer population_1 state next_to_2 most state(all),0
+166,548,wie viele leute wohnen in den staat mit der groessten bevoelkerungsdichte,answer population_1 state(all) largest_one density_1,answer population_1 state(all) largest_one density_1,0
+167,550,was ist die einwohnerzahl von tucson,"answer population_1 cityid(tucson, _)","answer population_1 cityid(tucson, _)",1
+168,551,wie viele einwohner hat utah,answer population_1 stateid(utah),answer population_1 stateid(utah),1
+169,552,wie viele leute wohnen in washington,answer population_1 stateid(washington),answer population_1 stateid(washington),1
+170,572,welches ist die kleinste stadt der usa,answer smallest city loc_2 countryid(usa),answer smallest city loc_2 countryid(usa),1
+171,573,wie lautet die kleinste stadt in den us,answer smallest city loc_2 countryid(usa),answer smallest city loc_2 countryid(usa),1
+172,577,wie lautet der kleinste staat welcher an wyoming grenzt,answer smallest state next_to_2 stateid(wyoming),answer smallest state next_to_2 stateid(wyoming),1
+173,581,welches ist der kleinste staat der am meisten staaten angrenzt,answer smallest state(all) most state next_to_2,answer smallest state next_to_2 most state(all),0
+174,582,welches ist der kleinste staat durch den der mississippi fliesst,answer smallest state traverse_1 riverid(mississippi),answer smallest state traverse_1 riverid(mississippi),1
+175,586,welcher staat hat die groesste flaechenausdehnung,answer state(all) largest_one area_1,answer state(all) largest_one area_1,0
+176,592,welcher ist der kleinste staat nach flaeche,answer smallest_one state(all) area_1,answer smallest state(all) area_1,0
+177,596,welches ist die gesamtlaenge aller fluesse in den usa,answer len sum river(all),answer area_1 river loc_2 countryid(usa),0
+178,598,wie lang ist der mississippi,answer len riverid(mississippi),answer len riverid(mississippi),1
+179,599,welche grossen staedte gibt es in pennsylvania,answer major city loc_2 stateid(pennsylvania),answer major city loc_2 stateid(pennsylvania),1
+180,604,welcher fluss fliesst durch die groesste anzahl an staaten,answer river traverse_2 most state(all),answer river traverse_2 largest_one population_1 state(all),0
+181,608,welcher fluss fliesst durch den staat mit den meisten staedten,answer river traverse_2 state loc_1 most city(all),answer river traverse_2 state loc_1 most city(all),0
+182,611,welcher fluss verlaeuft durch den staat welcher an die meisten staaten grenzt,answer river traverse_2 state(all) next_to_2 most state,answer river traverse_2 state next_to_2 most state(all),0
+183,615,welche fluesse gibt es in an texas grenzende staaten,answer river loc_2 next_to_2 stateid(texas) state,answer river loc_2 next_to_2 stateid(texas) state,0
+184,616,welche fluesse verlaufen durch texas,answer river loc_2 stateid(texas),answer river traverse_2 stateid(texas),1
+185,618,welche fluesse gibt es in texas,answer river loc_2 stateid(texas),answer river loc_2 stateid(texas),1
+186,631,fluesse in new york,river answer traverse_2 stateid(new york),answer river loc_2 stateid(new york),0
+187,635,welcher fluss verlauft durch den staat welcher an die meisten staaten grenzt,answer river traverse_2 state(all) next_to_2 most state,answer river traverse_2 state next_to_2 most state(all),0
+188,636,welcher an nevada grenzende staat hat die groesste bevoelkerungszahl,answer next_to_2 stateid(nevada) state largest_one population_1,answer next_to_2 stateid(nevada) largest_one population_1,0
+189,639,welche staaten grenzen an new york,answer state next_to_2 stateid(new york),answer state next_to_2 stateid(new york),1
+190,642,welcher staat grenzt an die meisten staaten,answer state(all) next_to_2 most state,answer state next_to_2 most state(all),0
+191,645,welcher der staaten durch die der colorado fliesst hat die hoechste erhebung,answer loc_2 state traverse_1 state riverid(colorado) loc_1 highest place,answer state traverse_1 riverid(colorado) highest place,0
+192,656,welches ist der staat mit der groessten flaeche,answer state(all) largest_one area_1,answer state(all) largest_one area_1,0
+193,657,welcher staat hat die groesste hauptstadt,answer state loc_1 largest capital(all),answer state loc_1 largest capital(all),1
+194,663,welches sind die staaten welche vom laengsten fluss durchflossen werden,answer state loc_1 longest river(all),answer state loc_1 longest river traverse_2 state(all),1
+195,664,welcher staat hat die kleinste durchschnittliche urbane bevoelkerungzahl,answer state(all) smallest_one density_1,answer state(all) smallest_one density_1,0
+196,666,welcher staat hat die meisten wichtigsten staedte,answer state loc_1 most major city(all),answer state loc_1 most major city(all),0
+197,669,welcher staat hat die meisten fluesse,answer state loc_1 most river(all),answer state loc_1 state most river(all),0
+198,676,welches ist der bevoelkerungsaermste staat,answer smallest_one population_1 state(all),answer largest_one population_1 state(all),1
+199,678,welcher staat liegt in austin,"answer state loc_1 cityid(austin, _)","answer state loc_1 cityid(austin, _)",1
+200,684,in welchem staat liegt miami,"loc_1 answer state cityid(miami, _)","answer state loc_1 cityid(miami, _)",0
+201,687,welcher staat hat die groesste bevoelkerung in den staedten,answer largest_one population_1 state(all),answer state loc_1 largest_one population_1 city(all),1
+202,692,welche staaten sind neben arizona,answer state next_to_2 stateid(arizona),answer state next_to_2 stateid(arizona),1
+203,698,welche staaten grenzen an florida,answer state next_to_2 stateid(florida),answer state next_to_2 stateid(florida),1
+204,701,welche staaten grenzen an indiana,answer state next_to_2 stateid(indiana),answer state next_to_2 stateid(indiana),1
+205,703,welche staaten grenzen an michigan,answer state next_to_2 stateid(michigan),answer state next_to_2 stateid(michigan),1
+206,705,wie viele staaten grenzen an montana,answer state next_to_2 stateid(montana),answer count state next_to_2 stateid(montana),1
+207,707,welche staaten grenzen an new jersey,answer state next_to_2 stateid(new jersey),answer state next_to_2 stateid(new jersey),1
+208,711,welche staaten grenzen an staaten welche an mississippi grenzen,answer state next_to_2 state next_to_2 stateid(mississippi),answer state next_to_2 state next_to_2 stateid(mississippi),1
+209,716,welche staaten grenzen staaten durch welche der ohio fluss verlaeuft,answer state next_to_2 state traverse_1 riverid(ohio),answer state next_to_2 state traverse_1 ohio river(all),1
+210,719,welche staaten grenzen texas und haben einen wichtigen fluss,answer state next_to_2 stateid(texas) intersection loc_1 major river(all),answer state next_to_2 stateid(texas) loc_1 major river,0
+211,721,welche staaten grenzen an den bevoelkerungsreichsten staat,answer state next_to_2 largest_one population_1 state(all),answer state next_to_2 largest_one population_1 state(all),1
+212,722,welcher staat grenzt dem staat welche an die meisten staaten grenzt,answer state next_to_2 state(all) next_to_2 most state,answer state next_to_2 state next_to_2 most state(all),0
+213,723,welche staaten grenzen dem staat mit den meisten staedten,answer state next_to_2 state loc_1 most city(all),answer state next_to_2 state loc_1 most city(all),0
+214,724,welche staaten grenzen dem staat mit den meisten wichtigsten staedten,answer state next_to_2 state loc_1 most major city(all),answer state next_to_2 state loc_1 most major city(all),0
+215,725,welcher staat grenzt an den staat mit der kleinsten flaeche,answer state next_to_2 state(all) smallest_one area_1,answer state next_to_2 state loc_1 smallest_one area_1,0
+216,729,durch welche staaten fliesst mindestens einer der hauptfluesse,answer state major loc_1 river(all),traverse_1 answer state capital_1 state(all),0
+217,731,durch welche staaten fliesst der delaware,traverse_1 answer state riverid(delaware),traverse_1 answer state riverid(delaware),0
+218,732,durch welche staaten verlaeuft der mississippi,traverse_1 answer state riverid(mississippi),traverse_1 answer state riverid(mississippi),0
+219,735,durch welche staaten fliesst der missouri fluss,traverse_1 answer state riverid(missouri),traverse_1 answer state riverid(missouri),0
+220,737,durch welche staaten fliesst der ohio fluss,traverse_1 answer state riverid(ohio),traverse_1 answer state riverid(ohio),0
+221,742,welche staaten haben staedte mit dem namen dallas,"answer state loc_1 city cityid(dallas, _)","answer state loc_1 city cityid(dallas, _)",1
+222,743,welche staaten haben staedte mit dem namen plano,"answer state loc_1 city cityid(plano, _)","answer state loc_1 city cityid(plano, _)",1
+223,744,welche staaten haben staedte mit dem namen portland,"answer state loc_1 city cityid(portland, _)","answer state loc_1 city cityid(portland, _)",1
+224,745,in welchen staaten gibt es staedte mit dem namen rochester,"answer state loc_1 city cityid(rochester, _)","answer state loc_1 city cityid(rochester, _)",0
+225,746,welche staaten haben staedte mit dem namen salt lake city,"answer state loc_1 city cityid(salt lake city, _)","answer state loc_1 city cityid(salt lake city, _)",1
+226,754,welche staaten grenzen an kentucky,answer state next_to_2 stateid(kentucky),answer state next_to_2 stateid(kentucky),1
+227,757,wo gibt es berge,answer loc_1 mountain(all),answer river(all),1
+228,760,wo liegt dallas,"answer loc_1 cityid(dallas, _)","answer loc_1 cityid(dallas, _)",1
+229,769,wo liegt portland,"answer loc_1 cityid(portland, _)","answer loc_1 cityid(portland, _)",1
+230,774,wo liegt der chattahoochee fluss,answer loc_1 riverid(chattahoochee),answer loc_1 riverid(chattahoochee),1
+231,775,wo liegt der hoechste berg der usa,answer highest mountain loc_2 countryid(usa),answer highest mountain loc_2 countryid(usa),1
+232,776,woe liegt der hoechste punkt in hawaii,answer highest place loc_2 stateid(hawaii),answer highest place loc_2 stateid(hawaii),1
+233,778,wie lautet der niedrigste punkt in maryland,answer lowest place loc_2 stateid(maryland),answer lowest place loc_2 stateid(maryland),1
+234,781,wo liegt die am meisten bevoelkerte gegend von new mexico,answer stateid(new mexico) largest_one population_1 loc_2,answer largest_one population_1 city loc_2 stateid(new mexico),1
+235,782,wo liegt die kleinste stadt,answer loc_1 smallest city(all),answer smallest city(all),1
+236,785,welche stadt in california hat die groesste bevoelkerung,answer city loc_2 stateid(california) largest_one population_1,answer city loc_2 stateid(california) largest_one population_1,0
+237,786,welches ist die dichte des staates durch den der groesste fluss der usa fliesst,answer density_1 state traverse_1 longest river loc_2 countryid(usa),answer density_1 state traverse_1 largest river loc_2 countryid(usa),1
+238,787,wie lautet der hoechste gipfel der nicht in alaska liegt,answer highest mountain(all) exclude loc_2 stateid(alaska),answer highest mountain loc_2 stateid(alaska),0
+239,788,wie lautet der laengste fluss der usa,answer longest river loc_2 countryid(usa),answer longest river loc_2 countryid(usa),1
+240,791,wie lautet der kleinste staat,answer smallest state(all),answer smallest state(all),1
+241,792,welcher der staaten welche an pennsylvania grenzt hat die groesste bevoelkerung,answer state next_to_2 stateid(pennsylvania) largest_one population_1,answer state next_to_2 stateid(pennsylvania) largest_one population_1,0
+242,793,welcher fluss fliesst durch die meisten staaten,answer river traverse_2 most state(all),answer river traverse_2 most state(all),0
+243,794,welcher fluss fliesst durch die meisten staaten,answer river traverse_2 most state(all),answer river traverse_2 most state(all),0
+244,796,welcher fluss durchquert die meisten staaten,answer river traverse_2 most state(all),answer river traverse_2 most state(all),0
+245,798,welche fluesse fliessen nicht durch texas,answer river(all) traverse_2 exclude stateid(texas),answer river(all) traverse_2 exclude stateid(texas),1
+246,799,welche fluesse fliessen durch die usa,answer exclude river(all) traverse_2 countryid(usa),answer river traverse_2 countryid(usa),1
+247,802,welcher fluss verlaeuft durch staaten welche dem staat mit der hauptstadt austin grenzen,"answer river traverse_2 state next_to_2 state loc_1 capital cityid(austin, _)","answer river traverse_2 state next_to_2 state loc_1 capital cityid(austin, _)",1
+248,803,welche fluesse gehen durch staaten mit am wenigsten staedten,answer river fewest traverse_2 state loc_1 city(all),answer river traverse_2 state loc_1 fewest city(all),0
+249,808,welche staaten grenzen an hawaii,answer state next_to_2 stateid(hawaii),answer state next_to_2 stateid(hawaii),1
+250,810,welcher staat grenzt an die meisten anderen staaten,answer state next_to_2 most state(all),answer state next_to_2 most state(all),0
+251,811,welcher hauptstadt hat die kleinste bevoelkerung,answer capital(all) smallest_one population_1,answer capital_1 smallest_one population_1 state(all),0
+252,813,welcher staat hat die groesste bevoelkerung,answer state(all) largest_one population_1,answer state(all) largest_one population_1,0
+253,815,welcher staat hat die meisten einwohner,answer state(all) largest_one population_1,answer state(all) largest_one population_1,0
+254,816,welche staat hat die hoechste erhoehung,answer state loc_1 highest place(all),answer state loc_1 highest place(all),1
+255,818,welcher staat beinhaltet den hoechsten punkt,answer state loc_1 highest place(all),answer state loc_1 highest place(all),1
+256,819,welcher staat hat die groesste dichte,answer state(all) largest_one density_1,answer state(all) largest_one density_1,0
+257,824,in welchem staat liegt der tiefste punkt,answer state loc_1 lowest place(all),loc_1 answer state lowest place(all),1
+258,825,in welchem staat liegt der tiefste an idaho grenzende punkt,loc_2 answer state loc_1 lowest next_to_2 stateid(idaho) place,loc_1 answer state lowest next_to_2 stateid(idaho) place,0
+259,826,welcher staat hat die kleinste bevoelkerungsdichte,answer state(all) smallest_one density_1,answer state(all) smallest_one density_1,0
+260,827,welcher staat hat die meisten wichtigsten staedte,answer state loc_1 most major city(all),answer state loc_1 most major city(all),0
+261,828,durch welchen staat fliessen am meisten grosse fluesse,answer state loc_1 most major river(all),traverse_1 answer state most river(all),0
+262,829,welcher staat hat die meisten wichtigen fluesse,answer state traverse_1 most major river(all),answer state loc_1 state most major river(all),0
+263,831,welcher staat hat die hoechste bevoelkerung,answer state(all) largest_one population_1,answer state(all) largest_one population_1,0
+264,832,durch welchen staat fliessen am meisten fluesse,answer state loc_1 most river(all),traverse_1 answer state most river(all),0
+265,836,welcher staat hat die geringste bevoelkerungsdichte,answer state(all) smallest_one density_1,answer state(all) smallest_one density_1,0
+266,837,welcher staat hat die geringste bevoelkerungsdichte,answer state(all) smallest_one density_1,answer state(all) smallest_one density_1,0
+267,840,in welchem staat liegt mount mckinley,answer state loc_1 placeid(mount mckinley),loc_1 answer state placeid(mount mckinley),1
+268,843,welcher staat ist am kleinsten,answer state(all) smallest,answer state(all) smallest,0
+269,850,welche staaten grenzen an illinois,answer state next_to_2 stateid(illinois),answer state next_to_2 stateid(illinois),1
+270,852,welche staaten grenzen an kentucky,answer state next_to_2 stateid(kentucky),answer state next_to_2 stateid(kentucky),1
+271,860,welche staaten grenzen an den fluss missouri,answer state next_to_2 riverid(missouri),answer state next_to_2 riverid(missouri),1
+272,861,welche staaten grenzen an den staat mit der kleinsten flaechenausdehnung,answer state next_to_2 state(all) smallest_one area_1,answer state next_to_2 state(all) smallest_one area_1,0
+273,862,welcher staat hat die groesste hauptstadt,answer state state(all) loc_1 largest city capital_1,answer state loc_1 largest capital(all),0
+274,865,durch welchen staat querrt der chattahoochee fluss,traverse_1 answer state riverid(chattahoochee),traverse_1 answer state riverid(chattahoochee),0
+275,868,welcher staat hat den laensten fluss,answer state traverse_1 longest river(all),answer state loc_1 longest river(all),1
+276,870,durch welchen staat fliesst der mississippi,traverse_1 answer state riverid(mississippi),traverse_1 answer state riverid(mississippi),0
+277,874,durch welche staaten fliessen fluesse,answer state loc_1 river(all),traverse_1 answer state river(all),1
+278,875,in welchen staaten gibt es eine stadt namens austin,"loc_1 answer state city cityid(austin, _)","answer state loc_1 city cityid(austin, _)",0
+279,879,welche stadt in den usa hat die hoechste bevoelkerungsdichte,answer city(all) largest_one density_1,answer city loc_2 countryid(usa) largest_one density_1,0
