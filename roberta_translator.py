@@ -93,7 +93,7 @@ def run(args):
     if args.language == 'it':
         MODEL_NAME = "osiria/roberta-base-italian"
     elif args.language == 'de':
-        MODEL_NAME = "roberta-base-wechsel-german"
+        MODEL_NAME = "xlm-roberta-base"
     elif args.language == 'en':
         MODEL_NAME = "roberta-base"
 
@@ -104,11 +104,11 @@ def run(args):
     
     args_t = TrainingArguments(
         output_dir='models/',
-        num_train_epochs=50,
+        num_train_epochs=150,
         per_device_train_batch_size=16,
         per_device_eval_batch_size=16,
         evaluation_strategy='epoch',
-        learning_rate=2e-5,
+        learning_rate=1e-5,
         weight_decay=0.01,
         save_total_limit=3,
         push_to_hub=False,
