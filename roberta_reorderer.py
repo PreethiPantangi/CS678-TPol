@@ -190,7 +190,12 @@ def run(args):
 
     labeltoid, idtolabel = preprocess_data(data, test_idx, val_idx, train_idx)
 
-    MODEL_NAME = 'roberta-base'
+    if args.language == 'it':
+        MODEL_NAME = "osiria/roberta-base-italian"
+    elif args.language == 'de':
+        MODEL_NAME = "roberta-base-wechsel-german"
+    elif args.language == 'en':
+        MODEL_NAME = "roberta-base"
 
     config = AutoConfig.from_pretrained(MODEL_NAME)
     config.num_labels = len(labeltoid)
