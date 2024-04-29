@@ -1,0 +1,281 @@
+,ID,NL,MR,PRED,MONOTONIC
+0,3,"['nomina', 'tutti', 'i', 'fiumi', 'in', 'colorado']",answer river loc_2 stateid(colorado),answer river loc_2 stateid(colorado),1
+1,6,"['conta', 'gli', 'stati', 'che', 'hanno', 'elevazione', 'inferiore', 'a', 'quella', 'dell', 'alabama']",count state answer low_point_2 lower_2 low_point_1 stateid(alabama),answer state loc_1 place(all) next_to_2 stateid(alabama),0
+2,15,"['dammi', 'il', 'numero', 'di', 'fiumi', 'in', 'california']",answer count river loc_2 stateid(california),answer count river loc_2 stateid(california),1
+3,16,"['dammi', 'gli', 'stati', 'che', 'confinano', 'con', 'lo', 'utah']",answer state next_to_2 stateid(utah),answer state next_to_2 stateid(utah),1
+4,25,"['quanto', 'è', 'ε', 'alto', 'ε', 'il', 'mount', 'mckinley']",answer elevation_1 placeid(mount mckinley),answer elevation_1 placeid(mount mckinley),1
+5,26,"['quanto', 'è', 'ε', 'alto', 'ε', 'il', 'picco', 'più', 'alto', 'ε', 'in', 'america']",answer elevation_1 place highest loc_2 countryid(usa),answer elevation_1 place highest loc_2 countryid(usa),0
+6,29,"['quanto', 'è', 'ε', 'alto', 'ε', 'il', 'picco', 'più', 'alto', 'ε', 'dell', 'alabama']",answer elevation_1 place highest loc_2 stateid(alabama),answer elevation_1 place highest loc_2 stateid(alabama),0
+7,33,"['quanto', 'è', 'ε', 'grande', 'l', 'alaska']",answer size stateid(alaska),answer size stateid(alaska),1
+8,34,"['quanto', 'è', 'ε', 'grande', 'il', 'texas']",answer size stateid(texas),answer size stateid(texas),1
+9,37,"['quanto', 'è', 'ε', 'lungo', 'il', 'fiume', 'colorado']",answer len riverid(colorado),answer len riverid(colorado),1
+10,38,"['quanto', 'è', 'ε', 'lungo', 'il', 'fiume', 'delaware']",answer len riverid(delaware),answer len stateid(delaware),1
+11,39,"['quanto', 'è', 'ε', 'lungo', 'il', 'fiume', 'più', 'lungo', 'in', 'california']",answer len river longest loc_2 stateid(california),answer len river longest loc_2 stateid(california),0
+12,40,"['quanto', 'è', 'ε', 'lungo', 'il', 'fiume', 'più', 'lungo', 'in', 'usa']",answer len river longest loc_2 countryid(usa),answer len river longest loc_2 countryid(usa),0
+13,45,"['quanto', 'è', 'ε', 'lungo', 'il', 'fiume', 'north', 'platte']",answer len riverid(north platte),answer len stateid(north dakota),1
+14,46,"['quanto', 'è', 'ε', 'lungo', 'il', 'fiume', 'ohio']",answer len riverid(ohio),answer len riverid(ohio),1
+15,50,"['quante', 'ε', 'capitali', 'ε', 'ha', 'rhode', 'island']",answer count capital loc_2 stateid(rhode island),answer count capital stateid(rhode island),1
+16,53,"['quante', 'ε', 'città', 'ci', 'sono', 'in', 'usa']",answer count city loc_2 countryid(usa),answer count city loc_2 countryid(usa),1
+17,60,"['quanti', 'ε', 'cittadini', 'ha', 'la', 'città', 'più', 'grande', 'in', 'usa']",answer population_1 city(all) largest,answer population_1 city largest loc_2 countryid(usa),0
+18,64,"['quanti', 'ε', 'fiumi', 'chiamati', 'colorado', 'ci', 'sono']",answer count river riverid(colorado),answer count riverid(colorado),1
+19,82,"['quante', 'ε', 'persone', 'vivono', 'a', 'detroit']","answer population_1 cityid(detroit, _)",answer population_1 stateid(michigan),1
+20,84,"['quante', 'ε', 'persone', 'vivono', 'a', 'houston']","answer population_1 cityid(houston, _)","answer population_1 cityid(houston, _)",1
+21,87,"['quante', 'ε', 'persone', 'vivono', 'a', 'minneapolis', 'minnesota']","answer population_1 cityid(minneapolis, mn)",answer population_1 next_to_1,1
+22,88,"['quanti', 'ε', 'vivono', 'in', 'mississippi']",answer population_1 stateid(mississippi),answer count stateid(mississippi),1
+23,93,"['quante', 'ε', 'persone', 'vivono', 'in', 'rhode', 'island']",answer population_1 stateid(rhode island),answer population_1 stateid(rhode island),1
+24,99,"['quante', 'ε', 'persone', 'vivono', 'nella', 'città', 'più', 'grande', 'nello', 'stato', 'ε', 'di', 'new', 'york']",answer population_1 city largest loc_2 stateid(new york),answer population_1 city largest loc_2 stateid(new york),0
+25,101,"['quante', 'ε', 'persone', 'vivono', 'nella', 'capitale', 'ε', 'del', 'texas']",answer population_1 capital loc_2 stateid(texas),answer population_1 capital loc_2 stateid(texas),1
+26,104,"['quante', 'ε', 'persone', 'vivono', 'negli', 'usa']",answer population_1 countryid(usa),answer population_1 countryid(usa),1
+27,107,"['quante', 'ε', 'persone', 'vivono', 'a', 'austin']","answer population_1 cityid(austin, _)","answer population_1 cityid(austin, _)",1
+28,108,"['quante', 'ε', 'persone', 'risiedono', 'in', 'utah']",answer population_1 stateid(utah),answer population_1 stateid(utah),1
+29,110,"['quanti', 'ε', 'residenti', 'vivono', 'in', 'texas']",answer population_1 stateid(texas),answer population_1 stateid(texas),1
+30,114,"['quanti', 'ε', 'fiumi', 'sono', 'in', 'iowa']",answer count river loc_2 stateid(iowa),answer count river loc_2 stateid(iowa),1
+31,117,"['quanti', 'ε', 'fiumi', 'sono', 'nello', 'stato', 'ε', 'che', 'ha', 'più', 'fiumi']",answer count river loc_2 state loc_1 most river(all),answer count river loc_2 state loc_1 most river(all),0
+32,125,"['quanti', 'ε', 'fiumi', 'ha', 'il', 'colorado']",answer count river loc_2 stateid(colorado),answer count river loc_2 stateid(colorado),1
+33,132,"['quanti', 'ε', 'stati', 'ci', 'sono', 'in', 'usa']",answer count state loc_2 countryid(usa),answer count state loc_2 countryid(usa),1
+34,134,"['quanti', 'ε', 'stati', 'ci', 'sono']",answer count state(all),answer count state,1
+35,135,"['quanti', 'ε', 'stati', 'ci', 'sono', 'in', 'usa']",answer count state loc_2 countryid(usa),answer count state loc_2 countryid(usa),1
+36,141,"['quanti', 'ε', 'stati', 'confinano', 'con', 'l', 'iowa']",answer count state next_to_2 stateid(iowa),answer count state next_to_2 stateid(iowa),1
+37,148,"['quanti', 'ε', 'stati', 'confinano', 'con', 'lo', 'stato', 'ε', 'con', 'la', 'popolazione', 'più', 'grande']",answer count state next_to_2 state(all) population_1 largest_one,answer count state next_to_2 state(all) population_1 largest_one,0
+38,149,"['quanti', 'ε', 'stati', 'non', 'hanno', 'fiumi']",answer count state(all) exclude loc_1 river(all),answer count state(all) exclude loc_1 river(all),0
+39,152,"['con', 'quanti', 'ε', 'stati', 'confina', 'il', 'tennessee']",answer count state next_to_1 stateid(tennessee),answer count state next_to_1 stateid(tennessee),1
+40,158,"['quanti', 'ε', 'stati', 'hanno', 'gli', 'usa']",answer count state loc_2 countryid(usa),answer count state loc_2 countryid(usa),1
+41,161,"['quanti', 'ε', 'stati', 'hanno', 'un', 'picco', 'più', 'alto', 'ε', 'che', 'il', 'picco', 'più', 'alto', 'ε', 'dello', 'stato', 'ε', 'con', 'la', 'capitale', 'ε', 'più', 'grande', 'in', 'usa']",answer count state loc_1 place higher_2 place highest loc_2 state loc_1 capital city largest loc_2 countryid(usa),answer count state loc_1 place highest place highest loc_2 state loc_1 capital largest loc_2 countryid(usa),0
+42,166,"['quanta', 'popolazione', 'ha', 'il', 'texas']",answer population_1 stateid(texas),answer population_1 stateid(texas),1
+43,167,"['quanto', 'è', 'ε', 'alto', 'ε', 'il', 'mount', 'mckinley']",answer elevation_1 placeid(mount mckinley),answer elevation_1 placeid(mount mckinley),1
+44,168,"['quanto', 'è', 'ε', 'alto', 'ε', 'il', 'picco', 'più', 'alto', 'ε', 'in', 'montana']",answer elevation_1 place highest loc_2 stateid(montana),answer elevation_1 place highest loc_2 stateid(montana),0
+45,172,"['l', 'iowa', 'confina', 'con', 'quanti', 'ε', 'stati']",stateid(iowa) next_to_1 answer count state,stateid(iowa) next_to_2 answer state,0
+46,179,"['nomina', 'i', 'grandi', 'fiumi', 'in', 'florida']",answer major river loc_2 stateid(florida),answer major river loc_2 stateid(florida),1
+47,183,"['numero', 'di', 'persone', 'in', 'boulder']","answer population_1 cityid(boulder, _)","answer population_1 cityid(boulder, _)",1
+48,184,"['numero', 'di', 'stati', 'che', 'confinano', 'con', 'l', 'iowa']",answer count state next_to_2 stateid(iowa),answer state next_to_2 stateid(iowa),1
+49,188,"['fiumi', 'in', 'new', 'york']",answer river loc_2 stateid(new york),river loc_2 stateid(new york),1
+50,190,"['san', 'antonio', 'è', 'ε', 'in', 'quale', 'ε', 'stato', 'ε']","cityid(san antonio, _) loc_1 answer state","cityid(san jose, _) loc_1 answer state",0
+51,195,"['dimmi', 'che', 'città', 'sono', 'in', 'texas']",answer city loc_2 stateid(texas),answer city loc_2 stateid(texas),1
+52,196,"['tramite', 'quali', 'ε', 'stati', 'scorre', 'il', 'fiume', 'più', 'lungo', 'in', 'texas']",traverse_1 answer state river longest loc_2 stateid(texas),traverse_1 answer state river longest loc_2 stateid(texas),0
+53,199,"['quali', 'ε', 'sono', 'tutti', 'i', 'fiumi', 'in', 'texas']",answer river loc_2 stateid(texas),answer river loc_2 stateid(texas),1
+54,203,"['quale', 'ε', 'è', 'ε', 'la', 'capitale', 'ε', 'del', 'texas']",answer capital city loc_2 stateid(texas),answer capital loc_2 stateid(texas),1
+55,204,"['quali', 'ε', 'sono', 'le', 'capitali', 'ε', 'degli', 'stati', 'che', 'confinano', 'con', 'il', 'missouri']",answer capital loc_2 state next_to_2 stateid(missouri),answer capital city loc_2 state next_to_2 stateid(missouri),1
+56,207,"['quali', 'ε', 'sono', 'le', 'città', 'in', 'stati', 'attraverso', 'ε', 'cui', 'scorre', 'il', 'mississippi']",answer city loc_2 state traverse_1 riverid(mississippi),answer city loc_2 state traverse_1 riverid(mississippi),1
+57,208,"['quali', 'ε', 'sono', 'le', 'città', 'dello', 'stato', 'ε', 'con', 'il', 'picco', 'più', 'alto', 'ε']",answer city loc_2 state loc_1 place(all) highest,answer city loc_2 state loc_1 place(all) highest,0
+58,209,"['quali', 'ε', 'sono', 'i', 'picchi', 'più', 'alti', 'di', 'tutti', 'gli', 'stati']",answer place highest loc_2 state(all),answer place highest loc_2 state(all),0
+59,213,"['quali', 'ε', 'sono', 'le', 'grandi', 'città', 'in', 'alabama']",answer major city loc_2 stateid(alabama),answer major city loc_2 stateid(alabama),1
+60,214,"['quali', 'ε', 'sono', 'le', 'grandi', 'città', 'in', 'alaska']",answer major city loc_2 stateid(alaska),answer major city loc_2 stateid(alaska),1
+61,220,"['quali', 'ε', 'sono', 'le', 'grandi', 'città', 'in', 'new', 'york']",answer major city loc_2 stateid(new york),answer major city loc_2 stateid(new york),1
+62,225,"['quali', 'ε', 'sono', 'le', 'grandi', 'città', 'negli', 'stati', 'attraverso', 'ε', 'i', 'quali', 'ε', 'scorre', 'il', 'mississippi']",answer major city loc_2 state traverse_1 riverid(mississippi),answer major city loc_2 state traverse_1 riverid(mississippi),1
+63,229,"['quali', 'ε', 'sono', 'le', 'grandi', 'città', 'nello', 'stato', 'ε', 'della', 'california']",answer major city loc_2 stateid(california),answer major city loc_2 stateid(california),1
+64,231,"['quali', 'ε', 'sono', 'le', 'grandi', 'città', 'in', 'us']",answer major city loc_2 countryid(usa),answer major city loc_2 countryid(usa),1
+65,232,"['quali', 'ε', 'sono', 'le', 'grandi', 'città', 'in', 'vermont']",answer major city loc_2 stateid(vermont),answer major city loc_2 stateid(vermont),1
+66,238,"['quali', 'ε', 'sono', 'i', 'grandi', 'laghi', 'in', 'ohio']",answer major river loc_2 stateid(ohio),answer major lake loc_2 stateid(ohio),1
+67,242,"['quali', 'ε', 'sono', 'le', 'densità', 'di', 'popolazione', 'di', 'ogni', 'stato', 'ε', 'americano']",answer density_1 state(all),answer density_1 state(all) countryid(usa),1
+68,243,"['quale', 'ε', 'è', 'ε', 'la', 'popolazione', 'del', 'mississippi']",answer population_1 stateid(mississippi),answer population_1 stateid(mississippi),1
+69,245,"['quale', 'ε', 'è', 'ε', 'la', 'popolazione', 'degli', 'stati', 'attraverso', 'ε', 'cui', 'scorre', 'il', 'fiume', 'mississippi']",answer population_1 state traverse_1 riverid(mississippi),answer population_1 state traverse_1 riverid(mississippi),1
+70,247,"['quale', 'ε', 'è', 'ε', 'la', 'popolazione', 'degli', 'stati', 'attraverso', 'ε', 'cui', 'scorre', 'il', 'mississippi']",answer population_1 state traverse_1 riverid(mississippi),answer population_1 state traverse_1 riverid(mississippi),1
+71,249,"['quale', 'ε', 'è', 'ε', 'la', 'popolazione', 'degli', 'stati', 'che', 'confinano', 'con', 'il', 'texas']",answer population_1 state next_to_2 stateid(texas),answer population_1 state next_to_2 stateid(texas),1
+72,250,"['quale', 'ε', 'è', 'ε', 'la', 'popolazione', 'delle', 'grandi', 'città', 'del', 'texas']",answer population_1 major city loc_2 stateid(texas),answer population_1 major city loc_2 stateid(texas),1
+73,255,"['quali', 'ε', 'sono', 'i', 'fiumi', 'in', 'alaska']",answer river loc_2 stateid(alaska),answer river loc_2 stateid(alaska),1
+74,272,"['quale', 'ε', 'città', 'ha', 'più', 'abitanti']",answer city(all) largest_one population_1,answer city(all) largest_one population_1,0
+75,273,"['quale', 'ε', 'città', 'in', 'usa', 'ha', 'la', 'densità', 'di', 'popolazione', 'più', 'elevata']",answer city loc_2 countryid(usa) density_1 largest_one,answer city loc_2 countryid(usa) density_1 largest_one,0
+76,275,"['quale', 'ε', 'è', 'ε', 'la', 'capitale', 'ε', 'dello', 'stato', 'ε', 'con', 'il', 'punto', 'più', 'basso']",answer capital loc_2 state loc_1 place(all) lowest,answer capital loc_2 state loc_1 place(all) lowest,0
+77,281,"['quale', 'ε', 'è', 'ε', 'l', 'area', 'della', 'florida']",answer area_1 stateid(florida),answer area_1 stateid(florida),1
+78,286,"['quale', 'ε', 'è', 'ε', 'l', 'area', 'dell', 'ohio']",answer area_1 stateid(ohio),answer area_1 stateid(ohio),1
+79,295,"['quale', 'ε', 'è', 'ε', 'l', 'area', 'dello', 'stato', 'ε', 'del', 'texas']",answer area_1 stateid(texas),answer area_1 stateid(texas),1
+80,296,"['quale', 'ε', 'è', 'ε', 'l', 'area', 'del', 'wisconsin']",answer area_1 stateid(wisconsin),answer area_1 stateid(wisconsin),1
+81,300,"['quale', 'ε', 'è', 'ε', 'la', 'più', 'grande', 'città', 'americana', 'in', 'uno', 'stato', 'ε', 'con', 'un', 'fiume']",answer largest city loc_2 state loc_1 river(all),answer largest city state loc_2 state loc_1 river(all),1
+82,301,"['quale', 'ε', 'è', 'ε', 'la', 'più', 'grande', 'capitale', 'ε', 'in', 'usa']",answer largest capital city loc_2 countryid(usa),answer largest capital loc_2 countryid(usa),1
+83,304,"['quale', 'ε', 'è', 'ε', 'la', 'città', 'più', 'grande', 'in', 'kansas']",answer city largest loc_2 stateid(kansas),answer city largest loc_2 stateid(kansas),0
+84,305,"['quale', 'ε', 'è', 'ε', 'la', 'città', 'più', 'grande', 'in', 'louisiana']",answer city largest loc_2 stateid(louisiana),answer city largest loc_2 stateid(louisiana),0
+85,319,"['quale', 'ε', 'è', 'ε', 'la', 'capitale', 'ε', 'della', 'california']",answer capital loc_2 stateid(california),answer capital loc_2 stateid(california),1
+86,320,"['quale', 'ε', 'è', 'ε', 'la', 'capitale', 'ε', 'del', 'colorado']",answer capital loc_2 stateid(colorado),answer capital loc_2 stateid(colorado),1
+87,323,"['quale', 'ε', 'è', 'ε', 'la', 'capitale', 'ε', 'dell', 'illinois']",answer capital loc_2 stateid(illinois),answer capital loc_2 stateid(illinois),1
+88,325,"['quale', 'ε', 'è', 'ε', 'la', 'capitale', 'ε', 'dell', 'iowa']",answer capital loc_2 stateid(iowa),answer capital loc_2 stateid(iowa),1
+89,328,"['quale', 'ε', 'è', 'ε', 'la', 'capitale', 'ε', 'del', 'massachusetts']",answer capital loc_2 stateid(massachusetts),answer capital loc_2 stateid(massachusetts),1
+90,331,"['quale', 'ε', 'è', 'ε', 'la', 'capitale', 'ε', 'del', 'new', 'jersey']",answer capital loc_2 stateid(new jersey),answer capital loc_2 stateid(new york),1
+91,332,"['quale', 'ε', 'è', 'ε', 'la', 'capitale', 'ε', 'di', 'new', 'york']",answer capital loc_2 stateid(new york),answer capital loc_2 stateid(new york),1
+92,333,"['quale', 'ε', 'è', 'ε', 'la', 'capitale', 'ε', 'del', 'north', 'dakota']",answer capital loc_2 stateid(north dakota),answer capital loc_2 stateid(north dakota),1
+93,334,"['quale', 'ε', 'è', 'ε', 'la', 'capitale', 'ε', 'dell', 'ohio']",answer capital loc_2 stateid(ohio),answer capital loc_2 stateid(ohio),1
+94,336,"['quale', 'ε', 'è', 'ε', 'la', 'capitale', 'ε', 'degli', 'stati', 'che', 'hanno', 'città', 'chiamate', 'durham']","answer capital loc_2 state loc_1 city cityid(durham, _)","answer capital loc_2 state loc_1 city cityid(springfield, _)",1
+95,339,"['quale', 'ε', 'è', 'ε', 'la', 'capitale', 'ε', 'dello', 'stato', 'ε', 'della', 'florida']",answer capital loc_2 stateid(florida),answer capital loc_2 stateid(florida),1
+96,341,"['quale', 'ε', 'è', 'ε', 'la', 'capitale', 'ε', 'dello', 'stato', 'ε', 'più', 'piccolo']",answer capital loc_2 state(all) smallest,answer capital loc_2 state(all) smallest,0
+97,347,"['quale', 'ε', 'è', 'ε', 'la', 'capitale', 'ε', 'dello', 'stato', 'ε', 'con', 'la', 'più', 'grande', 'popolazione']",answer capital loc_2 state(all) largest_one population_1,answer capital loc_2 state(all) largest_one population_1,0
+98,348,"['quale', 'ε', 'è', 'ε', 'la', 'capitale', 'ε', 'dello', 'stato', 'ε', 'con', 'la', 'più', 'grande', 'densità', 'di', 'popolazione']",answer capital loc_2 state(all) largest_one density_1,answer capital loc_2 state(all) largest_one density_1,0
+99,349,"['quale', 'ε', 'è', 'ε', 'la', 'capitale', 'ε', 'dello', 'stato', 'ε', 'con', 'il', 'fiume', 'più', 'lungo']",answer capital loc_2 state loc_1 river(all) longest,answer capital loc_2 state loc_1 river(all) longest,0
+100,350,"['quale', 'ε', 'è', 'ε', 'la', 'capitale', 'ε', 'dello', 'stato', 'ε', 'con', 'più', 'abitanti']",answer capital loc_2 state(all) largest_one population_1,answer capital loc_2 state(all) largest_one population_1,0
+101,356,"['quale', 'ε', 'è', 'ε', 'la', 'area', 'combinata', 'di', 'tutti', 'i', 'cinquanta', 'stati']",answer area_1 sum state(all),answer area_1 sum state(all),0
+102,359,"['quale', 'ε', 'è', 'ε', 'la', 'densità', 'di', 'popolazione', 'di', 'new', 'york']",answer density_1 stateid(new york),answer density_1 stateid(new york),1
+103,365,"['quale', 'ε', 'è', 'ε', 'il', 'picco', 'più', 'alto', 'ε', 'del', 'wyoming']",answer high_point_1 stateid(wyoming),answer place highest loc_2 stateid(wyoming),1
+104,368,"['quale', 'ε', 'è', 'ε', 'il', 'picco', 'più', 'alto', 'ε', 'in', 'texas']",answer place highest loc_2 stateid(texas),answer place highest loc_2 stateid(texas),0
+105,369,"['quale', 'ε', 'è', 'ε', 'il', 'picco', 'più', 'alto', 'ε', 'in', 'usa']",answer place highest loc_2 countryid(usa),answer place highest loc_2 countryid(usa),0
+106,372,"['quale', 'ε', 'è', 'ε', 'la', 'montagna', 'più', 'alta', 'in', 'usa']",answer mountain highest loc_2 countryid(usa),answer mountain highest loc_2 countryid(usa),0
+107,373,"['quale', 'ε', 'è', 'ε', 'la', 'montagna', 'più', 'alta', 'in', 'usa']",answer mountain highest loc_2 countryid(usa),answer mountain highest loc_2 countryid(usa),0
+108,375,"['quale', 'ε', 'è', 'ε', 'il', 'picco', 'più', 'alto', 'ε', 'in', 'delaware']",answer place highest loc_2 stateid(delaware),answer place highest loc_2 stateid(delaware),0
+109,378,"['quale', 'ε', 'è', 'ε', 'il', 'picco', 'più', 'alto', 'ε', 'in', 'iowa']",answer place highest loc_2 stateid(iowa),answer place highest loc_2 stateid(iowa),0
+110,380,"['quale', 'ε', 'è', 'ε', 'il', 'picco', 'più', 'alto', 'ε', 'in', 'maine']",answer place highest loc_2 stateid(maine),answer place highest loc_2 stateid(maine),0
+111,381,"['quale', 'ε', 'è', 'ε', 'il', 'picco', 'più', 'alto', 'ε', 'in', 'montana']",answer place highest loc_2 stateid(montana),answer place highest loc_2 stateid(montana),0
+112,382,"['quale', 'ε', 'è', 'ε', 'il', 'picco', 'più', 'alto', 'ε', 'in', 'nevada']",answer place highest loc_2 stateid(nevada),answer place highest loc_2 stateid(nevada),0
+113,386,"['quale', 'ε', 'è', 'ε', 'il', 'picco', 'più', 'alto', 'ε', 'in', 'uno', 'stato', 'ε', 'che', 'confina', 'con', 'la', 'georgia']",answer place highest loc_2 state next_to_2 stateid(georgia),answer place highest loc_2 loc_2 state next_to_2 stateid(georgia),0
+114,390,"['quale', 'ε', 'è', 'ε', 'il', 'picco', 'più', 'alto', 'ε', 'nello', 'stato', 'ε', 'con', 'capitale', 'ε', 'austin']","answer place highest loc_2 state loc_1 capital cityid(austin, _)","answer place highest loc_2 state loc_1 capital cityid(austin, _)",0
+115,395,"['quale', 'ε', 'è', 'ε', 'il', 'picco', 'più', 'alto', 'ε', 'negli', 'stati', 'che', 'confinano', 'con', 'il', 'colorado']",answer place highest loc_2 state next_to_2 stateid(colorado),answer place highest loc_2 state next_to_2 stateid(colorado),0
+116,398,"['quale', 'ε', 'è', 'ε', 'il', 'picco', 'più', 'alto', 'ε', 'in', 'usa']",answer place highest loc_2 countryid(usa),answer place highest loc_2 countryid(usa),0
+117,399,"['quale', 'ε', 'è', 'ε', 'il', 'picco', 'più', 'alto', 'ε', 'in', 'virginia']",answer place highest loc_2 stateid(virginia),answer place highest loc_2 stateid(virginia),0
+118,402,"['quale', 'ε', 'è', 'ε', 'il', 'picco', 'più', 'alto', 'ε', 'dello', 'stato', 'ε', 'con', 'la', 'più', 'piccola', 'densità', 'di', 'popolazione']",answer place highest loc_2 state(all) smallest_one density_1,answer place highest loc_2 state(all) smallest_one density_1,0
+119,403,"['quale', 'ε', 'è', 'ε', 'il', 'picco', 'più', 'alto', 'ε', 'in', 'usa']",answer place highest loc_2 countryid(usa),answer place highest loc_2 countryid(usa),0
+120,405,"['quale', 'ε', 'è', 'ε', 'la', 'capitale', 'ε', 'più', 'grossa', 'in', 'usa']",answer capital city largest loc_2 countryid(usa),answer capital largest loc_2 countryid(usa),0
+121,408,"['quale', 'ε', 'è', 'ε', 'la', 'città', 'più', 'grossa', 'in', 'california']",answer city largest loc_2 stateid(california),answer city largest loc_2 stateid(california),0
+122,412,"['quale', 'ε', 'è', 'ε', 'la', 'città', 'più', 'grossa', 'in', 'rhode', 'island']",answer city largest loc_2 stateid(rhode island),answer city largest loc_2 stateid(rhode island),0
+123,413,"['quale', 'ε', 'è', 'ε', 'la', 'città', 'più', 'grossa', 'nello', 'stato', 'ε', 'più', 'piccolo', 'attraverso', 'ε', 'cui', 'scorre', 'il', 'mississippi']",answer city largest loc_2 state smallest traverse_1 riverid(mississippi),answer city largest loc_2 state smallest traverse_1 riverid(mississippi),0
+124,416,"['quale', 'ε', 'è', 'ε', 'la', 'città', 'più', 'grossa', 'nello', 'stato', 'ε', 'più', 'piccolo', 'in', 'usa']",answer city largest loc_2 state smallest loc_2 countryid(usa),answer city largest loc_2 state smallest loc_2 countryid(usa),0
+125,420,"['quale', 'ε', 'è', 'ε', 'il', 'fiume', 'più', 'grande', 'nello', 'stato', 'ε', 'di', 'washington']",answer river longest loc_2 stateid(washington),answer river longest loc_2 stateid(washington),0
+126,422,"['quale', 'ε', 'è', 'ε', 'lo', 'stato', 'ε', 'più', 'grosso', 'che', 'confina', 'con', 'l', 'arkansas']",answer state largest next_to_2 stateid(arkansas),answer state largest next_to_2 stateid(arkansas),0
+127,428,"['quale', 'ε', 'è', 'ε', 'lo', 'stato', 'ε', 'più', 'grande', 'che', 'confina', 'con', 'il', 'texas']",answer state largest next_to_2 stateid(texas),answer state largest next_to_2 stateid(texas),0
+128,432,"['quale', 'ε', 'è', 'ε', 'lo', 'stato', 'ε', 'meno', 'popoloso']",answer state(all) smallest_one population_1,answer state(all) largest_one population_1,0
+129,433,"['quale', 'ε', 'è', 'ε', 'la', 'lunghezza', 'del', 'fiume', 'colorado']",answer len riverid(colorado),answer intersection len riverid(colorado),1
+130,436,"['quale', 'ε', 'è', 'ε', 'la', 'lunghezza', 'del', 'fiume', 'più', 'lungo', 'che', 'attraversa', 'il', 'texas']",answer len river longest traverse_2 stateid(texas),answer len river longest traverse_2 stateid(texas),0
+131,437,"['quale', 'ε', 'è', 'ε', 'la', 'lunghezza', 'del', 'fiume', 'mississippi']",answer len riverid(mississippi),answer len riverid(mississippi),1
+132,438,"['quale', 'ε', 'è', 'ε', 'la', 'lunghezza', 'del', 'fiume', 'che', 'scorre', 'attraverso', 'ε', 'più', 'stati']",answer len river traverse_2 most state(all),answer len river traverse_2 most state(all),0
+133,440,"['quale', 'ε', 'è', 'ε', 'la', 'lunghezza', 'del', 'fiume', 'che', 'attraversa', 'più', 'stati']",answer len river traverse_2 most state(all),answer len river traverse_2 most state(all),0
+134,446,"['quale', 'ε', 'è', 'ε', 'il', 'fiume', 'più', 'lungo', 'in', 'florida']",answer river longest loc_2 stateid(florida),answer river longest loc_2 stateid(florida),0
+135,451,"['quale', 'ε', 'è', 'ε', 'il', 'fiume', 'più', 'lungo', 'nello', 'stato', 'ε', 'più', 'grande']",answer river longest loc_2 state(all) largest,answer river longest loc_2 state(all) largest,0
+136,454,"['quale', 'ε', 'è', 'ε', 'il', 'fiume', 'più', 'lungo', 'nello', 'stato', 'ε', 'con', 'più', 'grandi', 'città']",answer river longest loc_2 state loc_1 most major city(all),answer river longest loc_2 state loc_1 most largest city(all),0
+137,455,"['quale', 'ε', 'è', 'ε', 'il', 'fiume', 'più', 'lungo', 'negli', 'stati', 'che', 'confinano', 'con', 'il', 'nebraska']",answer river longest loc_2 state next_to_2 stateid(nebraska),answer river longest loc_2 state next_to_2 stateid(nebraska),0
+138,459,"['quale', 'ε', 'è', 'ε', 'il', 'fiume', 'più', 'lungo', 'che', 'scorre', 'attraverso', 'ε', 'uno', 'stato', 'ε', 'che', 'confina', 'con', 'l', 'indiana']",answer river longest traverse_2 state next_to_2 stateid(indiana),answer river longest traverse_2 state next_to_2 stateid(indiana),0
+139,464,"['quale', 'ε', 'è', 'ε', 'il', 'punto', 'più', 'basso', 'in', 'arkansas']",answer place lowest loc_2 stateid(arkansas),answer place lowest loc_2 stateid(arkansas),0
+140,467,"['quale', 'ε', 'è', 'ε', 'il', 'punto', 'più', 'basso', 'in', 'massachusetts']",answer place lowest loc_2 stateid(massachusetts),answer place lowest loc_2 stateid(massachusetts),0
+141,468,"['quale', 'ε', 'è', 'ε', 'il', 'punto', 'più', 'basso', 'in', 'mississippi']",answer place lowest loc_2 stateid(mississippi),answer place lowest loc_2 stateid(mississippi),0
+142,469,"['quale', 'ε', 'è', 'ε', 'il', 'punto', 'più', 'basso', 'in', 'nebraska', 'in', 'metri']",answer place lowest loc_2 stateid(nebraska),answer place lowest loc_2 stateid(nebraska) loc_2,0
+143,472,"['quale', 'ε', 'è', 'ε', 'il', 'punto', 'più', 'basso', 'nello', 'stato', 'ε', 'della', 'california']",answer place lowest loc_2 stateid(california),answer place lowest loc_2 stateid(california),0
+144,475,"['quale', 'ε', 'è', 'ε', 'il', 'punto', 'più', 'basso', 'in', 'usa']",answer place lowest loc_2 countryid(usa),answer place lowest loc_2 countryid(usa),0
+145,477,"['quale', 'ε', 'è', 'ε', 'il', 'punto', 'più', 'basso', 'di', 'tutti', 'gli', 'stati', 'attraverso', 'ε', 'cui', 'passa', 'il', 'fiume', 'colorado']",answer place lowest loc_2 state traverse_1 riverid(colorado),answer place lowest loc_2 state traverse_1 riverid(colorado),0
+146,482,"['quale', 'ε', 'è', 'ε', 'la', 'massima', 'elevazione', 'di', 'san', 'francisco']","answer highest place loc_2 cityid(san francisco, _)","answer elevation_1 elevation_1 cityid(san diego, _)",1
+147,483,"['quale', 'ε', 'è', 'ε', 'lo', 'stato', 'ε', 'più', 'denso', 'in', 'usa']",answer state largest_one density_1 loc_2 countryid(usa),answer state density_1 loc_2 countryid(usa),0
+148,486,"['quale', 'ε', 'è', 'ε', 'la', 'città', 'più', 'popolata']",answer city(all) largest_one population_1,answer city(all) largest_one population_1,0
+149,489,"['quale', 'ε', 'è', 'ε', 'lo', 'stato', 'ε', 'più', 'popolato']",answer state(all) largest_one population_1,answer state(all) largest_one population_1,0
+150,491,"['quale', 'ε', 'è', 'ε', 'lo', 'stato', 'ε', 'più', 'popolato', 'attraverso', 'ε', 'cui', 'scorre', 'il', 'mississippi']",answer state largest_one population_1 traverse_1 riverid(mississippi),answer state largest_one population_1 traverse_1 riverid(mississippi),0
+151,495,"['quale', 'ε', 'è', 'ε', 'la', 'densità', 'di', 'popolazione', 'del', 'maine']",answer density_1 stateid(maine),answer density_1 stateid(maine),1
+152,498,"['quale', 'ε', 'è', 'ε', 'la', 'densità', 'di', 'popolazione', 'dello', 'stato', 'ε', 'più', 'grande']",answer density_1 state(all) largest,answer density_1 state(all) largest,0
+153,504,"['quale', 'ε', 'è', 'ε', 'la', 'popolazione', 'dell', 'alaska']",answer population_1 stateid(alaska),answer population_1 stateid(alaska),1
+154,511,"['quale', 'ε', 'è', 'ε', 'la', 'popolazione', 'di', 'boulder']","answer population_1 cityid(boulder, _)","answer population_1 cityid(boulder, _)",1
+155,515,"['quale', 'ε', 'è', 'ε', 'la', 'popolazione', 'di', 'erie', 'pennsylvania']","answer population_1 cityid(erie, pa)",answer population_1 stateid(alaska),1
+156,516,"['quale', 'ε', 'è', 'ε', 'la', 'popolazione', 'delle', 'hawaii']",answer population_1 stateid(hawaii),answer population_1 stateid(hawaii),1
+157,517,"['quale', 'ε', 'è', 'ε', 'la', 'popolazione', 'di', 'houston']","answer population_1 cityid(houston, _)","answer population_1 cityid(houston, _)",1
+158,521,"['quale', 'ε', 'è', 'ε', 'la', 'popolazione', 'del', 'maryland']",answer population_1 stateid(maryland),answer population_1 stateid(maryland),1
+159,524,"['quale', 'ε', 'è', 'ε', 'la', 'popolazione', 'del', 'new', 'mexico']",answer population_1 stateid(new mexico),answer population_1 stateid(new mexico),1
+160,526,"['quale', 'ε', 'è', 'ε', 'la', 'popolazione', 'di', 'new', 'york', 'city']","answer population_1 cityid(new york, _) city",answer population_1 stateid(new york),0
+161,531,"['quale', 'ε', 'è', 'ε', 'la', 'popolazione', 'di', 'san', 'antonio']","answer population_1 cityid(san antonio, _)","answer population_1 cityid(san diego, _)",1
+162,537,"['quale', 'ε', 'è', 'ε', 'la', 'popolazione', 'di', 'tempe', 'arizona']","answer population_1 cityid(tempe, az)",answer population_1 stateid(arizona),1
+163,542,"['quale', 'ε', 'è', 'ε', 'la', 'popolazione', 'della', 'città', 'più', 'grande', 'nello', 'stato', 'ε', 'con', 'la', 'area', 'più', 'grande']",answer population_1 city largest loc_2 state(all) area_1 largest_one,answer population_1 city largest loc_2 state(all) area_1 largest_one,0
+164,546,"['quale', 'ε', 'è', 'ε', 'la', 'popolazione', 'dello', 'stato', 'ε', 'più', 'piccolo']",answer population_1 state(all) smallest,answer population_1 state(all) smallest,0
+165,547,"['quale', 'ε', 'è', 'ε', 'la', 'popolazione', 'dello', 'stato', 'ε', 'che', 'confina', 'con', 'più', 'stati']",answer population_1 state next_to_2 most state(all),answer population_1 state next_to_2 most state(all),0
+166,548,"['quale', 'ε', 'è', 'ε', 'la', 'popolazione', 'dello', 'stato', 'ε', 'con', 'la', 'più', 'alta', 'densità', 'di', 'popolazione']",answer population_1 state(all) largest_one density_1,answer population_1 state(all) largest_one density_1,0
+167,550,"['quale', 'ε', 'è', 'ε', 'la', 'popolazione', 'di', 'tucson']","answer population_1 cityid(tucson, _)","answer population_1 cityid(boulder, _)",1
+168,551,"['quale', 'ε', 'è', 'ε', 'la', 'popolazione', 'dello', 'utah']",answer population_1 stateid(utah),answer population_1 stateid(utah),1
+169,552,"['quale', 'ε', 'è', 'ε', 'la', 'popolazione', 'di', 'washington']",answer population_1 stateid(washington),answer population_1 stateid(washington),1
+170,572,"['quale', 'ε', 'è', 'ε', 'la', 'città', 'più', 'piccola', 'in', 'usa']",answer city smallest loc_2 countryid(usa),answer city smallest loc_2 countryid(usa),0
+171,573,"['quale', 'ε', 'è', 'ε', 'la', 'città', 'più', 'piccola', 'in', 'usa']",answer city smallest loc_2 countryid(usa),answer city smallest loc_2 countryid(usa),0
+172,577,"['quale', 'ε', 'è', 'ε', 'lo', 'stato', 'ε', 'più', 'piccolo', 'che', 'confina', 'con', 'il', 'wyoming']",answer state smallest next_to_2 stateid(wyoming),answer state smallest next_to_2 stateid(wyoming),0
+173,581,"['quale', 'ε', 'è', 'ε', 'lo', 'stato', 'ε', 'più', 'piccolo', 'che', 'confina', 'con', 'più', 'stati']",answer state smallest next_to_2 most state(all),answer state smallest next_to_2 most state(all),0
+174,582,"['quale', 'ε', 'è', 'ε', 'lo', 'stato', 'ε', 'più', 'piccolo', 'che', 'il', 'fiume', 'mississippi', 'attraversa']",answer state smallest riverid(mississippi) traverse_1,answer state smallest riverid(mississippi) traverse_1,0
+175,586,"['quale', 'ε', 'è', 'ε', 'lo', 'stato', 'ε', 'con', 'la', 'area', 'più', 'grande']",answer state(all) area_1 largest_one,answer state(all) area_1 largest_one,0
+176,592,"['quale', 'ε', 'è', 'ε', 'lo', 'stato', 'ε', 'con', 'la', 'area', 'più', 'piccola']",answer state(all) area_1 smallest_one,answer state(all) area_1 smallest_one,0
+177,596,"['quale', 'ε', 'è', 'ε', 'la', 'lunghezza', 'totale', 'di', 'tutti', 'i', 'fiumi', 'in', 'usa']",answer len sum river(all),answer len sum river loc_2 countryid(usa),0
+178,598,"['quale', 'ε', 'è', 'ε', 'la', 'lunghezza', 'del', 'mississippi']",answer len riverid(mississippi),answer len riverid(mississippi),1
+179,599,"['quali', 'ε', 'grandi', 'città', 'sono', 'in', 'pennsylvania']",answer major city loc_2 stateid(pennsylvania),answer major city loc_2 stateid(pennsylvania),1
+180,604,"['quale', 'ε', 'fiume', 'scorre', 'attraverso', 'ε', 'più', 'stati']",answer river traverse_2 most state(all),answer river traverse_2 most state(all),0
+181,608,"['quale', 'ε', 'fiume', 'scorre', 'attraverso', 'ε', 'lo', 'stato', 'ε', 'con', 'più', 'città']",answer river traverse_2 state loc_1 most city(all),answer river traverse_2 state loc_1 most city(all),0
+182,611,"['quale', 'ε', 'fiume', 'attraversa', 'lo', 'stato', 'ε', 'che', 'confina', 'con', 'più', 'stati']",answer river traverse_2 state next_to_2 most state(all),answer river traverse_2 state next_to_2 most state(all),0
+183,615,"['quali', 'ε', 'fiumi', 'sono', 'in', 'stati', 'che', 'confinano', 'con', 'il', 'texas']",answer river loc_2 state next_to_2 stateid(texas),answer river loc_2 state next_to_2 stateid(texas),1
+184,616,"['quali', 'ε', 'fiumi', 'sono', 'in', 'texas']",answer river loc_2 stateid(texas),answer river loc_2 stateid(texas),1
+185,618,"['quali', 'ε', 'fiumi', 'ci', 'sono', 'in', 'texas']",answer river loc_2 stateid(texas),answer river loc_2 stateid(texas),1
+186,631,"['quali', 'ε', 'fiumi', 'attraversano', 'new', 'york']",answer river traverse_2 stateid(new york),answer river traverse_2 stateid(new york),1
+187,635,"['quali', 'ε', 'fiumi', 'attraversano', 'lo', 'stato', 'ε', 'che', 'confina', 'con', 'più', 'stati']",answer river traverse_2 state next_to_2 most state(all),answer river traverse_2 state next_to_2 most state(all),0
+188,636,"['quale', 'ε', 'stato', 'ε', 'che', 'confina', 'con', 'il', 'nevada', 'ha', 'la', 'più', 'grande', 'popolazione']",answer state next_to_2 stateid(nevada) largest_one population_1,answer state next_to_2 stateid(nevada) largest_one population_1,0
+189,639,"['quale', 'ε', 'stato', 'ε', 'confina', 'con', 'new', 'york']",answer state next_to_2 stateid(new york),answer state next_to_2 stateid(new york),1
+190,642,"['quale', 'ε', 'stato', 'ε', 'confina', 'con', 'più', 'stati']",answer state next_to_2 most state(all),answer state next_to_2 most state(all),0
+191,645,"['quale', 'ε', 'stato', 'ε', 'contiene', 'il', 'picco', 'più', 'alto', 'ε', 'tra', 'quelli', 'che', 'il', 'fiume', 'colorado', 'attraversa']",answer state loc_1 place highest loc_2 state riverid(colorado) traverse_1,answer state loc_1 place highest loc_2 riverid(colorado) traverse_1,0
+192,656,"['quale', 'ε', 'stato', 'ε', 'ha', 'la', 'più', 'grande', 'area']",answer state(all) largest_one area_1,answer state(all) largest_one area_1,0
+193,657,"['quale', 'ε', 'stato', 'ε', 'ha', 'la', 'capitale', 'ε', 'più', 'grande']",answer state loc_1 capital(all) largest,answer state loc_1 capital(all) largest,0
+194,663,"['quale', 'ε', 'stato', 'ε', 'ha', 'il', 'fiume', 'più', 'lungo']",answer state loc_1 river(all) longest,answer state loc_1 river(all) longest,0
+195,664,"['quale', 'ε', 'stato', 'ε', 'ha', 'la', 'più', 'piccola', 'densità', 'di', 'popolazione']",answer state(all) smallest_one density_1,answer state(all) smallest_one density_1,0
+196,666,"['quale', 'ε', 'stato', 'ε', 'ha', 'più', 'grandi', 'città']",answer state loc_1 most major city(all),answer state loc_1 major city(all),0
+197,669,"['quale', 'ε', 'stato', 'ε', 'ha', 'più', 'fiumi']",answer state loc_1 most river(all),answer state loc_1 most river(all),0
+198,676,"['quale', 'ε', 'stato', 'ε', 'ha', 'la', 'più', 'piccola', 'popolazione', 'urbana']",answer state(all) smallest_one population_1,answer state(all) smallest_one population_1 smallest_one,0
+199,678,"['in', 'quale', 'ε', 'stato', 'ε', 'è', 'ε', 'austin']","loc_1 answer state cityid(austin, _)","loc_1 answer state cityid(austin, _)",1
+200,684,"['in', 'quale', 'ε', 'stato', 'ε', 'è', 'ε', 'miami']","loc_1 answer state cityid(miami, _)",loc_1 answer state stateid(florida),0
+201,687,"['quale', 'ε', 'è', 'ε', 'lo', 'stato', 'ε', 'più', 'grande', 'per', 'popolazione']",answer state(all) largest_one population_1,answer state(all) largest population_1,0
+202,692,"['quali', 'ε', 'stati', 'sono', 'di', 'fianco', 'all', 'arizona']",answer state next_to_2 stateid(arizona),answer state next_to_2 stateid(arizona),1
+203,698,"['quali', 'ε', 'stati', 'confinano', 'con', 'la', 'florida']",answer state next_to_2 stateid(florida),answer state next_to_2 stateid(florida),1
+204,701,"['quali', 'ε', 'stati', 'confinano', 'con', 'l', 'indiana']",answer state next_to_2 stateid(indiana),answer state next_to_2 stateid(indiana),1
+205,703,"['quali', 'ε', 'stati', 'confinano', 'con', 'il', 'michigan']",answer state next_to_2 stateid(michigan),answer state next_to_2 stateid(michigan),1
+206,705,"['quali', 'ε', 'stati', 'confinano', 'con', 'il', 'montana']",answer state next_to_2 stateid(montana),answer state next_to_2 stateid(montana),1
+207,707,"['quali', 'ε', 'stati', 'confinano', 'con', 'il', 'new', 'jersey']",answer state next_to_2 stateid(new jersey),answer state next_to_2 stateid(new york),1
+208,711,"['quali', 'ε', 'stati', 'confinano', 'con', 'stati', 'che', 'confinano', 'con', 'il', 'mississippi']",answer state next_to_2 state next_to_2 stateid(mississippi),answer state next_to_2 state next_to_2 riverid(mississippi),1
+209,716,"['quali', 'ε', 'stati', 'confinano', 'con', 'stati', 'attraversati', 'dall', 'ohio']",answer state next_to_2 state traverse_1 riverid(ohio),answer state next_to_2 state traverse_1 stateid(ohio),1
+210,719,"['quali', 'ε', 'stati', 'confinano', 'con', 'il', 'texas', 'e', 'hanno', 'un', 'grande', 'fiume']",answer state next_to_2 stateid(texas) intersection loc_1 major river(all),answer state next_to_2 stateid(texas) intersection loc_1 major river(all),0
+211,721,"['quali', 'ε', 'stati', 'confinano', 'con', 'lo', 'stato', 'ε', 'più', 'popolato']",answer state next_to_2 state(all) largest_one population_1,answer state next_to_2 state(all) largest_one population_1,0
+212,722,"['quali', 'ε', 'stati', 'confinano', 'con', 'lo', 'stato', 'ε', 'che', 'confina', 'con', 'più', 'stati']",answer state next_to_2 state next_to_2 most state(all),answer state next_to_2 state next_to_2 most state(all),0
+213,723,"['quali', 'ε', 'stati', 'confinano', 'con', 'lo', 'stato', 'ε', 'con', 'più', 'città']",answer state next_to_2 state loc_1 most city(all),answer state next_to_2 state loc_1 most city(all),0
+214,724,"['quali', 'ε', 'stati', 'confinano', 'con', 'lo', 'stato', 'ε', 'con', 'più', 'grandi', 'città']",answer state next_to_2 state loc_1 most major city(all),answer state next_to_2 state loc_1 most largest city(all),0
+215,725,"['quali', 'ε', 'stati', 'confinano', 'con', 'lo', 'stato', 'ε', 'con', 'la', 'più', 'piccola', 'area']",answer state next_to_2 state(all) smallest_one area_1,answer state next_to_2 state(all) smallest_one area_1,0
+216,729,"['quali', 'ε', 'stati', 'contengono', 'almeno', 'un', 'grande', 'fiume']",answer state loc_1 major river(all),answer state loc_1 major river(all),1
+217,731,"['quali', 'ε', 'stati', 'attraversa', 'il', 'fiume', 'delaware']",answer state traverse_1 riverid(delaware),answer state traverse_1 stateid(delaware),1
+218,732,"['quali', 'ε', 'stati', 'attraversa', 'il', 'fiume', 'mississippi']",answer state traverse_1 riverid(mississippi),answer state traverse_1 riverid(mississippi),1
+219,735,"['quali', 'ε', 'stati', 'attraversa', 'il', 'missouri']",answer state traverse_1 riverid(missouri),answer state traverse_1 stateid(missouri),1
+220,737,"['quali', 'ε', 'stati', 'attraversa', 'il', 'fiume', 'ohio']",answer state traverse_1 riverid(ohio),answer state traverse_1 riverid(ohio),1
+221,742,"['quali', 'ε', 'stati', 'hanno', 'città', 'chiamate', 'dallas']","answer state loc_1 city cityid(dallas, _)","answer state loc_1 city cityid(dallas, _)",1
+222,743,"['quali', 'ε', 'stati', 'hanno', 'città', 'chiamate', 'plano']","answer state loc_1 city cityid(plano, _)",answer state loc_1 city next_to_2,1
+223,744,"['quali', 'ε', 'stati', 'hanno', 'città', 'chiamate', 'portland']","answer state loc_1 city cityid(portland, _)","answer state loc_1 city cityid(portland, me)",1
+224,745,"['quali', 'ε', 'stati', 'hanno', 'città', 'chiamate', 'rochester']","answer state loc_1 city cityid(rochester, _)","answer state loc_1 city cityid(rochester, _)",1
+225,746,"['quali', 'ε', 'stati', 'hanno', 'città', 'chiamate', 'salt', 'lake', 'city']","answer state loc_1 city cityid(salt lake city, _)","answer state loc_1 city cityid(flint, _)",1
+226,754,"['quali', 'ε', 'stati', 'circondano', 'il', 'kentucky']",answer state next_to_2 stateid(kentucky),answer state next_to_2 stateid(kentucky),1
+227,757,"['dove', 'sono', 'le', 'montagne']",answer loc_1 mountain(all),answer mountain,1
+228,760,"['dove', 'è', 'ε', 'dallas']","answer loc_1 cityid(dallas, _)","answer loc_1 cityid(dallas, _)",1
+229,769,"['dove', 'è', 'ε', 'portland']","answer loc_1 cityid(portland, _)","answer loc_1 cityid(portland, me)",1
+230,774,"['dove', 'è', 'ε', 'il', 'fiume', 'chattahoochee']",answer loc_1 riverid(chattahoochee),"answer loc_1 cityid(kalamazoo, _)",1
+231,775,"['dove', 'è', 'ε', 'la', 'montagna', 'più', 'alta', 'degli', 'usa']",answer mountain highest loc_2 countryid(usa),answer mountain highest loc_2 countryid(usa),0
+232,776,"['dove', 'è', 'ε', 'il', 'picco', 'più', 'alto', 'ε', 'in', 'hawaii']",answer place highest loc_2 stateid(hawaii),answer place highest loc_2 stateid(hawaii),0
+233,778,"['dove', 'è', 'ε', 'il', 'picco', 'più', 'basso', 'in', 'maryland']",answer place lowest loc_2 stateid(maryland),answer place lowest loc_2 stateid(maryland),0
+234,781,"['dove', 'è', 'ε', 'la', 'area', 'più', 'popolata', 'del', 'new', 'mexico']",answer city largest_one population_1 loc_2 stateid(new mexico),answer area_1 largest_one population_1 stateid(new mexico),0
+235,782,"['dove', 'è', 'ε', 'la', 'città', 'più', 'piccola']",answer loc_1 city(all) smallest,answer loc_1 city(all) smallest,0
+236,785,"['quale', 'ε', 'città', 'in', 'california', 'ha', 'la', 'più', 'grande', 'popolazione']",answer city loc_2 stateid(california) largest_one population_1,answer city loc_2 stateid(california) largest_one population_1,0
+237,786,"['quale', 'ε', 'è', 'ε', 'la', 'densità', 'di', 'popolazione', 'dello', 'stato', 'ε', 'attraverso', 'ε', 'cui', 'scorre', 'il', 'fiume', 'più', 'grande', 'in', 'us']",answer density_1 state traverse_1 river longest loc_2 countryid(usa),answer density_1 state traverse_1 river longest loc_2 countryid(usa),0
+238,787,"['quale', 'ε', 'è', 'ε', 'il', 'picco', 'più', 'alto', 'ε', 'non', 'in', 'alaska']",answer mountain(all) highest exclude loc_2 stateid(alaska),answer place highest exclude loc_2 stateid(alaska),0
+239,788,"['quale', 'ε', 'è', 'ε', 'il', 'fiume', 'più', 'lungo', 'in', 'usa']",answer river longest loc_2 countryid(usa),answer river longest loc_2 countryid(usa),0
+240,791,"['quale', 'ε', 'è', 'ε', 'lo', 'stato', 'ε', 'più', 'piccolo']",answer state(all) smallest,answer state(all) smallest,0
+241,792,"['quale', 'ε', 'degli', 'stati', 'che', 'confina', 'con', 'la', 'pennsylvania', 'ha', 'la', 'più', 'grande', 'popolazione']",answer state next_to_2 stateid(pennsylvania) largest_one population_1,answer state next_to_2 stateid(pennsylvania) largest_one population_1,0
+242,793,"['quale', 'ε', 'fiume', 'attraversa', 'più', 'stati']",answer river traverse_2 most state(all),answer river traverse_2 most state(all),0
+243,794,"['quale', 'ε', 'fiume', 'scorre', 'attraverso', 'ε', 'più', 'stati']",answer river traverse_2 most state(all),answer river traverse_2 most state(all),0
+244,796,"['quale', 'ε', 'fiume', 'attraversa', 'più', 'stati']",answer river traverse_2 most state(all),answer river traverse_2 most state(all),0
+245,798,"['quali', 'ε', 'fiumi', 'non', 'scorrono', 'attraverso', 'ε', 'il', 'texas']",answer river(all) exclude traverse_2 stateid(texas),answer river(all) exclude traverse_2 stateid(texas),0
+246,799,"['quali', 'ε', 'fiumi', 'non', 'scorrono', 'attraverso', 'ε', 'l', 'us']",answer river(all) exclude traverse_2 countryid(usa),answer river(all) exclude traverse_2 countryid(usa),0
+247,802,"['quali', 'ε', 'fiumi', 'attraversano', 'stati', 'che', 'confinano', 'con', 'lo', 'stato', 'ε', 'con', 'capitale', 'ε', 'austin']","answer river traverse_2 state next_to_2 state loc_1 capital cityid(austin, _)","answer river traverse_2 state next_to_2 state loc_1 capital cityid(austin, _)",1
+248,803,"['quali', 'ε', 'fiumi', 'attraversano', 'stati', 'con', 'meno', 'città']",answer river traverse_2 state loc_1 fewest city(all),answer river traverse_2 state loc_1 fewest city(all),0
+249,808,"['quale', 'ε', 'stato', 'ε', 'confina', 'con', 'le', 'hawaii']",answer state next_to_2 stateid(hawaii),answer state next_to_2 stateid(hawaii),1
+250,810,"['quale', 'ε', 'stato', 'ε', 'confina', 'con', 'più', 'stati']",answer state next_to_2 most state(all),answer state next_to_2 most state(all),0
+251,811,"['quale', 'ε', 'capitale', 'ε', 'di', 'stato', 'ε', 'ha', 'la', 'più', 'piccola', 'popolazione']",answer capital(all) smallest_one population_1,answer capital state(all) smallest_one population_1,0
+252,813,"['quale', 'ε', 'stato', 'ε', 'ha', 'la', 'più', 'grande', 'popolazione']",answer state(all) largest_one population_1,answer state(all) largest_one population_1,0
+253,815,"['quale', 'ε', 'stato', 'ε', 'ha', 'la', 'più', 'grande', 'popolazione']",answer state(all) largest_one population_1,answer state(all) largest_one population_1,0
+254,816,"['quale', 'ε', 'stato', 'ε', 'ha', 'la', 'più', 'alta', 'elevazione']",answer state loc_1 highest place(all),answer state loc_1 highest place(all),1
+255,818,"['quale', 'ε', 'stato', 'ε', 'ha', 'il', 'picco', 'più', 'alto', 'ε']",answer state loc_1 place(all) highest,answer state loc_1 place(all) highest,0
+256,819,"['quale', 'ε', 'stato', 'ε', 'ha', 'la', 'più', 'alta', 'densità', 'di', 'popolazione']",answer state(all) largest_one density_1,answer state(all) largest_one density_1,0
+257,824,"['quale', 'ε', 'stato', 'ε', 'ha', 'la', 'elevazione', 'più', 'bassa']",answer state loc_1 place(all) lowest,answer state loc_1 place(all) lowest,0
+258,825,"['quale', 'ε', 'stato', 'ε', 'che', 'confina', 'con', 'l', 'idaho', 'ha', 'il', 'punto', 'più', 'basso']",answer state next_to_2 loc_1 stateid(idaho) loc_2 place lowest,answer state next_to_2 stateid(idaho) loc_1 place(all) lowest,0
+259,826,"['quale', 'ε', 'stato', 'ε', 'ha', 'la', 'più', 'bassa', 'densità', 'di', 'popolazione']",answer state(all) smallest_one density_1,answer state(all) smallest_one density_1,0
+260,827,"['quale', 'ε', 'stato', 'ε', 'ha', 'più', 'grandi', 'città']",answer state loc_1 most major city(all),answer state loc_1 major city(all),0
+261,828,"['quale', 'ε', 'stato', 'ε', 'ha', 'più', 'grandi', 'fiumi']",answer state loc_1 most major river(all),answer state loc_1 most major river(all),0
+262,829,"['quale', 'ε', 'stato', 'ε', 'ha', 'più', 'grandi', 'fiumi', 'che', 'gli', 'scorrono', 'attraverso', 'ε']",answer state most major river(all) traverse_1,answer state loc_1 most major river(all) traverse_2,0
+263,831,"['quale', 'ε', 'stato', 'ε', 'ha', 'la', 'più', 'grande', 'popolazione']",answer state(all) largest_one population_1,answer state(all) largest_one population_1,0
+264,832,"['quale', 'ε', 'stato', 'ε', 'ha', 'più', 'fiumi']",answer state loc_1 most river(all),answer state loc_1 most river(all),0
+265,836,"['quale', 'ε', 'stato', 'ε', 'ha', 'la', 'più', 'piccola', 'popolazione', 'media', 'urbana']",answer state(all) smallest_one density_1,answer state(all) smallest_one density_1,0
+266,837,"['quale', 'ε', 'stato', 'ε', 'ha', 'la', 'più', 'piccola', 'densità', 'di', 'popolazione']",answer state(all) smallest_one density_1,answer state(all) smallest_one density_1,0
+267,840,"['in', 'quale', 'ε', 'stato', 'ε', 'è', 'ε', 'mount', 'mckinley']",loc_1 answer state placeid(mount mckinley),loc_1 answer state placeid(mount mckinley),0
+268,843,"['quale', 'ε', 'stato', 'ε', 'è', 'ε', 'il', 'più', 'piccolo']",answer state(all) smallest,answer state(all) smallest,0
+269,850,"['quali', 'ε', 'stati', 'confinano', 'con', 'l', 'illinois']",answer state next_to_2 stateid(illinois),answer state next_to_2 stateid(illinois),1
+270,852,"['quali', 'ε', 'stati', 'confinano', 'con', 'il', 'kentucky']",answer state next_to_2 stateid(kentucky),answer state next_to_2 stateid(kentucky),1
+271,860,"['quali', 'ε', 'stati', 'confinano', 'con', 'il', 'fiume', 'missouri']",answer state next_to_2 riverid(missouri),answer state next_to_2 riverid(missouri),1
+272,861,"['quali', 'ε', 'stati', 'confinano', 'con', 'lo', 'stato', 'ε', 'con', 'la', 'più', 'piccola', 'area']",answer state next_to_2 state(all) smallest_one area_1,answer state next_to_2 state(all) smallest_one area_1,0
+273,862,"['di', 'quale', 'ε', 'stato', 'ε', 'è', 'ε', 'la', 'più', 'grande', 'capitale', 'ε', 'di', 'stato', 'ε']",loc_1 answer state largest city capital_1 state(all),loc_1 answer state largest capital(all),0
+274,865,"['quali', 'ε', 'stati', 'attraversa', 'il', 'fiume', 'chattahoochee']",answer state traverse_1 riverid(chattahoochee),"answer state traverse_1 cityid(austin, tx)",1
+275,868,"['in', 'quali', 'ε', 'stati', 'scorre', 'il', 'fiume', 'più', 'lungo']",answer state traverse_1 river(all) longest,answer state traverse_1 river(all) longest,0
+276,870,"['in', 'quali', 'ε', 'stati', 'scorre', 'il', 'mississippi']",answer state traverse_1 riverid(mississippi),answer state traverse_1 riverid(mississippi),1
+277,874,"['quali', 'ε', 'stati', 'hanno', 'un', 'fiume']",answer state loc_1 river(all),answer state loc_1 river(all),1
+278,875,"['quali', 'ε', 'stati', 'hanno', 'città', 'chiamate', 'austin']","answer state loc_1 city cityid(austin, _)","answer state loc_1 city cityid(austin, _)",1
+279,879,"['quale', 'ε', 'città', 'in', 'usa', 'ha', 'la', 'più', 'alta', 'densità', 'di', 'popolazione']",answer city(all) largest_one density_1,answer city loc_2 countryid(usa) largest_one density_1,0
